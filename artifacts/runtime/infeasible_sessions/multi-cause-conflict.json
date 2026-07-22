@@ -1,0 +1,24 @@
+{
+  "TLS_socket_created": false,
+  "artifact": "stage7_infeasible_session",
+  "execution_audit": {
+    "reason": "conflict certified before execution gate authorization",
+    "tls_child_process_started": false
+  },
+  "execution_gate_authorized": false,
+  "fallback_attempted": false,
+  "final_state": "ABORTED",
+  "native_tls_invoked": false,
+  "report_version": "1.0",
+  "resumption_used": false,
+  "scenario_id": "multi-cause-conflict",
+  "session_id": "0ce6971eef8716402754cb9c942ecc692993a2cfe259b3d1f5682dfc234c9a91",
+  "state_trace_hash": "b96e4ca4f6534905d3e27837b1ba4285d88cabaf23cc2471ce46fb25cc1b7201",
+  "state_trace_path": "state_traces/multi-cause-conflict.json",
+  "task_execution_invoked": false,
+  "validation_errors": [],
+  "validation_passed": true,
+  "verified_abort_record_hash": "f7bd3aa052d2dda3b487bb76f115969d477fc3ab046a13dbe9466a2eba4e88a9",
+  "verified_conflict_certificate_hash": "a44c2289df227e3621f80da8949dd14cd62794d3e59de504e41678a88fc88e35",
+  "verified_failure_transcript_hash": "7753abfc776018c09bea52a034f290daf91b8388f736fa82f14b58ebd8caa495"
+}

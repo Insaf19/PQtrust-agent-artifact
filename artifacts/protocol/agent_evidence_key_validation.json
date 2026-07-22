@@ -1,0 +1,64 @@
+{
+  "artifact": "agent_evidence_key_validation",
+  "expected_agents": [
+    "cloud-orchestrator",
+    "public-tool-agent",
+    "enterprise-api-agent",
+    "edge-control-agent",
+    "quantum-ready-tool-agent"
+  ],
+  "expected_algorithms": [
+    "ML-DSA-65",
+    "ML-DSA-87"
+  ],
+  "expected_entry_count": 10,
+  "expected_inventory": [
+    {
+      "agent_id": "cloud-orchestrator",
+      "algorithm": "ML-DSA-65"
+    },
+    {
+      "agent_id": "cloud-orchestrator",
+      "algorithm": "ML-DSA-87"
+    },
+    {
+      "agent_id": "public-tool-agent",
+      "algorithm": "ML-DSA-65"
+    },
+    {
+      "agent_id": "public-tool-agent",
+      "algorithm": "ML-DSA-87"
+    },
+    {
+      "agent_id": "enterprise-api-agent",
+      "algorithm": "ML-DSA-65"
+    },
+    {
+      "agent_id": "enterprise-api-agent",
+      "algorithm": "ML-DSA-87"
+    },
+    {
+      "agent_id": "edge-control-agent",
+      "algorithm": "ML-DSA-65"
+    },
+    {
+      "agent_id": "edge-control-agent",
+      "algorithm": "ML-DSA-87"
+    },
+    {
+      "agent_id": "quantum-ready-tool-agent",
+      "algorithm": "ML-DSA-65"
+    },
+    {
+      "agent_id": "quantum-ready-tool-agent",
+      "algorithm": "ML-DSA-87"
+    }
+  ],
+  "local_private_public_pairs_validated": 10,
+  "observed_entry_count": 10,
+  "openssl_version": "OpenSSL 3.5.7 9 Jun 2026 (Library: OpenSSL 3.5.7 9 Jun 2026)",
+  "public_fingerprints_validated": true,
+  "unique_key_ids": true,
+  "validation_errors": [],
+  "validation_passed": true
+}

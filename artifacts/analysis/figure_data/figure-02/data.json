@@ -1,0 +1,45 @@
+{
+  "frontier": {
+    "common_safe_set": [
+      "P0",
+      "P1",
+      "P3"
+    ],
+    "minimax_regret_exercised": true,
+    "pareto_frontier": [
+      "P0",
+      "P3"
+    ],
+    "registered_preference_result": {
+      "initiator_cost": "0.001634599164038522419937290545",
+      "initiator_regret": "0",
+      "initiator_unilateral_optimum": "P0",
+      "maximum_regret": "0",
+      "registered_preferences_conflict": false,
+      "responder_cost": "0.0006992844131070686759943300206",
+      "responder_regret": "0",
+      "responder_unilateral_optimum": "P0",
+      "selected_profile_differs_from_either_unilateral_optimum": false,
+      "selected_profile_id": "P0",
+      "tie_break_trace": [
+        "tie_break_order=max_regret,total_regret,max_normalized_component,total_normalized_cost,profile_id",
+        "P0: (Decimal('0E-30'), Decimal('0E-31'), Decimal('0.002360303378243850679486305036'), Decimal('0.004676573754657268719714802621'), 'P0')",
+        "P3: (Decimal('0.4719833429656528676546359248'), Decimal('0.6729270126782257465192544578'), Decimal('0.6752608962553713376151860783'), Decimal('0.6752608962553713376151860783'), 'P3')",
+        "selected=P0"
+      ],
+      "total_regret": "0"
+    },
+    "scenario_id": "low-risk-quantum-ready-tool",
+    "selection_mode": "bilateral_minimax_regret",
+    "validation_errors": [],
+    "validation_passed": true
+  },
+  "observation_ids": [],
+  "profiles": [
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+  ]
+}

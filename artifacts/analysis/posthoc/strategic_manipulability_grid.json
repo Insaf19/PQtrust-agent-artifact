@@ -1,0 +1,84 @@
+{
+  "analysis_status": "post_hoc_exploratory_not_part_of_registered_1040_observations",
+  "definition": {
+    "hard_safe_set_unchanged": [
+      "P0",
+      "P1",
+      "P3"
+    ],
+    "pareto_frontier_unchanged": [
+      "P0",
+      "P3"
+    ],
+    "profitability": "A misreport is strictly profitable only when the resulting profile has lower cost under the manipulating endpoint's true weights.",
+    "truthful_preferences": "The original grid weights are treated as the endpoint's true cost preference.",
+    "unilateral_misreport": "One endpoint may report any other grid point while the peer remains truthful."
+  },
+  "interpretation_boundary": {
+    "not_established": [
+      "continuous-weight strategy-proofness",
+      "truthfulness of private policies",
+      "multi-profile or multi-party incentive compatibility",
+      "general organizational utility behavior"
+    ],
+    "scope": "Finite 10%-increment preference grid on the evaluated P0/P3 frontier only.",
+    "strategy_proofness_claimed": false
+  },
+  "maximum_gain_examples": {
+    "initiator": null,
+    "responder": null
+  },
+  "most_frequent_best_false_reports": {
+    "initiator": [],
+    "responder": []
+  },
+  "pair_counts": {
+    "both_endpoints_manipulable_pairs": 0,
+    "conflict_pairs_manipulable_by_either": 0,
+    "either_endpoint_manipulable_pairs": 0,
+    "initiator_manipulable_pairs": 0,
+    "neither_endpoint_manipulable_pairs": 4356,
+    "no_conflict_pairs": 3146,
+    "no_conflict_pairs_manipulable_by_either": 0,
+    "preference_conflict_pairs": 1210,
+    "responder_manipulable_pairs": 0,
+    "total_joint_pairs": 4356
+  },
+  "pair_percentages": {
+    "both_endpoints_manipulable_percent": "0",
+    "conflict_pairs_manipulable_by_either_percent": "0",
+    "either_endpoint_manipulable_percent": "0",
+    "initiator_manipulable_percent": "0",
+    "no_conflict_pairs_manipulable_by_either_percent": "0",
+    "responder_manipulable_percent": "0"
+  },
+  "profitable_gain_statistics": {
+    "initiator": {
+      "maximum_true_cost_gain": "0",
+      "median_true_cost_gain": "0",
+      "p95_true_cost_gain": "0",
+      "positive_gain_count": 0
+    },
+    "responder": {
+      "maximum_true_cost_gain": "0",
+      "median_true_cost_gain": "0",
+      "p95_true_cost_gain": "0",
+      "positive_gain_count": 0
+    }
+  },
+  "provenance": {
+    "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+    "cost_evidence_hash": "637d7da747ddd937e50e780d1daf9779c16db593ac66a963e3ebf2f63e87a072",
+    "grid_increment_bps": 1000,
+    "grid_point_count_per_endpoint": 66
+  },
+  "scenario_id": "low-risk-quantum-ready-tool",
+  "truthful_selected_profile_distribution": {
+    "P0": 4235,
+    "P3": 121
+  },
+  "validation": {
+    "validation_errors": [],
+    "validation_passed": true
+  }
+}

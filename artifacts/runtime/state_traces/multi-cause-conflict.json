@@ -1,0 +1,69 @@
+{
+  "artifact": "stage7_state_trace",
+  "report_version": "1.0",
+  "scenario_id": "multi-cause-conflict",
+  "session_id": "0ce6971eef8716402754cb9c942ecc692993a2cfe259b3d1f5682dfc234c9a91",
+  "state_trace_hash": "b96e4ca4f6534905d3e27837b1ba4285d88cabaf23cc2471ce46fb25cc1b7201",
+  "transitions": [
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "CREATED_TO_DISCOVERY_COMPLETE",
+      "next_state": "DISCOVERY_COMPLETE",
+      "previous_state": "CREATED",
+      "sequence_index": 0,
+      "session_id": "0ce6971eef8716402754cb9c942ecc692993a2cfe259b3d1f5682dfc234c9a91",
+      "state_transition_hash": "a1cb8d64162612ba50d34c60155d68c72089d1c9f4dd87fb4f8317a30ac552ab",
+      "timestamp_source": "deterministic_laboratory_clock"
+    },
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "DISCOVERY_COMPLETE_TO_COMMITMENTS_REGISTERED",
+      "next_state": "COMMITMENTS_REGISTERED",
+      "previous_state": "DISCOVERY_COMPLETE",
+      "sequence_index": 1,
+      "session_id": "0ce6971eef8716402754cb9c942ecc692993a2cfe259b3d1f5682dfc234c9a91",
+      "state_transition_hash": "024d21c9cb92320d5c28f7c992564a9340cc13f3eea4bcc6dfc84ae9cf6f3290",
+      "timestamp_source": "deterministic_laboratory_clock"
+    },
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "COMMITMENTS_REGISTERED_TO_REVEALS_VERIFIED",
+      "next_state": "REVEALS_VERIFIED",
+      "previous_state": "COMMITMENTS_REGISTERED",
+      "sequence_index": 2,
+      "session_id": "0ce6971eef8716402754cb9c942ecc692993a2cfe259b3d1f5682dfc234c9a91",
+      "state_transition_hash": "2a02ca29c250e50634562d170b7470a5f69fff38148f00c09d4d084c78fe9c2c",
+      "timestamp_source": "deterministic_laboratory_clock"
+    },
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "REVEALS_VERIFIED_TO_FEASIBILITY_EVALUATED",
+      "next_state": "FEASIBILITY_EVALUATED",
+      "previous_state": "REVEALS_VERIFIED",
+      "sequence_index": 3,
+      "session_id": "0ce6971eef8716402754cb9c942ecc692993a2cfe259b3d1f5682dfc234c9a91",
+      "state_transition_hash": "a8c19db332703d8a6feba615758c6ac673c9272d4efa2c4f7ee78f257883f305",
+      "timestamp_source": "deterministic_laboratory_clock"
+    },
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "FEASIBILITY_EVALUATED_TO_CONFLICT_CERTIFIED",
+      "next_state": "CONFLICT_CERTIFIED",
+      "previous_state": "FEASIBILITY_EVALUATED",
+      "sequence_index": 4,
+      "session_id": "0ce6971eef8716402754cb9c942ecc692993a2cfe259b3d1f5682dfc234c9a91",
+      "state_transition_hash": "26fb5aeb6af8d89363679b7f7931fc204b01b31aaee8488f45bde479dc504c69",
+      "timestamp_source": "deterministic_laboratory_clock"
+    },
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "CONFLICT_CERTIFIED_TO_ABORTED",
+      "next_state": "ABORTED",
+      "previous_state": "CONFLICT_CERTIFIED",
+      "sequence_index": 5,
+      "session_id": "0ce6971eef8716402754cb9c942ecc692993a2cfe259b3d1f5682dfc234c9a91",
+      "state_transition_hash": "45a0065bcb49b0e052ca5316b38805b9076a08db0f5bc8431711568f9dbaf804",
+      "timestamp_source": "deterministic_laboratory_clock"
+    }
+  ]
+}

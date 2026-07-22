@@ -1,0 +1,7 @@
+invariant,observed_violations,sample_size
+TLS_invocation_count,0,150
+contract_creation_count,0,150
+fallback_count,0,150
+selected_profile_count,0,150
+task_invocation_count,0,150
+registered adversarial rejection,0,200

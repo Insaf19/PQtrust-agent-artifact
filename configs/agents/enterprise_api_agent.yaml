@@ -1,0 +1,9 @@
+manifest_version: "1.0"
+agent_id: enterprise-api-agent
+key_id: pending-enterprise-api-key-01
+supported_profile_ids: [P1, P2, P3]
+resource_class: enterprise
+max_handshake_bytes: null
+monotonic_version: 1
+issued_at: 2026-01-01T00:00:00Z
+expires_at: 2030-01-01T00:00:00Z

@@ -1,0 +1,305 @@
+{
+  "artifact": "commit_reveal_validation",
+  "laboratory_fixtures": "session IDs and nonces are deterministic validation fixtures, not production randomness",
+  "scenario_count": 4,
+  "transcripts": [
+    {
+      "Pareto_frontier": [
+        "P0"
+      ],
+      "common_safe_set": [
+        "P0",
+        "P1"
+      ],
+      "initiator_commitment": "82947e785a21c4d7afb9e9121afa0b6bbd30684c31bdbb58f24368c3ff1ad475",
+      "initiator_local_safe_set": [
+        "P0",
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "initiator_reveal": {
+        "nonce_hex": "14b21909a31c2cba1c89dcdb6b3b3fff6268410877c0a1a846cd4291141f2738",
+        "proposal": {
+          "agent_id": "cloud-orchestrator",
+          "agent_role": "initiator",
+          "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+          "cost_evidence_hash": "637d7da747ddd937e50e780d1daf9779c16db593ac66a963e3ebf2f63e87a072",
+          "evaluation_time": "2026-07-13T00:00:00Z",
+          "expires_at": "2026-07-13T01:00:00Z",
+          "local_safe_profile_ids": [
+            "P0",
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "manifest_hash": "4146cc21ac3a4b8bce9d73ee85c5d8b30f4c3f35c714bfd86f49d58dd7ee779f",
+          "policy_compilation_hash": "a87a7a53cd3bdfd50c6cc305c4e355053ad95ce0d5aa15b7f9a51c4032a7a885",
+          "preference_hash": "48802b8466e168e8e2966917fcf56bf349382f4b4f1eebef31425fb2d892046c",
+          "protocol_version": "1.0",
+          "scenario_hash": "14122d5746ec7cf64ca6e6ab4b9afaee4379be7fe119d40e7d9e5aca23ef88ce",
+          "selector_implementation_version": "0.4.0",
+          "session_id": "e5fef26a8ad647b1ee332903a6f98f81603bfd85d191ce2f442765d82b11bb78",
+          "task_hash": "11acdde4c6f3bb6fa8d57d111b6f0e501cc120abce7564f699592a7a1d559a78"
+        }
+      },
+      "responder_commitment": "7e200298a1d713d487824156e6ba71bfe0b4dad1a0a644d9b9c1739bc967c960",
+      "responder_local_safe_set": [
+        "P0",
+        "P1"
+      ],
+      "responder_reveal": {
+        "nonce_hex": "6541621c8eeb9d4aa550940009de05ed7c82d723b1650ae82ee2e9fea43d2df4",
+        "proposal": {
+          "agent_id": "public-tool-agent",
+          "agent_role": "responder",
+          "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+          "cost_evidence_hash": "637d7da747ddd937e50e780d1daf9779c16db593ac66a963e3ebf2f63e87a072",
+          "evaluation_time": "2026-07-13T00:00:00Z",
+          "expires_at": "2026-07-13T01:00:00Z",
+          "local_safe_profile_ids": [
+            "P0",
+            "P1"
+          ],
+          "manifest_hash": "b495aa334dce0f35aa5ae07f029e0f6a3c9fd0353cbb3f4ba5878d2b525c2144",
+          "policy_compilation_hash": "339c6646429588f4e02a72ed85adf41c26e9ec2afa696ed206476b440a9dcd06",
+          "preference_hash": "ceffabb32a33e1a8d40a886fa8eaead48c28d34c13c9f91e5e063b8c5b23cdd3",
+          "protocol_version": "1.0",
+          "scenario_hash": "14122d5746ec7cf64ca6e6ab4b9afaee4379be7fe119d40e7d9e5aca23ef88ce",
+          "selector_implementation_version": "0.4.0",
+          "session_id": "e5fef26a8ad647b1ee332903a6f98f81603bfd85d191ce2f442765d82b11bb78",
+          "task_hash": "11acdde4c6f3bb6fa8d57d111b6f0e501cc120abce7564f699592a7a1d559a78"
+        }
+      },
+      "selected_profile_id": "P0",
+      "selection_hash": "c033d4d81ecc4eae465f8280334192f16e919c232f081162f4702915a3cdedf0",
+      "session_id": "e5fef26a8ad647b1ee332903a6f98f81603bfd85d191ce2f442765d82b11bb78",
+      "transcript_created_at": "2026-07-13T00:00:00Z",
+      "transcript_hash": "791d3e47fe354f84ffea8ca9b81ce575ec1c8d094a03787b8f2132f32889317e",
+      "transcript_version": "1.0"
+    },
+    {
+      "Pareto_frontier": [
+        "P3"
+      ],
+      "common_safe_set": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "initiator_commitment": "e8542666184f84bbf5e65220da057a959624c68d61495a6c89c98671e1fc2a68",
+      "initiator_local_safe_set": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "initiator_reveal": {
+        "nonce_hex": "25e88a0b93663bf9f1fbaa15ead147becccab4b4061c148614862e4b082c80f1",
+        "proposal": {
+          "agent_id": "cloud-orchestrator",
+          "agent_role": "initiator",
+          "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+          "cost_evidence_hash": "637d7da747ddd937e50e780d1daf9779c16db593ac66a963e3ebf2f63e87a072",
+          "evaluation_time": "2026-07-13T00:00:00Z",
+          "expires_at": "2026-07-13T01:00:00Z",
+          "local_safe_profile_ids": [
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "manifest_hash": "4146cc21ac3a4b8bce9d73ee85c5d8b30f4c3f35c714bfd86f49d58dd7ee779f",
+          "policy_compilation_hash": "ac44bdd38f6d2666d9169d8bae99a84d0bf0bbd6a582ecbf25859356ac92b9c1",
+          "preference_hash": "48802b8466e168e8e2966917fcf56bf349382f4b4f1eebef31425fb2d892046c",
+          "protocol_version": "1.0",
+          "scenario_hash": "e00014e5a17048ec1ea02999dd5e0e3383978541afc56d7b24eb23a253725c3e",
+          "selector_implementation_version": "0.4.0",
+          "session_id": "e11585feaa88a7bd683ffc54b94ffb1f4bb36674fdea420eefea4537a06f2cd8",
+          "task_hash": "b765bbd0cc39262ad8bd0ca22b62e10d28897095d2a5f4f765866c28046e1cd5"
+        }
+      },
+      "responder_commitment": "2f8684137627eb3b25dd25047eb56df652cd45694c1497be53bc9e34c9b5e456",
+      "responder_local_safe_set": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "responder_reveal": {
+        "nonce_hex": "e8358de1e336ae413b1557c0c15106daa527da906b052342389983bc148db7e2",
+        "proposal": {
+          "agent_id": "enterprise-api-agent",
+          "agent_role": "responder",
+          "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+          "cost_evidence_hash": "637d7da747ddd937e50e780d1daf9779c16db593ac66a963e3ebf2f63e87a072",
+          "evaluation_time": "2026-07-13T00:00:00Z",
+          "expires_at": "2026-07-13T01:00:00Z",
+          "local_safe_profile_ids": [
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "manifest_hash": "7226d4146bbba8bfdbd7db2e22743dad4b563efba1e2644e99dfa288b59ff793",
+          "policy_compilation_hash": "04583202e8708a203e0feabef4b6a39c5ea3d4cbeeedb21c0249d1ecdfd1ff63",
+          "preference_hash": "7c1c7ef8ca90f33336c8d011cad072cd5f056fc60bca6e0f8864348f1771bb99",
+          "protocol_version": "1.0",
+          "scenario_hash": "e00014e5a17048ec1ea02999dd5e0e3383978541afc56d7b24eb23a253725c3e",
+          "selector_implementation_version": "0.4.0",
+          "session_id": "e11585feaa88a7bd683ffc54b94ffb1f4bb36674fdea420eefea4537a06f2cd8",
+          "task_hash": "b765bbd0cc39262ad8bd0ca22b62e10d28897095d2a5f4f765866c28046e1cd5"
+        }
+      },
+      "selected_profile_id": "P3",
+      "selection_hash": "e1dd112dfd706a0fb855528f14e370cb9f84cd54a565bb9033e89344d96c5d73",
+      "session_id": "e11585feaa88a7bd683ffc54b94ffb1f4bb36674fdea420eefea4537a06f2cd8",
+      "transcript_created_at": "2026-07-13T00:00:00Z",
+      "transcript_hash": "d311260125d615635dceefc34af389dc066ea726c743f487b976e1674df07d9b",
+      "transcript_version": "1.0"
+    },
+    {
+      "Pareto_frontier": [
+        "P4"
+      ],
+      "common_safe_set": [
+        "P4"
+      ],
+      "initiator_commitment": "2e4ac6b1e87518a7bafce600d8cf98bfcae5d95da4188393b08ecf2f2d8b5227",
+      "initiator_local_safe_set": [
+        "P4"
+      ],
+      "initiator_reveal": {
+        "nonce_hex": "6b5eb27c7b73f6d3bd9e7556ee120bf9d4c5fd3b5357a873f62935d2a7a9c0f7",
+        "proposal": {
+          "agent_id": "cloud-orchestrator",
+          "agent_role": "initiator",
+          "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+          "cost_evidence_hash": "637d7da747ddd937e50e780d1daf9779c16db593ac66a963e3ebf2f63e87a072",
+          "evaluation_time": "2026-07-13T00:00:00Z",
+          "expires_at": "2026-07-13T01:00:00Z",
+          "local_safe_profile_ids": [
+            "P4"
+          ],
+          "manifest_hash": "4146cc21ac3a4b8bce9d73ee85c5d8b30f4c3f35c714bfd86f49d58dd7ee779f",
+          "policy_compilation_hash": "372458137ffb2adc6b468e1a0f9c97cc3fa0fd872898ef1d72b1d347558ab1c9",
+          "preference_hash": "48802b8466e168e8e2966917fcf56bf349382f4b4f1eebef31425fb2d892046c",
+          "protocol_version": "1.0",
+          "scenario_hash": "56945b6052158b09dd9c121f03b7820a28c3ce87c111c47a438326de4a4e1b73",
+          "selector_implementation_version": "0.4.0",
+          "session_id": "f0efdaef4c507d72f0b7ff800b5a65c8cdc6dcdb5d64ee837da38c286f803147",
+          "task_hash": "cfb487bd7bbdce61194a833cc873ba7f016ef934b34a20b6e9e6e56932969e8a"
+        }
+      },
+      "responder_commitment": "a606f98eb41cd09f79963be976e4d08e14045b31ddd2edeeeda01cc43f833fa2",
+      "responder_local_safe_set": [
+        "P4"
+      ],
+      "responder_reveal": {
+        "nonce_hex": "4b185a8cc828dc2e88b8a681c56bb8e2b841b13a4f2930f7146643ecd9880cc9",
+        "proposal": {
+          "agent_id": "edge-control-agent",
+          "agent_role": "responder",
+          "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+          "cost_evidence_hash": "637d7da747ddd937e50e780d1daf9779c16db593ac66a963e3ebf2f63e87a072",
+          "evaluation_time": "2026-07-13T00:00:00Z",
+          "expires_at": "2026-07-13T01:00:00Z",
+          "local_safe_profile_ids": [
+            "P4"
+          ],
+          "manifest_hash": "67631186db33aa05ca63d229b196f0099ac1eeae942bc6f6955295ccacf51737",
+          "policy_compilation_hash": "21577e03266eef1957a66c36648b94032aed05fc4f576b23cb4f813a532f6e14",
+          "preference_hash": "7c84b3b1b368618892074a5b51d582ec0465680b081c08f8460a40138783abbb",
+          "protocol_version": "1.0",
+          "scenario_hash": "56945b6052158b09dd9c121f03b7820a28c3ce87c111c47a438326de4a4e1b73",
+          "selector_implementation_version": "0.4.0",
+          "session_id": "f0efdaef4c507d72f0b7ff800b5a65c8cdc6dcdb5d64ee837da38c286f803147",
+          "task_hash": "cfb487bd7bbdce61194a833cc873ba7f016ef934b34a20b6e9e6e56932969e8a"
+        }
+      },
+      "selected_profile_id": "P4",
+      "selection_hash": "e1ca2e301ee0f8728eb980de774b9270bc290daafaaa2f6dbe7505b80d763b1d",
+      "session_id": "f0efdaef4c507d72f0b7ff800b5a65c8cdc6dcdb5d64ee837da38c286f803147",
+      "transcript_created_at": "2026-07-13T00:00:00Z",
+      "transcript_hash": "a7e942e5c0e77c876f8e877a08dc0a7ccb159352577c05149ced056b79736e64",
+      "transcript_version": "1.0"
+    },
+    {
+      "Pareto_frontier": [
+        "P0",
+        "P3"
+      ],
+      "common_safe_set": [
+        "P0",
+        "P1",
+        "P3"
+      ],
+      "initiator_commitment": "4fbf46fac3c12f9113d5b27a9cf24dcbfd6fa42c68dac70fa969fbf0abb92e5a",
+      "initiator_local_safe_set": [
+        "P0",
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "initiator_reveal": {
+        "nonce_hex": "93830e1a99efcd4168d3869e2b2467710c45423a8c5a6213f0e602825c792f8f",
+        "proposal": {
+          "agent_id": "cloud-orchestrator",
+          "agent_role": "initiator",
+          "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+          "cost_evidence_hash": "637d7da747ddd937e50e780d1daf9779c16db593ac66a963e3ebf2f63e87a072",
+          "evaluation_time": "2026-07-13T00:00:00Z",
+          "expires_at": "2026-07-13T01:00:00Z",
+          "local_safe_profile_ids": [
+            "P0",
+            "P1",
+            "P2",
+            "P3"
+          ],
+          "manifest_hash": "4146cc21ac3a4b8bce9d73ee85c5d8b30f4c3f35c714bfd86f49d58dd7ee779f",
+          "policy_compilation_hash": "a87a7a53cd3bdfd50c6cc305c4e355053ad95ce0d5aa15b7f9a51c4032a7a885",
+          "preference_hash": "48802b8466e168e8e2966917fcf56bf349382f4b4f1eebef31425fb2d892046c",
+          "protocol_version": "1.0",
+          "scenario_hash": "56d3c81c2999e8564d751f486945336e367a6b756fd1bf109834c90a8a571ac3",
+          "selector_implementation_version": "0.4.0",
+          "session_id": "3900eeeacaa0fcc7f034e14d308e15815e80df8014a9d8dbdfb40a6403fe934e",
+          "task_hash": "11acdde4c6f3bb6fa8d57d111b6f0e501cc120abce7564f699592a7a1d559a78"
+        }
+      },
+      "responder_commitment": "4338b206dd0cf66167fd72ac0d967edb6f9e4ac69d76e28ec0de38065fd6289b",
+      "responder_local_safe_set": [
+        "P0",
+        "P1",
+        "P3"
+      ],
+      "responder_reveal": {
+        "nonce_hex": "8c76a5fc4adc62919ba0b148ec799b1410b9425532d39c7f1cc07cf9ac8635bf",
+        "proposal": {
+          "agent_id": "quantum-ready-tool-agent",
+          "agent_role": "responder",
+          "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+          "cost_evidence_hash": "637d7da747ddd937e50e780d1daf9779c16db593ac66a963e3ebf2f63e87a072",
+          "evaluation_time": "2026-07-13T00:00:00Z",
+          "expires_at": "2026-07-13T01:00:00Z",
+          "local_safe_profile_ids": [
+            "P0",
+            "P1",
+            "P3"
+          ],
+          "manifest_hash": "cdcd5dc5b895326c1c4a39c7431038f994d8df1aa5cf08f1a37d9ff512051cf1",
+          "policy_compilation_hash": "172cb21732928c11ead5a2a927ca925d613b64b62bd09e7d1e152c01026be999",
+          "preference_hash": "0201dd11402ee5b1f6cdb11acdae1f40be05ce5b0385cc38a17e5d7448104b69",
+          "protocol_version": "1.0",
+          "scenario_hash": "56d3c81c2999e8564d751f486945336e367a6b756fd1bf109834c90a8a571ac3",
+          "selector_implementation_version": "0.4.0",
+          "session_id": "3900eeeacaa0fcc7f034e14d308e15815e80df8014a9d8dbdfb40a6403fe934e",
+          "task_hash": "11acdde4c6f3bb6fa8d57d111b6f0e501cc120abce7564f699592a7a1d559a78"
+        }
+      },
+      "selected_profile_id": "P0",
+      "selection_hash": "5fe29fb458a353ea7fbcd7453a14870ab3290e6cd135bcc5ca46aa4f572d74bd",
+      "session_id": "3900eeeacaa0fcc7f034e14d308e15815e80df8014a9d8dbdfb40a6403fe934e",
+      "transcript_created_at": "2026-07-13T00:00:00Z",
+      "transcript_hash": "7acbc6e059cc07a0c4c3f7a0b80f17b2084db9cb300701946282df2729b23c91",
+      "transcript_version": "1.0"
+    }
+  ],
+  "validation_errors": [],
+  "validation_passed": true
+}

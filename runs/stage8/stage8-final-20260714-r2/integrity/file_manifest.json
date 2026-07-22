@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "path": "environment.json",
+      "sha256": "ee5d9dff12c714072f9dc18ae48a606e73cc2f1c048cedf31b5d396a1cb0be78",
+      "size": 594
+    },
+    {
+      "path": "execution_schedule.json",
+      "sha256": "689b3f8d3264090930e6914bafa769e926cdae35f5e458b85a84562033670087",
+      "size": 285809
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "62a38cefdd3eb2ef3bbbae76e4bd131ff9214dd3cd08f9935542d269c27330ae",
+      "size": 951
+    },
+    {
+      "path": "progress.json",
+      "sha256": "d5ff7eaa96c1f1f07cb514ef9c65b308481b7430b33ddd35c9e3108e1f05b982",
+      "size": 260
+    },
+    {
+      "path": "raw/adversarial_trials.jsonl",
+      "sha256": "c8d1a280d6c23e164c3333d7379185771c7e875f9d65c7a9c13bd707cecb9763",
+      "size": 232832
+    },
+    {
+      "path": "raw/checksums.sha256",
+      "sha256": "f4c271d7a8b8ffe8fe6488fa13bb84311631b87a9b99b9ada1ea1645bbd35bd8",
+      "size": 547
+    },
+    {
+      "path": "raw/completed_observations.json",
+      "sha256": "0edf4b357e84fbb57db8d514350dde5041de5ab153372e93433cdd5930512769",
+      "size": 60319
+    },
+    {
+      "path": "raw/component_trials.jsonl",
+      "sha256": "0fd0321d6c3fe4c4cdadaa65bc9d19b64598d5e3fc3b9f5777efa55c7d1828bf",
+      "size": 104213
+    },
+    {
+      "path": "raw/concurrency_trials.jsonl",
+      "sha256": "4360b792f3033a468ba9c8f10590380a3477e8ce3446213b1477be3b39376489",
+      "size": 2001357
+    },
+    {
+      "path": "raw/feasible_sessions.jsonl",
+      "sha256": "f53bfb71c12d36eb97342e402f0673b08311d5e85c1e57f2cb9a0d0708273db7",
+      "size": 1281734
+    },
+    {
+      "path": "raw/infeasible_sessions.jsonl",
+      "sha256": "bc8e97a87781a4d2549e9a20a8540090e13a2952e34b7ab6579cfc293d58c503",
+      "size": 216855
+    },
+    {
+      "path": "registered_design.json",
+      "sha256": "4bea395743afd4f3a83ca80c78d5279ae9756cf4b7142fb5f2c0bbc4a1ef7224",
+      "size": 5866
+    }
+  ]
+}

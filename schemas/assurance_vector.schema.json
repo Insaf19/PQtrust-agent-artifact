@@ -1,0 +1,96 @@
+{
+  "$defs": {
+    "FallbackRule": {
+      "description": "Fallback policy for profile selection and future negotiation.",
+      "enum": [
+        "low_risk_only",
+        "explicit_only",
+        "forbidden"
+      ],
+      "title": "FallbackRule",
+      "type": "string"
+    },
+    "LeaseStrictness": {
+      "description": "Lease-duration strictness class.",
+      "enum": [
+        "long",
+        "medium",
+        "short"
+      ],
+      "title": "LeaseStrictness",
+      "type": "string"
+    },
+    "ResumptionRule": {
+      "description": "Session resumption binding rule.",
+      "enum": [
+        "context_bound",
+        "contract_bound",
+        "forbidden"
+      ],
+      "title": "ResumptionRule",
+      "type": "string"
+    },
+    "ThreatClass": {
+      "description": "Threat classes represented independently for each assurance dimension.",
+      "enum": [
+        "classical",
+        "quantum"
+      ],
+      "title": "ThreatClass",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Component-wise assurance vector used by the partial order.",
+  "properties": {
+    "contract_evidence_threats": {
+      "description": "Threat classes addressed by application-level contract evidence.",
+      "items": {
+        "$ref": "#/$defs/ThreatClass"
+      },
+      "title": "Contract Evidence Threats",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "endpoint_authentication_threats": {
+      "description": "Threat classes addressed by endpoint authentication.",
+      "items": {
+        "$ref": "#/$defs/ThreatClass"
+      },
+      "title": "Endpoint Authentication Threats",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "fallback_rule": {
+      "$ref": "#/$defs/FallbackRule",
+      "description": "Fallback policy strictness."
+    },
+    "key_establishment_threats": {
+      "description": "Threat classes addressed by key establishment.",
+      "items": {
+        "$ref": "#/$defs/ThreatClass"
+      },
+      "title": "Key Establishment Threats",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "lease_strictness": {
+      "$ref": "#/$defs/LeaseStrictness",
+      "description": "Lease strictness class."
+    },
+    "resumption_rule": {
+      "$ref": "#/$defs/ResumptionRule",
+      "description": "Resumption binding strictness."
+    }
+  },
+  "required": [
+    "key_establishment_threats",
+    "endpoint_authentication_threats",
+    "contract_evidence_threats",
+    "fallback_rule",
+    "resumption_rule",
+    "lease_strictness"
+  ],
+  "title": "AssuranceVector",
+  "type": "object"
+}

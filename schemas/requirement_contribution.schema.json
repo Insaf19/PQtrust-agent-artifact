@@ -1,0 +1,130 @@
+{
+  "$defs": {
+    "FallbackRule": {
+      "description": "Fallback policy for profile selection and future negotiation.",
+      "enum": [
+        "low_risk_only",
+        "explicit_only",
+        "forbidden"
+      ],
+      "title": "FallbackRule",
+      "type": "string"
+    },
+    "LeaseStrictness": {
+      "description": "Lease-duration strictness class.",
+      "enum": [
+        "long",
+        "medium",
+        "short"
+      ],
+      "title": "LeaseStrictness",
+      "type": "string"
+    },
+    "ResumptionRule": {
+      "description": "Session resumption binding rule.",
+      "enum": [
+        "context_bound",
+        "contract_bound",
+        "forbidden"
+      ],
+      "title": "ResumptionRule",
+      "type": "string"
+    },
+    "ThreatClass": {
+      "description": "Threat classes represented independently for each assurance dimension.",
+      "enum": [
+        "classical",
+        "quantum"
+      ],
+      "title": "ThreatClass",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Optional requirement fields that strengthen by join.",
+  "properties": {
+    "contract_evidence_threats": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/ThreatClass"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Contract Evidence Threats"
+    },
+    "endpoint_authentication_threats": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/ThreatClass"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Endpoint Authentication Threats"
+    },
+    "fallback_rule": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/FallbackRule"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "key_establishment_threats": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/ThreatClass"
+          },
+          "type": "array",
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Key Establishment Threats"
+    },
+    "lease_strictness": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/LeaseStrictness"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "resumption_rule": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ResumptionRule"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    }
+  },
+  "title": "RequirementContribution",
+  "type": "object"
+}

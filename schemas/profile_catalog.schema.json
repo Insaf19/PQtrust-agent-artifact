@@ -1,0 +1,280 @@
+{
+  "$defs": {
+    "AssuranceVector": {
+      "additionalProperties": false,
+      "description": "Component-wise assurance vector used by the partial order.",
+      "properties": {
+        "contract_evidence_threats": {
+          "description": "Threat classes addressed by application-level contract evidence.",
+          "items": {
+            "$ref": "#/$defs/ThreatClass"
+          },
+          "title": "Contract Evidence Threats",
+          "type": "array",
+          "uniqueItems": true
+        },
+        "endpoint_authentication_threats": {
+          "description": "Threat classes addressed by endpoint authentication.",
+          "items": {
+            "$ref": "#/$defs/ThreatClass"
+          },
+          "title": "Endpoint Authentication Threats",
+          "type": "array",
+          "uniqueItems": true
+        },
+        "fallback_rule": {
+          "$ref": "#/$defs/FallbackRule",
+          "description": "Fallback policy strictness."
+        },
+        "key_establishment_threats": {
+          "description": "Threat classes addressed by key establishment.",
+          "items": {
+            "$ref": "#/$defs/ThreatClass"
+          },
+          "title": "Key Establishment Threats",
+          "type": "array",
+          "uniqueItems": true
+        },
+        "lease_strictness": {
+          "$ref": "#/$defs/LeaseStrictness",
+          "description": "Lease strictness class."
+        },
+        "resumption_rule": {
+          "$ref": "#/$defs/ResumptionRule",
+          "description": "Resumption binding strictness."
+        }
+      },
+      "required": [
+        "key_establishment_threats",
+        "endpoint_authentication_threats",
+        "contract_evidence_threats",
+        "fallback_rule",
+        "resumption_rule",
+        "lease_strictness"
+      ],
+      "title": "AssuranceVector",
+      "type": "object"
+    },
+    "ContractEvidenceMode": {
+      "description": "Application-level evidence mode for manifests and future contracts.",
+      "enum": [
+        "mldsa65",
+        "mldsa87"
+      ],
+      "title": "ContractEvidenceMode",
+      "type": "string"
+    },
+    "EndpointAuthenticationMode": {
+      "description": "Endpoint-authentication mechanisms represented in a trust profile.",
+      "enum": [
+        "classical_x509",
+        "dual_x509_mldsa",
+        "pq_mldsa"
+      ],
+      "title": "EndpointAuthenticationMode",
+      "type": "string"
+    },
+    "FallbackRule": {
+      "description": "Fallback policy for profile selection and future negotiation.",
+      "enum": [
+        "low_risk_only",
+        "explicit_only",
+        "forbidden"
+      ],
+      "title": "FallbackRule",
+      "type": "string"
+    },
+    "LeaseStrictness": {
+      "description": "Lease-duration strictness class.",
+      "enum": [
+        "long",
+        "medium",
+        "short"
+      ],
+      "title": "LeaseStrictness",
+      "type": "string"
+    },
+    "ResourceEnvelope": {
+      "additionalProperties": false,
+      "description": "Optional resource limits, left null until calibrated by real measurements.",
+      "properties": {
+        "max_cpu_time_microseconds": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional positive bound on CPU time; null means unconstrained.",
+          "title": "Max Cpu Time Microseconds"
+        },
+        "max_energy_proxy_units": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional positive bound on energy proxy units; null means unconstrained.",
+          "title": "Max Energy Proxy Units"
+        },
+        "max_handshake_bytes": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional positive bound on handshake bytes; null means unconstrained.",
+          "title": "Max Handshake Bytes"
+        },
+        "max_peak_memory_kib": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional positive bound on peak memory in KiB; null means unconstrained.",
+          "title": "Max Peak Memory Kib"
+        }
+      },
+      "title": "ResourceEnvelope",
+      "type": "object"
+    },
+    "ResumptionRule": {
+      "description": "Session resumption binding rule.",
+      "enum": [
+        "context_bound",
+        "contract_bound",
+        "forbidden"
+      ],
+      "title": "ResumptionRule",
+      "type": "string"
+    },
+    "ThreatClass": {
+      "description": "Threat classes represented independently for each assurance dimension.",
+      "enum": [
+        "classical",
+        "quantum"
+      ],
+      "title": "ThreatClass",
+      "type": "string"
+    },
+    "TrustProfile": {
+      "additionalProperties": false,
+      "description": "A named trust profile with explicit assurance vector and policy fields.",
+      "properties": {
+        "assurance": {
+          "$ref": "#/$defs/AssuranceVector",
+          "description": "Explicit assurance vector."
+        },
+        "contract_evidence_mode": {
+          "$ref": "#/$defs/ContractEvidenceMode",
+          "description": "Application-level contract evidence mode."
+        },
+        "description": {
+          "description": "Human-readable non-empirical profile description.",
+          "maxLength": 1200,
+          "minLength": 1,
+          "title": "Description",
+          "type": "string"
+        },
+        "endpoint_authentication_mode": {
+          "$ref": "#/$defs/EndpointAuthenticationMode",
+          "description": "Endpoint TLS authentication mode."
+        },
+        "fallback_rule": {
+          "$ref": "#/$defs/FallbackRule",
+          "description": "Declared fallback rule."
+        },
+        "lease_strictness": {
+          "$ref": "#/$defs/LeaseStrictness",
+          "description": "Declared lease strictness."
+        },
+        "max_lease_seconds": {
+          "description": "Maximum lease duration in seconds.",
+          "exclusiveMinimum": 0,
+          "title": "Max Lease Seconds",
+          "type": "integer"
+        },
+        "profile_id": {
+          "description": "Profile identifier.",
+          "pattern": "^P[0-9]+$",
+          "title": "Profile Id",
+          "type": "string"
+        },
+        "resource_envelope": {
+          "$ref": "#/$defs/ResourceEnvelope",
+          "description": "Optional resource envelope."
+        },
+        "resumption_rule": {
+          "$ref": "#/$defs/ResumptionRule",
+          "description": "Declared resumption rule."
+        },
+        "tls_group": {
+          "description": "OpenSSL TLS 1.3 group identifier.",
+          "minLength": 1,
+          "pattern": "^[A-Za-z0-9._-]+$",
+          "title": "Tls Group",
+          "type": "string"
+        }
+      },
+      "required": [
+        "profile_id",
+        "tls_group",
+        "endpoint_authentication_mode",
+        "contract_evidence_mode",
+        "fallback_rule",
+        "resumption_rule",
+        "lease_strictness",
+        "max_lease_seconds",
+        "assurance",
+        "resource_envelope",
+        "description"
+      ],
+      "title": "TrustProfile",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Versioned, deterministic trust-profile catalog.",
+  "properties": {
+    "catalog_version": {
+      "const": "1.0",
+      "description": "Profile catalog schema version.",
+      "title": "Catalog Version",
+      "type": "string"
+    },
+    "profiles": {
+      "description": "Canonical ordered profiles.",
+      "items": {
+        "$ref": "#/$defs/TrustProfile"
+      },
+      "title": "Profiles",
+      "type": "array"
+    }
+  },
+  "required": [
+    "catalog_version",
+    "profiles"
+  ],
+  "title": "ProfileCatalog",
+  "type": "object"
+}

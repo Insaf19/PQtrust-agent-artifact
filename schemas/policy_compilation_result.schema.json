@@ -1,0 +1,325 @@
+{
+  "$defs": {
+    "AssuranceRequirement": {
+      "additionalProperties": false,
+      "description": "Minimum assurance required by one agent for one task.",
+      "properties": {
+        "contract_evidence_threats": {
+          "description": "Required contract-evidence threat coverage.",
+          "items": {
+            "$ref": "#/$defs/ThreatClass"
+          },
+          "title": "Contract Evidence Threats",
+          "type": "array",
+          "uniqueItems": true
+        },
+        "endpoint_authentication_threats": {
+          "description": "Required endpoint-authentication threat coverage.",
+          "items": {
+            "$ref": "#/$defs/ThreatClass"
+          },
+          "title": "Endpoint Authentication Threats",
+          "type": "array",
+          "uniqueItems": true
+        },
+        "fallback_rule": {
+          "$ref": "#/$defs/FallbackRule",
+          "description": "Minimum fallback strictness."
+        },
+        "key_establishment_threats": {
+          "description": "Required key-establishment threat coverage.",
+          "items": {
+            "$ref": "#/$defs/ThreatClass"
+          },
+          "title": "Key Establishment Threats",
+          "type": "array",
+          "uniqueItems": true
+        },
+        "lease_strictness": {
+          "$ref": "#/$defs/LeaseStrictness",
+          "description": "Minimum lease strictness."
+        },
+        "resumption_rule": {
+          "$ref": "#/$defs/ResumptionRule",
+          "description": "Minimum resumption strictness."
+        }
+      },
+      "required": [
+        "key_establishment_threats",
+        "endpoint_authentication_threats",
+        "contract_evidence_threats",
+        "fallback_rule",
+        "resumption_rule",
+        "lease_strictness"
+      ],
+      "title": "AssuranceRequirement",
+      "type": "object"
+    },
+    "FallbackRule": {
+      "description": "Fallback policy for profile selection and future negotiation.",
+      "enum": [
+        "low_risk_only",
+        "explicit_only",
+        "forbidden"
+      ],
+      "title": "FallbackRule",
+      "type": "string"
+    },
+    "LeaseStrictness": {
+      "description": "Lease-duration strictness class.",
+      "enum": [
+        "long",
+        "medium",
+        "short"
+      ],
+      "title": "LeaseStrictness",
+      "type": "string"
+    },
+    "ProfileCompilationDecision": {
+      "additionalProperties": false,
+      "description": "Compilation outcome for one profile candidate.",
+      "properties": {
+        "accepted": {
+          "title": "Accepted",
+          "type": "boolean"
+        },
+        "irreducible_unsat_core": {
+          "items": {
+            "$ref": "#/$defs/RejectionCategory"
+          },
+          "title": "Irreducible Unsat Core",
+          "type": "array"
+        },
+        "profile_id": {
+          "pattern": "^P[0-9]+$",
+          "title": "Profile Id",
+          "type": "string"
+        },
+        "solver_status": {
+          "enum": [
+            "sat",
+            "unsat"
+          ],
+          "title": "Solver Status",
+          "type": "string"
+        },
+        "violated_categories": {
+          "items": {
+            "$ref": "#/$defs/RejectionCategory"
+          },
+          "title": "Violated Categories",
+          "type": "array"
+        }
+      },
+      "required": [
+        "profile_id",
+        "accepted",
+        "violated_categories",
+        "irreducible_unsat_core",
+        "solver_status"
+      ],
+      "title": "ProfileCompilationDecision",
+      "type": "object"
+    },
+    "RejectionCategory": {
+      "description": "Stable public categories for rejected profile candidates.",
+      "enum": [
+        "capability",
+        "organization_policy",
+        "kem_assurance",
+        "endpoint_authentication",
+        "contract_evidence",
+        "fallback",
+        "resumption",
+        "lease",
+        "resource_bound"
+      ],
+      "title": "RejectionCategory",
+      "type": "string"
+    },
+    "RequirementDerivation": {
+      "additionalProperties": false,
+      "description": "Deterministic derivation record for task-specific assurance requirements.",
+      "properties": {
+        "agent_id": {
+          "title": "Agent Id",
+          "type": "string"
+        },
+        "base_requirement": {
+          "$ref": "#/$defs/AssuranceRequirement"
+        },
+        "derivation_hash": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Derivation Hash",
+          "type": "string"
+        },
+        "final_requirement": {
+          "$ref": "#/$defs/AssuranceRequirement"
+        },
+        "matched_rule_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Matched Rule Ids",
+          "type": "array"
+        },
+        "policy_hash": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Policy Hash",
+          "type": "string"
+        },
+        "policy_id": {
+          "title": "Policy Id",
+          "type": "string"
+        },
+        "policy_version": {
+          "exclusiveMinimum": 0,
+          "title": "Policy Version",
+          "type": "integer"
+        },
+        "task_hash": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Task Hash",
+          "type": "string"
+        }
+      },
+      "required": [
+        "agent_id",
+        "policy_id",
+        "policy_version",
+        "policy_hash",
+        "task_hash",
+        "base_requirement",
+        "matched_rule_ids",
+        "final_requirement",
+        "derivation_hash"
+      ],
+      "title": "RequirementDerivation",
+      "type": "object"
+    },
+    "ResumptionRule": {
+      "description": "Session resumption binding rule.",
+      "enum": [
+        "context_bound",
+        "contract_bound",
+        "forbidden"
+      ],
+      "title": "ResumptionRule",
+      "type": "string"
+    },
+    "ThreatClass": {
+      "description": "Threat classes represented independently for each assurance dimension.",
+      "enum": [
+        "classical",
+        "quantum"
+      ],
+      "title": "ThreatClass",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Deterministic local safe-set compilation result.",
+  "properties": {
+    "agent_id": {
+      "title": "Agent Id",
+      "type": "string"
+    },
+    "catalog_hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Catalog Hash",
+      "type": "string"
+    },
+    "compilation_hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Compilation Hash",
+      "type": "string"
+    },
+    "compiler_implementation_version": {
+      "const": "0.2.0",
+      "default": "0.2.0",
+      "title": "Compiler Implementation Version",
+      "type": "string"
+    },
+    "compiler_schema_version": {
+      "const": "1.0",
+      "default": "1.0",
+      "title": "Compiler Schema Version",
+      "type": "string"
+    },
+    "evaluation_time": {
+      "format": "date-time",
+      "title": "Evaluation Time",
+      "type": "string"
+    },
+    "manifest_hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Manifest Hash",
+      "type": "string"
+    },
+    "policy_hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Policy Hash",
+      "type": "string"
+    },
+    "policy_id": {
+      "title": "Policy Id",
+      "type": "string"
+    },
+    "policy_version": {
+      "exclusiveMinimum": 0,
+      "title": "Policy Version",
+      "type": "integer"
+    },
+    "profile_decisions": {
+      "items": {
+        "$ref": "#/$defs/ProfileCompilationDecision"
+      },
+      "title": "Profile Decisions",
+      "type": "array"
+    },
+    "requirement_derivation": {
+      "$ref": "#/$defs/RequirementDerivation"
+    },
+    "safe_profile_ids": {
+      "items": {
+        "pattern": "^P[0-9]+$",
+        "type": "string"
+      },
+      "title": "Safe Profile Ids",
+      "type": "array"
+    },
+    "solver_timeout_ms": {
+      "exclusiveMinimum": 0,
+      "maximum": 60000,
+      "title": "Solver Timeout Ms",
+      "type": "integer"
+    },
+    "task_hash": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Task Hash",
+      "type": "string"
+    },
+    "z3_version": {
+      "title": "Z3 Version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "z3_version",
+    "agent_id",
+    "policy_id",
+    "policy_version",
+    "policy_hash",
+    "manifest_hash",
+    "task_hash",
+    "catalog_hash",
+    "evaluation_time",
+    "requirement_derivation",
+    "safe_profile_ids",
+    "profile_decisions",
+    "solver_timeout_ms",
+    "compilation_hash"
+  ],
+  "title": "PolicyCompilationResult",
+  "type": "object"
+}

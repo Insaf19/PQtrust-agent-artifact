@@ -1,0 +1,47 @@
+schema_version: "1.0"
+campaign_id: "stage3c_crypto_calibration_confirmatory_v1"
+tls_groups:
+  - "X25519"
+  - "X25519MLKEM768"
+  - "SecP256r1MLKEM768"
+  - "MLKEM768"
+  - "SecP384r1MLKEM1024"
+mldsa_algorithms:
+  - "ML-DSA-65"
+  - "ML-DSA-87"
+mldsa_message_sizes_bytes:
+  - 512
+  - 2048
+  - 8192
+warmups_per_case: 30
+measured_blocks: 200
+# New seeds affect only within-replicate scheduling order.
+replicates:
+  - replicate_id: 1
+    tls_seed: 20260821
+    mldsa_seed: 20260831
+  - replicate_id: 2
+    tls_seed: 20260822
+    mldsa_seed: 20260832
+  - replicate_id: 3
+    tls_seed: 20260823
+    mldsa_seed: 20260833
+tls_cipher_suite: "TLS_AES_256_GCM_SHA384"
+expected_tls_version: "TLSv1.3"
+certificate_paths:
+  ca_certificate: ".local/pqtrust-crypto/lab_ca_p256.cert.pem"
+  server_certificate: ".local/pqtrust-crypto/server_p256.cert.pem"
+  server_private_key: ".local/pqtrust-crypto/server_p256.key.pem"
+mldsa_key_paths:
+  mldsa65_private: ".local/pqtrust-crypto/mldsa65.private.pem"
+  mldsa65_public: ".local/pqtrust-crypto/mldsa65.public.pem"
+  mldsa87_private: ".local/pqtrust-crypto/mldsa87.private.pem"
+  mldsa87_public: ".local/pqtrust-crypto/mldsa87.public.pem"
+native_executable_paths:
+  openssl: ".local/openssl-3.5.7/bin/openssl"
+  tls_handshake_bench: ".build/native/tls_handshake_bench"
+  mldsa_bench: ".build/native/mldsa_bench"
+per_process_timeout_seconds: 900
+inter_replicate_idle_seconds: 30
+cpu_core: null
+max_system_load_warning: 2

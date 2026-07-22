@@ -1,0 +1,8 @@
+preference_schema_version: "1.0"
+preference_id: enterprise-api-agent-cost-preference
+preference_version: 1
+agent_id: enterprise-api-agent
+wall_time_weight_bps: 3000
+process_cpu_time_weight_bps: 3000
+total_handshake_bytes_weight_bps: 4000
+description: Explicit negotiation preference for enterprise API handshake footprint.

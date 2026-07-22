@@ -1,0 +1,687 @@
+{
+  "by_component": {
+    "IUS_verification": {
+      "batch_latency_ns": {
+        "count": 10,
+        "mad": 9157523.5,
+        "maximum": 737572970.0,
+        "mean": 723918241.2,
+        "median": 724195645.0,
+        "minimum": 712585838.0,
+        "p05": 713438348.15,
+        "p25": 714950099.75,
+        "p75": 729625189.5,
+        "p95": 737254960.4,
+        "p99": 737509368.08,
+        "sample_standard_deviation": 9439429.807559032
+      },
+      "component_family": "solver/certificate",
+      "failure_count": 0,
+      "n_batches": 10,
+      "observation_ids": [
+        "component:IUS_verification:p01",
+        "component:IUS_verification:p02",
+        "component:IUS_verification:p03",
+        "component:IUS_verification:p04",
+        "component:IUS_verification:p05",
+        "component:IUS_verification:p06",
+        "component:IUS_verification:p07",
+        "component:IUS_verification:p08",
+        "component:IUS_verification:p09",
+        "component:IUS_verification:p10"
+      ],
+      "operation_count": [
+        100
+      ],
+      "per_operation_mean_ns": {
+        "count": 10,
+        "mad": 91575.5,
+        "maximum": 7375729.0,
+        "mean": 7239181.9,
+        "median": 7241956.0,
+        "minimum": 7125858.0,
+        "p05": 7134383.25,
+        "p25": 7149500.25,
+        "p75": 7296251.5,
+        "p95": 7372548.85,
+        "p99": 7375092.97,
+        "sample_standard_deviation": 94394.20977233954
+      },
+      "process_cpu_time_ns": {
+        "count": 10,
+        "mad": 9220510.0,
+        "maximum": 737456410.0,
+        "mean": 723776435.4,
+        "median": 724099856.5,
+        "minimum": 712494947.0,
+        "p05": 713280036.8,
+        "p25": 714772369.25,
+        "p75": 729460169.0,
+        "p95": 737125793.2,
+        "p99": 737390286.64,
+        "sample_standard_deviation": 9449144.495164242
+      }
+    },
+    "ML-DSA-65_signing_and_verification": {
+      "batch_latency_ns": {
+        "count": 10,
+        "mad": 13138170.5,
+        "maximum": 617403063.0,
+        "mean": 565315404.8,
+        "median": 559941304.0,
+        "minimum": 536637777.0,
+        "p05": 540623969.25,
+        "p25": 549667193.0,
+        "p75": 575426624.5,
+        "p95": 602084958.15,
+        "p99": 614339442.03,
+        "sample_standard_deviation": 23463520.99224222
+      },
+      "component_family": "cryptographic ML-DSA-65",
+      "failure_count": 0,
+      "n_batches": 10,
+      "observation_ids": [
+        "component:ML-DSA-65_signing_and_verification:p01",
+        "component:ML-DSA-65_signing_and_verification:p02",
+        "component:ML-DSA-65_signing_and_verification:p03",
+        "component:ML-DSA-65_signing_and_verification:p04",
+        "component:ML-DSA-65_signing_and_verification:p05",
+        "component:ML-DSA-65_signing_and_verification:p06",
+        "component:ML-DSA-65_signing_and_verification:p07",
+        "component:ML-DSA-65_signing_and_verification:p08",
+        "component:ML-DSA-65_signing_and_verification:p09",
+        "component:ML-DSA-65_signing_and_verification:p10"
+      ],
+      "operation_count": [
+        100
+      ],
+      "per_operation_mean_ns": {
+        "count": 10,
+        "mad": 131382.0,
+        "maximum": 6174030.0,
+        "mean": 5653153.5,
+        "median": 5599412.5,
+        "minimum": 5366377.0,
+        "p05": 5406238.9,
+        "p25": 5496671.25,
+        "p75": 5754265.75,
+        "p95": 6020849.1,
+        "p99": 6143393.82,
+        "sample_standard_deviation": 234635.26940303185
+      },
+      "process_cpu_time_ns": {
+        "count": 10,
+        "mad": 151421.5,
+        "maximum": 4910146.0,
+        "mean": 4453279.2,
+        "median": 4466604.0,
+        "minimum": 4086564.0,
+        "p05": 4130372.85,
+        "p25": 4280162.5,
+        "p75": 4529011.75,
+        "p95": 4828368.399999999,
+        "p99": 4893790.48,
+        "sample_standard_deviation": 247475.92423093514
+      }
+    },
+    "ML-DSA-87_signing_and_verification": {
+      "batch_latency_ns": {
+        "count": 10,
+        "mad": 14373847.0,
+        "maximum": 581234833.0,
+        "mean": 557813620.3,
+        "median": 554711455.0,
+        "minimum": 537998905.0,
+        "p05": 538638056.65,
+        "p25": 546675245.0,
+        "p75": 571364489.75,
+        "p95": 577337599.45,
+        "p99": 580455386.29,
+        "sample_standard_deviation": 15060158.30887984
+      },
+      "component_family": "cryptographic ML-DSA-87",
+      "failure_count": 0,
+      "n_batches": 10,
+      "observation_ids": [
+        "component:ML-DSA-87_signing_and_verification:p01",
+        "component:ML-DSA-87_signing_and_verification:p02",
+        "component:ML-DSA-87_signing_and_verification:p03",
+        "component:ML-DSA-87_signing_and_verification:p04",
+        "component:ML-DSA-87_signing_and_verification:p05",
+        "component:ML-DSA-87_signing_and_verification:p06",
+        "component:ML-DSA-87_signing_and_verification:p07",
+        "component:ML-DSA-87_signing_and_verification:p08",
+        "component:ML-DSA-87_signing_and_verification:p09",
+        "component:ML-DSA-87_signing_and_verification:p10"
+      ],
+      "operation_count": [
+        100
+      ],
+      "per_operation_mean_ns": {
+        "count": 10,
+        "mad": 143738.5,
+        "maximum": 5812348.0,
+        "mean": 5578135.8,
+        "median": 5547114.0,
+        "minimum": 5379989.0,
+        "p05": 5386380.35,
+        "p25": 5466752.0,
+        "p75": 5713644.5,
+        "p95": 5773375.75,
+        "p99": 5804553.55,
+        "sample_standard_deviation": 150601.59695980797
+      },
+      "process_cpu_time_ns": {
+        "count": 10,
+        "mad": 123123.0,
+        "maximum": 4687340.0,
+        "mean": 4494805.1,
+        "median": 4512698.0,
+        "minimum": 4330756.0,
+        "p05": 4335066.55,
+        "p25": 4366356.0,
+        "p75": 4562824.25,
+        "p95": 4682990.75,
+        "p99": 4686470.15,
+        "sample_standard_deviation": 131964.97830649363
+      }
+    },
+    "Pareto_computation": {
+      "batch_latency_ns": {
+        "count": 10,
+        "mad": 3334134.5,
+        "maximum": 510720037.0,
+        "mean": 494557243.2,
+        "median": 491190117.0,
+        "minimum": 483143256.0,
+        "p05": 485326646.1,
+        "p25": 488848874.25,
+        "p75": 501267034.75,
+        "p95": 508287319.0,
+        "p99": 510233493.4,
+        "sample_standard_deviation": 8947498.003847355
+      },
+      "component_family": "protocol orchestration",
+      "failure_count": 0,
+      "n_batches": 10,
+      "observation_ids": [
+        "component:Pareto_computation:p01",
+        "component:Pareto_computation:p02",
+        "component:Pareto_computation:p03",
+        "component:Pareto_computation:p04",
+        "component:Pareto_computation:p05",
+        "component:Pareto_computation:p06",
+        "component:Pareto_computation:p07",
+        "component:Pareto_computation:p08",
+        "component:Pareto_computation:p09",
+        "component:Pareto_computation:p10"
+      ],
+      "operation_count": [
+        100
+      ],
+      "per_operation_mean_ns": {
+        "count": 10,
+        "mad": 33341.5,
+        "maximum": 5107200.0,
+        "mean": 4945571.9,
+        "median": 4911900.5,
+        "minimum": 4831432.0,
+        "p05": 4853266.0,
+        "p25": 4888488.0,
+        "p75": 5012670.25,
+        "p95": 5082872.55,
+        "p99": 5102334.51,
+        "sample_standard_deviation": 89475.0387022362
+      },
+      "process_cpu_time_ns": {
+        "count": 10,
+        "mad": 3207120.5,
+        "maximum": 511522744.0,
+        "mean": 495540335.8,
+        "median": 492106125.5,
+        "minimum": 484246018.0,
+        "p05": 486472259.8,
+        "p25": 489786094.0,
+        "p75": 502074015.5,
+        "p95": 509272375.45,
+        "p99": 511072670.29,
+        "sample_standard_deviation": 8888258.413385015
+      }
+    },
+    "commit_creation": {
+      "batch_latency_ns": {
+        "count": 10,
+        "mad": 5530965.5,
+        "maximum": 331742865.0,
+        "mean": 316745264.8,
+        "median": 315159313.5,
+        "minimum": 304489343.0,
+        "p05": 306501582.8,
+        "p25": 311531810.75,
+        "p75": 322019319.0,
+        "p95": 329055972.59999996,
+        "p99": 331205486.52,
+        "sample_standard_deviation": 8369439.783605084
+      },
+      "component_family": "protocol orchestration",
+      "failure_count": 0,
+      "n_batches": 10,
+      "observation_ids": [
+        "component:commit_creation:p01",
+        "component:commit_creation:p02",
+        "component:commit_creation:p03",
+        "component:commit_creation:p04",
+        "component:commit_creation:p05",
+        "component:commit_creation:p06",
+        "component:commit_creation:p07",
+        "component:commit_creation:p08",
+        "component:commit_creation:p09",
+        "component:commit_creation:p10"
+      ],
+      "operation_count": [
+        100
+      ],
+      "per_operation_mean_ns": {
+        "count": 10,
+        "mad": 55310.0,
+        "maximum": 3317428.0,
+        "mean": 3167452.0,
+        "median": 3151592.5,
+        "minimum": 3044893.0,
+        "p05": 3065015.2,
+        "p25": 3115317.5,
+        "p75": 3220192.5,
+        "p95": 3290558.9499999997,
+        "p99": 3312054.19,
+        "sample_standard_deviation": 83694.3361139543
+      },
+      "process_cpu_time_ns": {
+        "count": 10,
+        "mad": 5507853.5,
+        "maximum": 332891366.0,
+        "mean": 317781742.5,
+        "median": 316108039.0,
+        "minimum": 305603901.0,
+        "p05": 307600567.65,
+        "p25": 312574686.75,
+        "p75": 323054188.25,
+        "p95": 330141063.2,
+        "p99": 332341305.44,
+        "sample_standard_deviation": 8368506.537195846
+      }
+    },
+    "conflict_certificate_generation": {
+      "batch_latency_ns": {
+        "count": 10,
+        "mad": 43187155.5,
+        "maximum": 2304443327.0,
+        "mean": 2237101433.0,
+        "median": 2240066905.0,
+        "minimum": 2187529128.0,
+        "p05": 2188098711.0,
+        "p25": 2194080629.75,
+        "p75": 2265079018.0,
+        "p95": 2296768151.75,
+        "p99": 2302908291.95,
+        "sample_standard_deviation": 43479603.644319504
+      },
+      "component_family": "solver/certificate",
+      "failure_count": 0,
+      "n_batches": 10,
+      "observation_ids": [
+        "component:conflict_certificate_generation:p01",
+        "component:conflict_certificate_generation:p02",
+        "component:conflict_certificate_generation:p03",
+        "component:conflict_certificate_generation:p04",
+        "component:conflict_certificate_generation:p05",
+        "component:conflict_certificate_generation:p06",
+        "component:conflict_certificate_generation:p07",
+        "component:conflict_certificate_generation:p08",
+        "component:conflict_certificate_generation:p09",
+        "component:conflict_certificate_generation:p10"
+      ],
+      "operation_count": [
+        100
+      ],
+      "per_operation_mean_ns": {
+        "count": 10,
+        "mad": 431871.5,
+        "maximum": 23044433.0,
+        "mean": 22371013.8,
+        "median": 22400668.5,
+        "minimum": 21875291.0,
+        "p05": 21880986.65,
+        "p25": 21940806.0,
+        "p75": 22650789.5,
+        "p95": 22967681.0,
+        "p99": 23029082.6,
+        "sample_standard_deviation": 434796.001085771
+      },
+      "process_cpu_time_ns": {
+        "count": 10,
+        "mad": 43123824.0,
+        "maximum": 2297532908.0,
+        "mean": 2234992109.6,
+        "median": 2238932799.0,
+        "minimum": 2187097246.0,
+        "p05": 2187660886.3,
+        "p25": 2193438871.0,
+        "p75": 2262502509.0,
+        "p95": 2292805640.9,
+        "p99": 2296587454.58,
+        "sample_standard_deviation": 41836924.239519306
+      }
+    },
+    "minimax_regret_computation": {
+      "batch_latency_ns": {
+        "count": 10,
+        "mad": 7253715.5,
+        "maximum": 542503119.0,
+        "mean": 526233510.1,
+        "median": 524613231.5,
+        "minimum": 513497482.0,
+        "p05": 515131267.75,
+        "p25": 519306833.25,
+        "p75": 533304768.25,
+        "p95": 538966683.75,
+        "p99": 541795831.95,
+        "sample_standard_deviation": 9211382.940647662
+      },
+      "component_family": "protocol orchestration",
+      "failure_count": 0,
+      "n_batches": 10,
+      "observation_ids": [
+        "component:minimax_regret_computation:p01",
+        "component:minimax_regret_computation:p02",
+        "component:minimax_regret_computation:p03",
+        "component:minimax_regret_computation:p04",
+        "component:minimax_regret_computation:p05",
+        "component:minimax_regret_computation:p06",
+        "component:minimax_regret_computation:p07",
+        "component:minimax_regret_computation:p08",
+        "component:minimax_regret_computation:p09",
+        "component:minimax_regret_computation:p10"
+      ],
+      "operation_count": [
+        100
+      ],
+      "per_operation_mean_ns": {
+        "count": 10,
+        "mad": 72537.0,
+        "maximum": 5425031.0,
+        "mean": 5262334.6,
+        "median": 5246132.0,
+        "minimum": 5134974.0,
+        "p05": 5151312.15,
+        "p25": 5193067.75,
+        "p75": 5333047.0,
+        "p95": 5389666.4,
+        "p99": 5417958.08,
+        "sample_standard_deviation": 92113.87757697895
+      },
+      "process_cpu_time_ns": {
+        "count": 10,
+        "mad": 7320137.5,
+        "maximum": 543489685.0,
+        "mean": 527200041.6,
+        "median": 525563645.0,
+        "minimum": 514407122.0,
+        "p05": 516054589.1,
+        "p25": 520198123.75,
+        "p75": 534312756.25,
+        "p95": 539929421.8,
+        "p99": 542777632.36,
+        "sample_standard_deviation": 9237161.115145933
+      }
+    },
+    "policy_compilation": {
+      "batch_latency_ns": {
+        "count": 10,
+        "mad": 5997285.0,
+        "maximum": 318456233.0,
+        "mean": 310124583.1,
+        "median": 311184564.0,
+        "minimum": 296346563.0,
+        "p05": 299696358.05,
+        "p25": 304679390.75,
+        "p75": 316748881.5,
+        "p95": 317863214.45,
+        "p99": 318337629.29,
+        "sample_standard_deviation": 7553826.695342249
+      },
+      "component_family": "protocol orchestration",
+      "failure_count": 0,
+      "n_batches": 10,
+      "observation_ids": [
+        "component:policy_compilation:p01",
+        "component:policy_compilation:p02",
+        "component:policy_compilation:p03",
+        "component:policy_compilation:p04",
+        "component:policy_compilation:p05",
+        "component:policy_compilation:p06",
+        "component:policy_compilation:p07",
+        "component:policy_compilation:p08",
+        "component:policy_compilation:p09",
+        "component:policy_compilation:p10"
+      ],
+      "operation_count": [
+        100
+      ],
+      "per_operation_mean_ns": {
+        "count": 10,
+        "mad": 59973.0,
+        "maximum": 3184562.0,
+        "mean": 3101245.4,
+        "median": 3111845.0,
+        "minimum": 2963465.0,
+        "p05": 2996963.0,
+        "p25": 3046793.25,
+        "p75": 3167488.75,
+        "p95": 3178631.9,
+        "p99": 3183375.98,
+        "sample_standard_deviation": 75538.44368590663
+      },
+      "process_cpu_time_ns": {
+        "count": 10,
+        "mad": 5891641.5,
+        "maximum": 319268065.0,
+        "mean": 311113280.7,
+        "median": 312196891.0,
+        "minimum": 297423377.0,
+        "p05": 300737352.95,
+        "p25": 305689716.0,
+        "p75": 317731204.0,
+        "p95": 318716993.2,
+        "p99": 319157850.64,
+        "sample_standard_deviation": 7500433.947484744
+      }
+    },
+    "reveal_verification": {
+      "batch_latency_ns": {
+        "count": 10,
+        "mad": 4396059.5,
+        "maximum": 321420384.0,
+        "mean": 308164946.6,
+        "median": 306707014.0,
+        "minimum": 301761596.0,
+        "p05": 302002094.45,
+        "p25": 302959180.25,
+        "p75": 311992234.5,
+        "p95": 317735953.2,
+        "p99": 320683497.84,
+        "sample_standard_deviation": 6321908.5570493
+      },
+      "component_family": "protocol orchestration",
+      "failure_count": 0,
+      "n_batches": 10,
+      "observation_ids": [
+        "component:reveal_verification:p01",
+        "component:reveal_verification:p02",
+        "component:reveal_verification:p03",
+        "component:reveal_verification:p04",
+        "component:reveal_verification:p05",
+        "component:reveal_verification:p06",
+        "component:reveal_verification:p07",
+        "component:reveal_verification:p08",
+        "component:reveal_verification:p09",
+        "component:reveal_verification:p10"
+      ],
+      "operation_count": [
+        100
+      ],
+      "per_operation_mean_ns": {
+        "count": 10,
+        "mad": 43960.5,
+        "maximum": 3214203.0,
+        "mean": 3081649.0,
+        "median": 3067070.0,
+        "minimum": 3017615.0,
+        "p05": 3020020.25,
+        "p25": 3029591.75,
+        "p75": 3119921.5,
+        "p95": 3177358.8,
+        "p99": 3206834.16,
+        "sample_standard_deviation": 63218.89961079677
+      },
+      "process_cpu_time_ns": {
+        "count": 10,
+        "mad": 4505140.0,
+        "maximum": 322442276.0,
+        "mean": 309314188.3,
+        "median": 307932729.0,
+        "minimum": 302940897.0,
+        "p05": 303154599.3,
+        "p25": 304064334.5,
+        "p75": 313113998.75,
+        "p95": 318725880.8,
+        "p99": 321698996.96,
+        "sample_standard_deviation": 6266461.425377271
+      }
+    },
+    "state_trace_verification": {
+      "batch_latency_ns": {
+        "count": 10,
+        "mad": 17189.0,
+        "maximum": 244559.0,
+        "mean": 194191.3,
+        "median": 198849.0,
+        "minimum": 148674.0,
+        "p05": 149748.15,
+        "p25": 173944.0,
+        "p75": 210891.5,
+        "p95": 233978.59999999998,
+        "p99": 242442.92,
+        "sample_standard_deviation": 30685.089774278902
+      },
+      "component_family": "protocol orchestration",
+      "failure_count": 0,
+      "n_batches": 10,
+      "observation_ids": [
+        "component:state_trace_verification:p01",
+        "component:state_trace_verification:p02",
+        "component:state_trace_verification:p03",
+        "component:state_trace_verification:p04",
+        "component:state_trace_verification:p05",
+        "component:state_trace_verification:p06",
+        "component:state_trace_verification:p07",
+        "component:state_trace_verification:p08",
+        "component:state_trace_verification:p09",
+        "component:state_trace_verification:p10"
+      ],
+      "operation_count": [
+        100
+      ],
+      "per_operation_mean_ns": {
+        "count": 10,
+        "mad": 172.0,
+        "maximum": 2445.0,
+        "mean": 1941.4,
+        "median": 1988.0,
+        "minimum": 1486.0,
+        "p05": 1496.8,
+        "p25": 1739.25,
+        "p75": 2108.5,
+        "p95": 2339.2499999999995,
+        "p99": 2423.85,
+        "sample_standard_deviation": 306.8391543898312
+      },
+      "process_cpu_time_ns": {
+        "count": 10,
+        "mad": 17494.0,
+        "maximum": 244580.0,
+        "mean": 194377.3,
+        "median": 198936.5,
+        "minimum": 148858.0,
+        "p05": 149909.65,
+        "p25": 174164.75,
+        "p75": 211129.75,
+        "p95": 234214.24999999997,
+        "p99": 242506.85,
+        "sample_standard_deviation": 30691.56145352588
+      }
+    },
+    "unsigned_contract_canonicalization": {
+      "batch_latency_ns": {
+        "count": 10,
+        "mad": 5244022.0,
+        "maximum": 440486066.0,
+        "mean": 422319235.1,
+        "median": 421912680.0,
+        "minimum": 409711947.0,
+        "p05": 411453362.4,
+        "p25": 416226570.0,
+        "p75": 426612139.25,
+        "p95": 434701261.09999996,
+        "p99": 439329105.02,
+        "sample_standard_deviation": 8751601.087685542
+      },
+      "component_family": "protocol orchestration",
+      "failure_count": 0,
+      "n_batches": 10,
+      "observation_ids": [
+        "component:unsigned_contract_canonicalization:p01",
+        "component:unsigned_contract_canonicalization:p02",
+        "component:unsigned_contract_canonicalization:p03",
+        "component:unsigned_contract_canonicalization:p04",
+        "component:unsigned_contract_canonicalization:p05",
+        "component:unsigned_contract_canonicalization:p06",
+        "component:unsigned_contract_canonicalization:p07",
+        "component:unsigned_contract_canonicalization:p08",
+        "component:unsigned_contract_canonicalization:p09",
+        "component:unsigned_contract_canonicalization:p10"
+      ],
+      "operation_count": [
+        100
+      ],
+      "per_operation_mean_ns": {
+        "count": 10,
+        "mad": 52440.0,
+        "maximum": 4404860.0,
+        "mean": 4223191.9,
+        "median": 4219126.5,
+        "minimum": 4097119.0,
+        "p05": 4114533.1,
+        "p25": 4162265.5,
+        "p75": 4266120.75,
+        "p95": 4347012.05,
+        "p99": 4393290.41,
+        "sample_standard_deviation": 87515.92311300967
+      },
+      "process_cpu_time_ns": {
+        "count": 10,
+        "mad": 3584998.5,
+        "maximum": 359136536.0,
+        "mean": 344501939.6,
+        "median": 345184792.5,
+        "minimum": 331198423.0,
+        "p05": 333883138.3,
+        "p25": 340264525.25,
+        "p75": 348238718.75,
+        "p95": 354653117.15,
+        "p99": 358239852.23,
+        "sample_standard_deviation": 7721683.593663758
+      }
+    }
+  },
+  "ranking_note": "components are not ranked across incomparable operation semantics"
+}

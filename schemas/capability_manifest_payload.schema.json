@@ -1,0 +1,95 @@
+{
+  "$defs": {
+    "ResourceClass": {
+      "description": "Resource environment advertised by an agent manifest.",
+      "enum": [
+        "cloud",
+        "enterprise",
+        "edge_constrained"
+      ],
+      "title": "ResourceClass",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Unsigned capability manifest payload for future evidence signing.",
+  "properties": {
+    "agent_id": {
+      "description": "Agent identifier.",
+      "maxLength": 128,
+      "minLength": 1,
+      "title": "Agent Id",
+      "type": "string"
+    },
+    "expires_at": {
+      "description": "UTC manifest expiration time.",
+      "format": "date-time",
+      "title": "Expires At",
+      "type": "string"
+    },
+    "issued_at": {
+      "description": "UTC manifest issue time.",
+      "format": "date-time",
+      "title": "Issued At",
+      "type": "string"
+    },
+    "key_id": {
+      "description": "Manifest key identifier.",
+      "maxLength": 128,
+      "minLength": 1,
+      "title": "Key Id",
+      "type": "string"
+    },
+    "manifest_version": {
+      "const": "1.0",
+      "default": "1.0",
+      "description": "Manifest version.",
+      "title": "Manifest Version",
+      "type": "string"
+    },
+    "max_handshake_bytes": {
+      "anyOf": [
+        {
+          "exclusiveMinimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional positive handshake-byte capability bound.",
+      "title": "Max Handshake Bytes"
+    },
+    "monotonic_version": {
+      "description": "Monotonic manifest version.",
+      "exclusiveMinimum": 0,
+      "title": "Monotonic Version",
+      "type": "integer"
+    },
+    "resource_class": {
+      "$ref": "#/$defs/ResourceClass",
+      "description": "Agent resource class."
+    },
+    "supported_profile_ids": {
+      "description": "Sorted unique supported profile identifiers.",
+      "items": {
+        "pattern": "^P[0-9]+$",
+        "type": "string"
+      },
+      "title": "Supported Profile Ids",
+      "type": "array"
+    }
+  },
+  "required": [
+    "agent_id",
+    "key_id",
+    "supported_profile_ids",
+    "resource_class",
+    "monotonic_version",
+    "issued_at",
+    "expires_at"
+  ],
+  "title": "CapabilityManifestPayload",
+  "type": "object"
+}

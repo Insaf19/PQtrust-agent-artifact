@@ -1,0 +1,24 @@
+{
+  "TLS_socket_created": false,
+  "artifact": "stage7_infeasible_session",
+  "execution_audit": {
+    "reason": "conflict certified before execution gate authorization",
+    "tls_child_process_started": false
+  },
+  "execution_gate_authorized": false,
+  "fallback_attempted": false,
+  "final_state": "ABORTED",
+  "native_tls_invoked": false,
+  "report_version": "1.0",
+  "resumption_used": false,
+  "scenario_id": "no-common-profile",
+  "session_id": "aec1352b4229674885f74ac5f773dfdb422c67dcb6a2b685faeb938992b96ebd",
+  "state_trace_hash": "b8f5208d759f67a0e64af4d14ac5363b095f3846355bd5e9ccde366a762c3318",
+  "state_trace_path": "state_traces/no-common-profile.json",
+  "task_execution_invoked": false,
+  "validation_errors": [],
+  "validation_passed": true,
+  "verified_abort_record_hash": "d106ee52770082bb232e44dcd5e7989406c28b9ac8f577d7155382349c077997",
+  "verified_conflict_certificate_hash": "93c1bf7c0541db764b47d5af558e70ec0530035e253c4cf5e68c4bb1de33788a",
+  "verified_failure_transcript_hash": "58c514466c9fa490569a33e91a3d0ac32b85787ad49bd73936d611c5151ec675"
+}

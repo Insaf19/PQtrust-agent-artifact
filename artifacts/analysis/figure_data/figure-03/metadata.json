@@ -1,0 +1,21 @@
+{
+  "analysis_seed": 2026071409,
+  "confidence_interval_method": "percentile bootstrap where intervals are shown",
+  "figure_dimensions": "double-column 7.2 x 4.8 in",
+  "figure_id": "figure-03",
+  "filters": {},
+  "generated_filenames": [
+    "figure-03.pdf",
+    "figure-03.svg",
+    "figure-03.png"
+  ],
+  "metric_definitions": {},
+  "source_raw_files": [
+    "runs/stage8/stage8-final-20260714-r2/raw/feasible_sessions.jsonl",
+    "runs/stage8/stage8-final-20260714-r2/raw/infeasible_sessions.jsonl",
+    "runs/stage8/stage8-final-20260714-r2/raw/adversarial_trials.jsonl",
+    "runs/stage8/stage8-final-20260714-r2/raw/concurrency_trials.jsonl",
+    "runs/stage8/stage8-final-20260714-r2/raw/component_trials.jsonl"
+  ],
+  "transformations": []
+}

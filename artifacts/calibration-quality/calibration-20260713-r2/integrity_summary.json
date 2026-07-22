@@ -1,0 +1,21 @@
+{
+  "block_balance_valid": true,
+  "configuration_snapshot_matches_manifest": true,
+  "errors": [],
+  "every_cryptographic_operation_successful": true,
+  "exact_configuration_hash": "4dcffcc3f3eb79971cf7568768a7343b2f38920793077f441f1809bade046c0f",
+  "expected_mldsa_record_count": 3600,
+  "expected_tls_record_count": 3000,
+  "integrity_passed": true,
+  "no_missing_replicates": true,
+  "not_evaluated_reasons": {},
+  "raw_checksums_valid": true,
+  "raw_file_count": 29,
+  "raw_run": "calibration-20260713-r2",
+  "raw_run_checksum": "7e4f6370b7f46680731843eccde1aa5d7f3e421ab1df1edad6e8a5e94c3718fa",
+  "record_counts_exact": true,
+  "schema_version": 1,
+  "scientific_design_hash": "3df8771603d20a446c6c9a3b2633bdc7298c4e6ebd20814a94c2716f6ce92dd8",
+  "validation_passed": true,
+  "validation_source": "recomputed"
+}

@@ -1,0 +1,63 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches and test outputs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+htmlcov/
+
+# Packaging and build outputs
+build/
+dist/
+*.egg-info/
+.cache/
+.build/
+.local/
+
+# Local OpenSSL sources and archives
+openssl-*/
+openssl-*.tar.gz
+openssl-*.tar.gz.sha256
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Secrets and locally generated cryptographic material
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.csr
+
+# Local or invalid experiment outputs
+runs/aborted/
+runs/processed/**
+!runs/processed/.gitkeep
+artifacts/debug/
+artifacts/smoke/
+artifacts/obsolete-calibration-reports/
+artifacts/obsolete-paired-cost-reports/
+artifacts/environment/openssl-*-build.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak

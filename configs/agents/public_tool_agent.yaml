@@ -1,0 +1,9 @@
+manifest_version: "1.0"
+agent_id: public-tool-agent
+key_id: pending-public-tool-key-01
+supported_profile_ids: [P0, P1]
+resource_class: cloud
+max_handshake_bytes: null
+monotonic_version: 1
+issued_at: 2026-01-01T00:00:00Z
+expires_at: 2030-01-01T00:00:00Z

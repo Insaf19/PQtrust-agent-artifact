@@ -1,0 +1,91 @@
+{
+  "claims": [
+    {
+      "allowed_wording": "observed in the validated run",
+      "assumptions": [
+        "single validated campaign run"
+      ],
+      "claim_id": "C1",
+      "claim_type": "implementation validation",
+      "corrected_p_value": null,
+      "effect_estimate": "480/480 completed",
+      "exact_proposed_claim_text": "In the validated Stage 8 run, all 480 feasible sessions completed without fallback or weaker retry.",
+      "limitations": [
+        "does not imply all deployments complete"
+      ],
+      "prohibited_stronger_wording": "guarantees completion in all environments",
+      "sample_size": 480,
+      "supporting_artifact": "statistics/analysis_validation.json",
+      "supporting_metric": "feasible completed count",
+      "uncertainty_interval": null
+    },
+    {
+      "allowed_wording": "zero observed violations with an exact upper confidence bound",
+      "assumptions": [
+        "registered infeasible scenarios"
+      ],
+      "claim_id": "C2",
+      "claim_type": "implementation validation",
+      "corrected_p_value": null,
+      "effect_estimate": {
+        "TLS_invocation_count": 0,
+        "contract_creation_count": 0,
+        "fallback_count": 0,
+        "selected_profile_count": 0,
+        "task_invocation_count": 0
+      },
+      "exact_proposed_claim_text": "In 150 infeasible negotiations, no TLS, task, fallback, profile selection, or contract creation was observed.",
+      "limitations": [
+        "zero observed violations does not prove zero true probability"
+      ],
+      "prohibited_stronger_wording": "the true violation probability is zero",
+      "sample_size": 150,
+      "supporting_artifact": "statistics/infeasible_analysis.json",
+      "supporting_metric": "safety_counts",
+      "uncertainty_interval": {
+        "zero_violation_upper_95_confidence_bound": 0.019773438164508494
+      }
+    },
+    {
+      "allowed_wording": "rejected all registered attacks in this suite",
+      "assumptions": [
+        "registered attack set only"
+      ],
+      "claim_id": "C3",
+      "claim_type": "implementation validation",
+      "corrected_p_value": null,
+      "effect_estimate": "200/200 rejected",
+      "exact_proposed_claim_text": "The registered adversarial suite produced 200/200 fail-closed rejections with expected rejection codes.",
+      "limitations": [
+        "does not prove universal security"
+      ],
+      "prohibited_stronger_wording": "all attacks are impossible",
+      "sample_size": 200,
+      "supporting_artifact": "statistics/adversarial_analysis.json",
+      "supporting_metric": "aggregate_rejected",
+      "uncertainty_interval": {
+        "success_lower_95_confidence_bound": 0.9997435664127765
+      }
+    },
+    {
+      "allowed_wording": "estimated paired effects",
+      "assumptions": [
+        "paired design respected",
+        "no normality assumption"
+      ],
+      "claim_id": "C4",
+      "claim_type": "inferential",
+      "corrected_p_value": "Holm-corrected sign-test p-values where applicable",
+      "effect_estimate": "see paired_comparisons.csv",
+      "exact_proposed_claim_text": "Paired method effects are estimated by scenario/block/repetition pairs and should be interpreted separately from practical importance.",
+      "limitations": [
+        "single-machine performance measurements"
+      ],
+      "prohibited_stronger_wording": "statistical significance proves practical importance",
+      "sample_size": 120,
+      "supporting_artifact": "statistics/paired_comparisons.csv",
+      "supporting_metric": "paired_mean_difference",
+      "uncertainty_interval": "percentile bootstrap 95% CI"
+    }
+  ]
+}

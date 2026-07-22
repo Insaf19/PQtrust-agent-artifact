@@ -1,0 +1,71 @@
+analysis_id: stage9-registered-statistical-analysis
+analysis_version: 1.0.0
+registration_type: repository-registered analysis plan
+stage8_run_id: stage8-final-20260714-r2
+stage8_run_dir: runs/stage8/stage8-final-20260714-r2
+derived_stage8_dir: artifacts/campaigns/final
+raw_run_manifest_hash: 62a38cefdd3eb2ef3bbbae76e4bd131ff9214dd3cd08f9935542d269c27330ae
+raw_integrity_manifest_hash: f4c271d7a8b8ffe8fe6488fa13bb84311631b87a9b99b9ada1ea1645bbd35bd8
+registered_design_hash: 18de7adeeb6f9b8c7570a2abec9b025aa4a8b06f5bacbed85eaf54f9a3c27de0
+registration_commit: 570b8a778e94b5d49f25c68308b299f83fb162de
+registration_artifact_hash: edbd330e751405953160dc8f9e66286697ea1ca889497e3f63af13da593993a9
+schedule_hash: 1221112f0e2dd47cacc9602a92267f7c0bfd20b0d7e049a72d75988cf73989e5
+derived_artifact_hash: 70a7737bfec5cc31321ce7de31be61b955d795bcef5ed21a5d062973bad4fb2c
+source_raw_files:
+  feasible: runs/stage8/stage8-final-20260714-r2/raw/feasible_sessions.jsonl
+  infeasible: runs/stage8/stage8-final-20260714-r2/raw/infeasible_sessions.jsonl
+  adversarial: runs/stage8/stage8-final-20260714-r2/raw/adversarial_trials.jsonl
+  concurrency: runs/stage8/stage8-final-20260714-r2/raw/concurrency_trials.jsonl
+  component: runs/stage8/stage8-final-20260714-r2/raw/component_trials.jsonl
+primary_outcomes:
+- feasible total session wall time
+- feasible negotiation and selector latency
+- feasible TLS handshake latency
+- fail-closed safety invariant counts
+- concurrency throughput and latency scaling
+secondary_outcomes:
+- contract and protocol byte composition
+- process CPU time and peak RSS
+- context switches
+- selector fairness and regret
+- conflict-certificate latency and size
+- component microbenchmark costs
+paired_comparison_unit: scenario_id, block_id, repetition for feasible paired methods
+confidence_level: 0.95
+bootstrap_repetitions: 10000
+bootstrap_ci_method: percentile
+multiple_comparison_correction: Holm within inferential comparison families
+test_sidedness: two-sided unless a direction was registered in Stage 8
+effect_size_definitions:
+  paired_continuous: paired mean difference divided by sample standard deviation of
+    paired differences
+  relative_percent_difference: 100 * paired mean difference / baseline paired mean
+  zero_violation_bound: Clopper-Pearson exact upper confidence bound
+outlier_policy: valid observations are retained; robust summaries are reported without
+  exclusion
+missing_value_policy: missing unavailable metrics are reported as unavailable and
+  not imputed
+deterministic_analysis_seed: 2026071409
+figure_inventory:
+- figure-01
+- figure-02
+- figure-03
+- figure-04
+- figure-05
+- figure-06
+- figure-07
+- figure-08
+- figure-09
+- figure-10
+table_inventory:
+- primary_feasible_performance
+- paired_method_comparisons
+- selector_fairness_properties
+- infeasible_conflict_certificate_overhead
+- adversarial_rejection_matrix
+- concurrency_scaling
+- component_microbenchmarks
+- safety_invariant_summary
+no_post_hoc_metric_substitution: true
+no_exclusion_of_valid_slow_observations: true
+external_preregistration_claimed: false

@@ -1,0 +1,186 @@
+{
+  "artifact": "stage8_registered_design",
+  "campaign_design_hash": "18de7adeeb6f9b8c7570a2abec9b025aa4a8b06f5bacbed85eaf54f9a3c27de0",
+  "config_path": "configs/campaigns/stage8_final_campaign.yaml",
+  "configuration": {
+    "block_design": {
+      "feasible_blocks": 3,
+      "feasible_repetitions_per_block": 10,
+      "paired_comparison_scope": "scenario_block_repetition",
+      "randomized_methods_within_each_block": true
+    },
+    "campaign_id": "stage8-final-campaign",
+    "campaign_version": "1.0",
+    "catalog_hash": {
+      "path": "configs/profiles/trust_profiles.yaml",
+      "sha256": "90c667758872e590b56e2119cbb706064eec3ef02b534cd77580887088b6ffbe"
+    },
+    "components": [
+      "policy_compilation",
+      "commit_creation",
+      "reveal_verification",
+      "Pareto_computation",
+      "minimax_regret_computation",
+      "unsigned_contract_canonicalization",
+      "ML-DSA-65_signing_and_verification",
+      "ML-DSA-87_signing_and_verification",
+      "conflict_certificate_generation",
+      "IUS_verification",
+      "state_trace_verification"
+    ],
+    "concurrency_levels": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "deterministic_ordering_seed": 88081357,
+    "exclusion_rules": {
+      "fabricated_measurements": "forbidden",
+      "failed_observations": "preserve_and_classify",
+      "missing_required_metrics": "mark_null_with_reason",
+      "valid_slow_observations": "never_exclude"
+    },
+    "failure_policy": {
+      "fail_validation_on_unexpected_feasible_failure": true,
+      "failure_classes": [
+        "protocol_rejection",
+        "expected_adversarial_rejection",
+        "environment_failure",
+        "process_failure",
+        "timeout",
+        "measurement_failure",
+        "integrity_failure"
+      ],
+      "no_automatic_exclusion": true,
+      "preserve_failed_observations": true
+    },
+    "host_environment_requirements": {
+      "machine_scope": "single-machine local laboratory",
+      "native_binaries": [
+        ".build/native/tls_handshake_bench",
+        ".build/native/mldsa_bench"
+      ],
+      "operating_system": "linux",
+      "python": ">=3.11",
+      "repository_local_openssl_required": true
+    },
+    "measured_metrics": {
+      "adversarial": [
+        "rejection_code",
+        "fail_closed",
+        "rejection_latency",
+        "runtime_state_at_rejection"
+      ],
+      "components": [
+        "per_component_batch_latency",
+        "operation_count"
+      ],
+      "concurrency": [
+        "throughput",
+        "latency_distribution",
+        "aggregate_resources",
+        "transport_failures"
+      ],
+      "feasible": [
+        "identification",
+        "outcome",
+        "monotonic_timing",
+        "resources",
+        "communication",
+        "cryptographic_counts"
+      ],
+      "infeasible": [
+        "abort_latency",
+        "certificate_metrics",
+        "failure_transcript_metrics",
+        "abort_record_metrics",
+        "safety_invariants"
+      ]
+    },
+    "methods": [
+      "bilateral_minimax_regret",
+      "canonical_first_safe",
+      "initiator_minimum_cost",
+      "minimum_total_cost"
+    ],
+    "no_adaptive_stopping": true,
+    "no_post_hoc_method_changes": true,
+    "openssl": {
+      "path": ".local/openssl-3.5.7/bin/openssl",
+      "version": "OpenSSL 3.5.7 9 Jun 2026"
+    },
+    "paired_cost_evidence_hash": {
+      "path": "artifacts/paired-cost-calibration/r2-vs-confirmatory/checksums.sha256",
+      "sha256": "aa11b72c9a4bbe47a90e0dd428b9e47401763c41be4bbfda948886349edc630d"
+    },
+    "registered_at": "2026-07-14T00:00:00Z",
+    "repetitions": {
+      "adversarial_trials_per_attack": 10,
+      "component_operations_per_process": 100,
+      "component_processes": 10,
+      "concurrency_per_scenario_level": 10,
+      "feasible_per_scenario_method": 30,
+      "infeasible_per_scenario": 30
+    },
+    "scenarios": {
+      "adversarial_source": "artifacts/runtime/adversarial_runtime_validation.json",
+      "concurrency": [
+        "low-risk-public-tool",
+        "sensitive-enterprise-api"
+      ],
+      "feasible": [
+        "low-risk-public-tool",
+        "sensitive-enterprise-api",
+        "critical-edge-command",
+        "low-risk-quantum-ready-tool"
+      ],
+      "infeasible": [
+        "no-common-profile",
+        "assurance-floor-conflict",
+        "TLS-group-capability-conflict",
+        "lease-policy-conflict",
+        "multi-cause-conflict"
+      ]
+    },
+    "stage_bundle_hashes": {
+      "stage5": {
+        "path": "artifacts/protocol/checksums.sha256",
+        "sha256": "64981298686a4f2433dccff77cdc135632a4506ee6d47f3c8145f5484e58eec7"
+      },
+      "stage6": {
+        "path": "artifacts/conflicts/checksums.sha256",
+        "sha256": "d248032a1077b53e0e94abba1751e48510e0080f12a0cca45bfb801db9b9842d"
+      },
+      "stage7": {
+        "path": "artifacts/runtime/checksums.sha256",
+        "sha256": "f64d5c490f25f50227942337065a4c9ebd6bcf7e950249fc8701ee054f8efae9"
+      },
+      "stage7_bundle_validation": {
+        "path": "artifacts/runtime/stage7_bundle_validation.json",
+        "sha256": "cae1bb3bb55e998dcb384a6be98be2370b84355fe6760c6cccd8c343ff153fb8"
+      }
+    },
+    "timeout_policy": {
+      "adversarial_trial_seconds": 60,
+      "component_batch_seconds": 120,
+      "concurrency_trial_seconds": 240,
+      "feasible_session_seconds": 120,
+      "infeasible_session_seconds": 60
+    },
+    "warmup": {
+      "measured": false,
+      "tls_groups": [
+        "X25519",
+        "X25519MLKEM768",
+        "SecP256r1MLKEM768",
+        "MLKEM768",
+        "SecP384r1MLKEM1024"
+      ]
+    }
+  },
+  "configuration_canonical_sha256": "ee954389799a2039eeed7595c520e3fc626493981c2ac70df2bc5d1565aec91d",
+  "registration_artifact_hash": "edbd330e751405953160dc8f9e66286697ea1ca889497e3f63af13da593993a9",
+  "registration_commit": "570b8a778e94b5d49f25c68308b299f83fb162de"
+}

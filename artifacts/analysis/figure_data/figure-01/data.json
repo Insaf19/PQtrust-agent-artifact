@@ -1,0 +1,99 @@
+{
+  "edges": [
+    [
+      "manifest/policy",
+      "commit-reveal"
+    ],
+    [
+      "commit-reveal",
+      "safe-set and Pareto"
+    ],
+    [
+      "safe-set and Pareto",
+      "minimax selector"
+    ],
+    [
+      "minimax selector",
+      "signed contract"
+    ],
+    [
+      "signed contract",
+      "execution gate"
+    ],
+    [
+      "execution gate",
+      "real TLS"
+    ],
+    [
+      "real TLS",
+      "task execution"
+    ],
+    [
+      "safe-set and Pareto",
+      "unsat/IUS"
+    ],
+    [
+      "unsat/IUS",
+      "conflict certificate"
+    ],
+    [
+      "conflict certificate",
+      "failure transcript"
+    ],
+    [
+      "failure transcript",
+      "safe abort"
+    ]
+  ],
+  "nodes": [
+    {
+      "branch": "feasible",
+      "id": "manifest/policy"
+    },
+    {
+      "branch": "feasible",
+      "id": "commit-reveal"
+    },
+    {
+      "branch": "feasible",
+      "id": "safe-set and Pareto"
+    },
+    {
+      "branch": "feasible",
+      "id": "minimax selector"
+    },
+    {
+      "branch": "feasible",
+      "id": "signed contract"
+    },
+    {
+      "branch": "feasible",
+      "id": "execution gate"
+    },
+    {
+      "branch": "feasible",
+      "id": "real TLS"
+    },
+    {
+      "branch": "feasible",
+      "id": "task execution"
+    },
+    {
+      "branch": "infeasible",
+      "id": "unsat/IUS"
+    },
+    {
+      "branch": "infeasible",
+      "id": "conflict certificate"
+    },
+    {
+      "branch": "infeasible",
+      "id": "failure transcript"
+    },
+    {
+      "branch": "infeasible",
+      "id": "safe abort"
+    }
+  ],
+  "observation_ids": []
+}

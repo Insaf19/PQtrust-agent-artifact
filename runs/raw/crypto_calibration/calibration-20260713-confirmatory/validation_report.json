@@ -1,0 +1,9 @@
+{
+  "affinity_applied": true,
+  "affinity_note": null,
+  "pre_execution_warnings": [
+    "one-minute load average 3.14501953125 exceeds configured warning threshold"
+  ],
+  "schema_version": 1,
+  "validation_passed": true
+}

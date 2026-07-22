@@ -1,0 +1,3 @@
+section,metric,value
+concurrency,by_scenario_level,"{""low-risk-public-tool:c1"": {""concurrency"": 1, ""failed_sessions"": 0, ""latency_inflation_relative_to_c1"": 1.0, ""metrics"": {""aggregate_throughput"": {""count"": 10, ""mad"": 0.015890832392316145, ""maximum"": 2.0598188405396334, ""mean"": 2.0162613906380886, ""median"": 2.015099527954807, ""minimum"": 1.9681377510318618, ""p05"": 1.9716885642959434, ""p25"": 2.007882615873117, ""p75"": 2.0326926613094107, ""p95"": 2.055459554617137, ""p99"": 2.058946983355134, ""sample_standard_deviation"": 0.029086982344117742}, ""maximum"
+concurrency,trend_model,descriptive robust medians only

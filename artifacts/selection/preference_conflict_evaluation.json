@@ -1,0 +1,28 @@
+{
+  "alternative_profiles_encountered": [
+    "P0",
+    "P3"
+  ],
+  "conflict_pair_count": 1210,
+  "conflict_pair_proportion": "0.2777777777777777777777777778",
+  "grid_increment_bps": 1000,
+  "grid_point_count_per_agent": 66,
+  "individual_optimum_frequencies": {
+    "initiator": {
+      "P0": 3630,
+      "P3": 726
+    },
+    "responder": {
+      "P0": 3630,
+      "P3": 726
+    }
+  },
+  "no_conflict_count": 3146,
+  "scenario_id": "low-risk-quantum-ready-tool",
+  "selected_profile_frequencies": {
+    "P0": 4235,
+    "P3": 121
+  },
+  "total_joint_preference_pairs": 4356,
+  "validation_errors": []
+}

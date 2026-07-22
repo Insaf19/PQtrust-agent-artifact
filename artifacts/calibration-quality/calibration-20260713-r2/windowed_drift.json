@@ -1,0 +1,2396 @@
+{
+  "mldsa": {
+    "ML-DSA-65:2048": {
+      "sign_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.17322783182233656,
+          "median_relative_change": 0.04600794060210954,
+          "minimum_relative_change": 0.00799169158055081,
+          "negative_direction_count": 0,
+          "positive_direction_count": 3,
+          "same_direction_count": 3,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1537671.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1804039.0,
+            "relative_change": 0.17322783182233656
+          },
+          "replicate-02": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1142937.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1152071.0,
+            "relative_change": 0.00799169158055081
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1152431.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1205452.5,
+            "relative_change": 0.04600794060210954
+          }
+        }
+      },
+      "signature_size_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3309.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3309.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3309.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3309.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3309.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3309.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "verify_time_ns": {
+        "campaign": {
+          "maximum_relative_change": -0.0018468721989452401,
+          "median_relative_change": -0.007622146788963132,
+          "minimum_relative_change": -0.009492018555462665,
+          "negative_direction_count": 3,
+          "positive_direction_count": 0,
+          "same_direction_count": 3,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 359797.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 359133.0,
+            "relative_change": -0.0018468721989452401
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 331271.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 328746.5,
+            "relative_change": -0.007622146788963132
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 331331.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 328186.0,
+            "relative_change": -0.009492018555462665
+          }
+        }
+      }
+    },
+    "ML-DSA-65:512": {
+      "sign_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.6668509361825897,
+          "median_relative_change": -0.08378107921949787,
+          "minimum_relative_change": -0.16045546737444924,
+          "negative_direction_count": 2,
+          "positive_direction_count": 1,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1809218.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1518919.5,
+            "relative_change": -0.16045546737444924
+          },
+          "replicate-02": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1141444.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1902617.0,
+            "relative_change": 0.6668509361825897
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1423519.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1304255.5,
+            "relative_change": -0.08378107921949787
+          }
+        }
+      },
+      "signature_size_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3309.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3309.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3309.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3309.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3309.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3309.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "verify_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.019850113726102826,
+          "median_relative_change": 0.012206136978766229,
+          "minimum_relative_change": -0.00587593333621067,
+          "negative_direction_count": 1,
+          "positive_direction_count": 2,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 348864.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 355789.5,
+            "relative_change": 0.019850113726102826
+          },
+          "replicate-02": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 319962.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 323867.5,
+            "relative_change": 0.012206136978766229
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 324374.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 322468.0,
+            "relative_change": -0.00587593333621067
+          }
+        }
+      }
+    },
+    "ML-DSA-65:8192": {
+      "sign_time_ns": {
+        "campaign": {
+          "maximum_relative_change": -0.17044537321779835,
+          "median_relative_change": -0.18654489284260747,
+          "minimum_relative_change": -0.4500965023118899,
+          "negative_direction_count": 3,
+          "positive_direction_count": 0,
+          "same_direction_count": 3,
+          "warning": true
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1380866.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1123272.5,
+            "relative_change": -0.18654489284260747
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1440380.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 792070.0,
+            "relative_change": -0.4500965023118899
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1544929.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1281603.0,
+            "relative_change": -0.17044537321779835
+          }
+        }
+      },
+      "signature_size_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3309.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3309.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3309.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3309.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3309.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3309.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "verify_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.0038922664033774826,
+          "median_relative_change": -0.01685083028585274,
+          "minimum_relative_change": -0.01860823789585046,
+          "negative_direction_count": 2,
+          "positive_direction_count": 1,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 392272.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 384973.0,
+            "relative_change": -0.01860823789585046
+          },
+          "replicate-02": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 350438.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 351802.5,
+            "relative_change": 0.0038922664033774826
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 354938.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 348957.0,
+            "relative_change": -0.01685083028585274
+          }
+        }
+      }
+    },
+    "ML-DSA-87:2048": {
+      "sign_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.25006208133071994,
+          "median_relative_change": -0.14571918855189317,
+          "minimum_relative_change": -0.24611065875906385,
+          "negative_direction_count": 2,
+          "positive_direction_count": 1,
+          "same_direction_count": 2,
+          "warning": true
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1817660.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1370314.5,
+            "relative_change": -0.24611065875906385
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1504668.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1285409.0,
+            "relative_change": -0.14571918855189317
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1316821.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1646108.0,
+            "relative_change": 0.25006208133071994
+          }
+        }
+      },
+      "signature_size_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4627.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4627.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4627.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4627.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4627.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4627.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "verify_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.0013281078720740406,
+          "median_relative_change": 0.0009704828770612868,
+          "minimum_relative_change": -0.0026894268183921834,
+          "negative_direction_count": 1,
+          "positive_direction_count": 2,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 551913.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 552646.0,
+            "relative_change": 0.0013281078720740406
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 503453.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 502099.0,
+            "relative_change": -0.0026894268183921834
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 505418.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 505909.0,
+            "relative_change": 0.0009704828770612868
+          }
+        }
+      }
+    },
+    "ML-DSA-87:512": {
+      "sign_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.13622810165175325,
+          "median_relative_change": 0.01740255993448156,
+          "minimum_relative_change": -0.187131689305446,
+          "negative_direction_count": 1,
+          "positive_direction_count": 2,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 2189642.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1779891.0,
+            "relative_change": -0.187131689305446
+          },
+          "replicate-02": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1453334.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1651319.5,
+            "relative_change": 0.13622810165175325
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1289408.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1311847.0,
+            "relative_change": 0.01740255993448156
+          }
+        }
+      },
+      "signature_size_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4627.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4627.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4627.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4627.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4627.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4627.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "verify_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.0034868645033779,
+          "median_relative_change": 0.001573772165933577,
+          "minimum_relative_change": -0.008176489824667321,
+          "negative_direction_count": 1,
+          "positive_direction_count": 2,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 548364.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 549227.0,
+            "relative_change": 0.001573772165933577
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 496912.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 492849.5,
+            "relative_change": -0.008176489824667321
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 497868.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 499604.5,
+            "relative_change": 0.0034868645033779
+          }
+        }
+      }
+    },
+    "ML-DSA-87:8192": {
+      "sign_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.10843781664904223,
+          "median_relative_change": 0.08314473162430379,
+          "minimum_relative_change": -0.010819423209794548,
+          "negative_direction_count": 1,
+          "positive_direction_count": 2,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1629367.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1806052.0,
+            "relative_change": 0.10843781664904223
+          },
+          "replicate-02": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1864820.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 2019870.5,
+            "relative_change": 0.08314473162430379
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1288839.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1274895.0,
+            "relative_change": -0.010819423209794548
+          }
+        }
+      },
+      "signature_size_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4627.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4627.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4627.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4627.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4627.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4627.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "verify_time_ns": {
+        "campaign": {
+          "maximum_relative_change": -0.0012309324289386035,
+          "median_relative_change": -0.0013884781248065588,
+          "minimum_relative_change": -0.008324445996226885,
+          "negative_direction_count": 3,
+          "positive_direction_count": 0,
+          "same_direction_count": 3,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 581572.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 580764.5,
+            "relative_change": -0.0013884781248065588
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 525560.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 521185.5,
+            "relative_change": -0.008324445996226885
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 526024.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 525376.5,
+            "relative_change": -0.0012309324289386035
+          }
+        }
+      }
+    }
+  },
+  "schema_version": 1,
+  "tls": {
+    "MLKEM768": {
+      "client_to_server_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1433.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1433.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1433.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1433.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1433.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1433.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "process_cpu_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.00035738277452013385,
+          "median_relative_change": -0.005459343211839553,
+          "minimum_relative_change": -0.0077389679869764635,
+          "negative_direction_count": 2,
+          "positive_direction_count": 1,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1261408.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1251646.5,
+            "relative_change": -0.0077389679869764635
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1091798.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1085837.5,
+            "relative_change": -0.005459343211839553
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1081473.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1081860.0,
+            "relative_change": 0.00035738277452013385
+          }
+        }
+      },
+      "server_to_client_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": -0.0002552974214960429,
+          "negative_direction_count": 1,
+          "positive_direction_count": 0,
+          "same_direction_count": 1,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1958.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1958.0,
+            "relative_change": -0.0002552974214960429
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1958.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1958.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1958.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1958.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "total_handshake_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": -0.00014742739200943535,
+          "negative_direction_count": 1,
+          "positive_direction_count": 0,
+          "same_direction_count": 1,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3391.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3391.0,
+            "relative_change": -0.00014742739200943535
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3391.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3391.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3391.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3391.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "wall_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.0002824461774158248,
+          "median_relative_change": -0.007811938102008863,
+          "minimum_relative_change": -0.01340972660259908,
+          "negative_direction_count": 2,
+          "positive_direction_count": 1,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1265243.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1255359.0,
+            "relative_change": -0.007811938102008863
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1104198.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1089391.5,
+            "relative_change": -0.01340972660259908
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1085162.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1085469.0,
+            "relative_change": 0.0002824461774158248
+          }
+        }
+      }
+    },
+    "SecP256r1MLKEM768": {
+      "client_to_server_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1498.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1498.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1498.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1498.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1498.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1498.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "process_cpu_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.0020850573425335796,
+          "median_relative_change": 0.0011735262397436974,
+          "minimum_relative_change": -0.018145661619478594,
+          "negative_direction_count": 1,
+          "positive_direction_count": 2,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1664227.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1634028.5,
+            "relative_change": -0.018145661619478594
+          },
+          "replicate-02": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1452034.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1453738.0,
+            "relative_change": 0.0011735262397436974
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1446483.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1449499.0,
+            "relative_change": 0.0020850573425335796
+          }
+        }
+      },
+      "server_to_client_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 2023.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 2023.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 2023.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 2023.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 2023.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 2023.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "total_handshake_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3521.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3521.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3521.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3521.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3521.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3521.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "wall_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.0020027151134302946,
+          "median_relative_change": 0.0012249635619714424,
+          "minimum_relative_change": -0.018059786850633586,
+          "negative_direction_count": 1,
+          "positive_direction_count": 2,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1668126.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1638000.0,
+            "relative_change": -0.018059786850633586
+          },
+          "replicate-02": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1455553.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1457336.5,
+            "relative_change": 0.0012249635619714424
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1450031.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1452935.5,
+            "relative_change": 0.0020027151134302946
+          }
+        }
+      }
+    },
+    "SecP384r1MLKEM1024": {
+      "client_to_server_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1914.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1914.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1914.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1914.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1914.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1914.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "process_cpu_time_ns": {
+        "campaign": {
+          "maximum_relative_change": -0.002615659428563983,
+          "median_relative_change": -0.004480477988355198,
+          "minimum_relative_change": -0.010969618239273699,
+          "negative_direction_count": 3,
+          "positive_direction_count": 0,
+          "same_direction_count": 3,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 6851150.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 6775995.5,
+            "relative_change": -0.010969618239273699
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 5986444.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 5970786.0,
+            "relative_change": -0.002615659428563983
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 6034624.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 6007586.0,
+            "relative_change": -0.004480477988355198
+          }
+        }
+      },
+      "server_to_client_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 2535.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 2535.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 2535.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 2535.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 2535.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 2535.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "total_handshake_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4449.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4449.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4449.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4449.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4449.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4449.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "wall_time_ns": {
+        "campaign": {
+          "maximum_relative_change": -0.00260658823168026,
+          "median_relative_change": -0.0035943529022108137,
+          "minimum_relative_change": -0.011219654041526857,
+          "negative_direction_count": 3,
+          "positive_direction_count": 0,
+          "same_direction_count": 3,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 6857297.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 6780360.5,
+            "relative_change": -0.011219654041526857
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 5990014.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 5974400.5,
+            "relative_change": -0.00260658823168026
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 6038500.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 6016795.5,
+            "relative_change": -0.0035943529022108137
+          }
+        }
+      }
+    },
+    "X25519": {
+      "client_to_server_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 289.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 289.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 289.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 289.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 289.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 289.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "process_cpu_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.0067942897963999774,
+          "median_relative_change": -1.684643021867122e-05,
+          "minimum_relative_change": -0.017250166885280104,
+          "negative_direction_count": 2,
+          "positive_direction_count": 1,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1260596.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1238851.0,
+            "relative_change": -0.017250166885280104
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1098155.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1098137.0,
+            "relative_change": -1.684643021867122e-05
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1093271.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1100699.0,
+            "relative_change": 0.0067942897963999774
+          }
+        }
+      },
+      "server_to_client_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 902.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 902.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 902.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 902.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 902.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 902.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "total_handshake_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1191.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1191.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1191.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1191.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1191.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1191.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "wall_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.009794637251446603,
+          "median_relative_change": -0.00022369030009891376,
+          "minimum_relative_change": -0.01715410262331278,
+          "negative_direction_count": 2,
+          "positive_direction_count": 1,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1264508.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1242816.5,
+            "relative_change": -0.01715410262331278
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1101970.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1101723.5,
+            "relative_change": -0.00022369030009891376
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1096620.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1107361.5,
+            "relative_change": 0.009794637251446603
+          }
+        }
+      }
+    },
+    "X25519MLKEM768": {
+      "client_to_server_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1465.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1465.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1465.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1465.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1465.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1465.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "process_cpu_time_ns": {
+        "campaign": {
+          "maximum_relative_change": -0.0014736134704773282,
+          "median_relative_change": -0.006286849686468817,
+          "minimum_relative_change": -0.011476665103000466,
+          "negative_direction_count": 3,
+          "positive_direction_count": 0,
+          "same_direction_count": 3,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1550842.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1533044.0,
+            "relative_change": -0.011476665103000466
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1355846.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1347322.0,
+            "relative_change": -0.006286849686468817
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1339225.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1337251.5,
+            "relative_change": -0.0014736134704773282
+          }
+        }
+      },
+      "server_to_client_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1990.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1990.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1990.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1990.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1990.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1990.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "total_handshake_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3455.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3455.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3455.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3455.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3455.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3455.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "wall_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.00017389083155936139,
+          "median_relative_change": -0.0061934115961029,
+          "minimum_relative_change": -0.0113167205535149,
+          "negative_direction_count": 2,
+          "positive_direction_count": 1,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1554646.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1537053.0,
+            "relative_change": -0.0113167205535149
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1359267.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1350848.5,
+            "relative_change": -0.0061934115961029
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1342796.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1343030.0,
+            "relative_change": 0.00017389083155936139
+          }
+        }
+      }
+    }
+  },
+  "warning_threshold": 0.1,
+  "window_size_blocks": 20
+}

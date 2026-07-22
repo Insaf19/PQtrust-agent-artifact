@@ -1,0 +1,67 @@
+{
+  "files": {
+    "ca_certificate": {
+      "path": ".local/pqtrust-crypto/lab_ca_p256.cert.pem",
+      "sha256": "3ca860a6818a2608bc882f5c82452d9f3cb33e7399922617d72f5620dc705f9e"
+    },
+    "mldsa65_private": {
+      "path": ".local/pqtrust-crypto/mldsa65.private.pem",
+      "sha256": "ea5fbf81672764d9d68fa78ee616f01c847452cc992f5176ec1e427a569ce1b0"
+    },
+    "mldsa65_public": {
+      "path": ".local/pqtrust-crypto/mldsa65.public.pem",
+      "sha256": "3b9f08a906a0ed7c19032abf5125f7de114f59b4bbb77eebabba47837d9de880"
+    },
+    "mldsa87_private": {
+      "path": ".local/pqtrust-crypto/mldsa87.private.pem",
+      "sha256": "17b2e77d4025046af2e2f42d6ae2c05a48a94b42404a9ce19de7375ddb86ea10"
+    },
+    "mldsa87_public": {
+      "path": ".local/pqtrust-crypto/mldsa87.public.pem",
+      "sha256": "65324d8c11832d049513913f0126ba6cce1dcf2395b5a298c09a1be2506b7330"
+    },
+    "server_certificate": {
+      "path": ".local/pqtrust-crypto/server_p256.cert.pem",
+      "sha256": "0c299d59f4b5799b72618475723151b463a71a8bc15c7fd61938180a41a1a684"
+    },
+    "server_private_key": {
+      "path": ".local/pqtrust-crypto/server_p256.key.pem",
+      "sha256": "efed2876964a6270ab956a0f563a019dcea789522f43933b0655610f38df17e4"
+    }
+  },
+  "laboratory_only": true,
+  "material_directory": ".local/pqtrust-crypto",
+  "mldsa": {
+    "algorithms": [
+      "ML-DSA-65",
+      "ML-DSA-87"
+    ],
+    "private_key_file_hashes": {
+      "ML-DSA-65": "ea5fbf81672764d9d68fa78ee616f01c847452cc992f5176ec1e427a569ce1b0",
+      "ML-DSA-87": "17b2e77d4025046af2e2f42d6ae2c05a48a94b42404a9ce19de7375ddb86ea10"
+    },
+    "public_key_hashes": {
+      "ML-DSA-65": "3b9f08a906a0ed7c19032abf5125f7de114f59b4bbb77eebabba47837d9de880",
+      "ML-DSA-87": "65324d8c11832d049513913f0126ba6cce1dcf2395b5a298c09a1be2506b7330"
+    }
+  },
+  "openssl_executable": ".local/openssl-3.5.7/bin/openssl",
+  "openssl_executable_absolute": "/home/lasledjii/pqtrust-agent-lab/.local/openssl-3.5.7/bin/openssl",
+  "openssl_version": "OpenSSL 3.5.7 9 Jun 2026 (Library: OpenSSL 3.5.7 9 Jun 2026)",
+  "schema_version": 1,
+  "timestamp_utc": "2026-07-13T16:53:20Z",
+  "validation_errors": [],
+  "validation_passed": true,
+  "x509": {
+    "server_issuer": "CN=PQTrust Laboratory P-256 CA, O=PQTrust-Agent Laboratory",
+    "server_not_after": "Jul 10 15:15:55 2036 GMT",
+    "server_not_before": "Jul 13 15:15:55 2026 GMT",
+    "server_public_key_algorithm": "id-ecPublicKey",
+    "server_san": [
+      "DNS:localhost",
+      "IP Address:127.0.0.1"
+    ],
+    "server_serial": "559D6CBBED9578D410A18EC6C4FBC1D7EF726876",
+    "server_subject": "CN=localhost, O=PQTrust-Agent Laboratory"
+  }
+}

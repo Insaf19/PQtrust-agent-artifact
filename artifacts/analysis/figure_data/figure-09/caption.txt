@@ -1,0 +1,1 @@
+Component cost profile for orchestration, cryptographic, solver/certificate, and verification operations.

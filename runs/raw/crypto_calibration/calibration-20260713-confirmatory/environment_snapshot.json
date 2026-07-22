@@ -1,0 +1,86 @@
+{
+  "git": {
+    "command": {
+      "command": [
+        "git",
+        "--version"
+      ],
+      "executable_found": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "git version 2.43.0\n"
+    },
+    "version": "git version 2.43.0"
+  },
+  "openssl": {
+    "at_least_3_5": true,
+    "executable": "/home/lasledjii/pqtrust-agent-lab/.local/openssl-3.5.7/bin/openssl",
+    "pq_tls_ready": true,
+    "selected_executable": "/home/lasledjii/pqtrust-agent-lab/.local/openssl-3.5.7/bin/openssl",
+    "target_groups": {
+      "MLKEM768": true,
+      "SecP256r1MLKEM768": true,
+      "SecP384r1MLKEM1024": true,
+      "X25519": true,
+      "X25519MLKEM768": true
+    },
+    "tls_group_query_command": [
+      "/home/lasledjii/pqtrust-agent-lab/.local/openssl-3.5.7/bin/openssl",
+      "list",
+      "-tls1_3",
+      "-tls-groups"
+    ],
+    "tls_group_query_returncode": 0,
+    "tls_group_query_supported": true,
+    "tls_group_query_unsupported_stderr": null,
+    "tls_groups_command": {
+      "command": [
+        "/home/lasledjii/pqtrust-agent-lab/.local/openssl-3.5.7/bin/openssl",
+        "list",
+        "-tls1_3",
+        "-tls-groups"
+      ],
+      "executable_found": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "secp256r1:secp384r1:secp521r1:x25519:x448:brainpoolP256r1tls13:brainpoolP384r1tls13:brainpoolP512r1tls13:ffdhe2048:ffdhe3072:ffdhe4096:ffdhe6144:ffdhe8192:MLKEM512:MLKEM768:MLKEM1024:SecP256r1MLKEM768:X25519MLKEM768:SecP384r1MLKEM1024\n"
+    },
+    "version": "3.5.7",
+    "version_command": {
+      "command": [
+        "/home/lasledjii/pqtrust-agent-lab/.local/openssl-3.5.7/bin/openssl",
+        "version",
+        "-a"
+      ],
+      "executable_found": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "OpenSSL 3.5.7 9 Jun 2026 (Library: OpenSSL 3.5.7 9 Jun 2026)\nbuilt on: Mon Jul 13 13:35:58 2026 UTC\nplatform: linux-x86_64\noptions:  bn(64,64)\ncompiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -O3 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG\nOPENSSLDIR: \"/home/lasledjii/pqtrust-agent-lab/.local/openssl-3.5.7/ssl\"\nENGINESDIR: \"/home/lasledjii/pqtrust-agent-lab/.local/openssl-3.5.7/lib/engines-3\"\nMODULESDIR: \"/home/lasledjii/pqtrust-agent-lab/.local/openssl-3.5.7/lib/ossl-modules\"\nSeeding source: os-specific\nCPUINFO: OPENSSL_ia32cap=0x9fbaa2234f8bffff:0x0000000400000002:0x00000000bc000400:0x0000000000000000:0x0000000000000000\n"
+    },
+    "version_detection_succeeded": true,
+    "version_tuple": [
+      3,
+      5,
+      7
+    ]
+  },
+  "python": {
+    "executable": "/home/lasledjii/pqtrust-agent-lab/.venv/bin/python",
+    "version": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+    "version_info": {
+      "major": 3,
+      "micro": 3,
+      "minor": 12
+    }
+  },
+  "system": {
+    "architecture": "x86_64",
+    "cpu": "x86_64",
+    "kernel": "6.17.0-35-generic",
+    "kernel_version": "#35~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May 26 19:30:42 UTC 2",
+    "os": "Linux",
+    "platform": "Linux-6.17.0-35-generic-x86_64-with-glibc2.39",
+    "processor": "x86_64"
+  },
+  "timestamp_utc": "2026-07-13T13:59:15Z"
+}

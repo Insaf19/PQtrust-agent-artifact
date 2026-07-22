@@ -1,0 +1,268 @@
+{
+  "analysis_status": "post_hoc_synthetic_algorithmic_stress_test",
+  "catalog": {
+    "dominated_profile_count": 10,
+    "dominated_profiles": [
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10",
+      "S11",
+      "S12",
+      "S13",
+      "S14"
+    ],
+    "normalized_vectors": {
+      "S00": {
+        "process_cpu_time": "0.8888888888888888888888888889",
+        "total_handshake_bytes": "0.8333333333333333333333333333",
+        "wall_time": "0"
+      },
+      "S01": {
+        "process_cpu_time": "0.5555555555555555555555555556",
+        "total_handshake_bytes": "0.7777777777777777777777777778",
+        "wall_time": "0.1578947368421052631578947368"
+      },
+      "S02": {
+        "process_cpu_time": "0.2222222222222222222222222222",
+        "total_handshake_bytes": "0.6111111111111111111111111111",
+        "wall_time": "0.4210526315789473684210526316"
+      },
+      "S03": {
+        "process_cpu_time": "0.1111111111111111111111111111",
+        "total_handshake_bytes": "0.2777777777777777777777777778",
+        "wall_time": "0.6842105263157894736842105263"
+      },
+      "S04": {
+        "process_cpu_time": "0",
+        "total_handshake_bytes": "0",
+        "wall_time": "0.8947368421052631578947368421"
+      },
+      "S05": {
+        "process_cpu_time": "1",
+        "total_handshake_bytes": "0.9444444444444444444444444444",
+        "wall_time": "0.1052631578947368421052631579"
+      },
+      "S06": {
+        "process_cpu_time": "0.9444444444444444444444444444",
+        "total_handshake_bytes": "1",
+        "wall_time": "0.2105263157894736842105263158"
+      },
+      "S07": {
+        "process_cpu_time": "0.7222222222222222222222222222",
+        "total_handshake_bytes": "0.8888888888888888888888888889",
+        "wall_time": "0.2631578947368421052631578947"
+      },
+      "S08": {
+        "process_cpu_time": "0.6666666666666666666666666667",
+        "total_handshake_bytes": "0.9444444444444444444444444444",
+        "wall_time": "0.3684210526315789473684210526"
+      },
+      "S09": {
+        "process_cpu_time": "0.3888888888888888888888888889",
+        "total_handshake_bytes": "0.7222222222222222222222222222",
+        "wall_time": "0.5263157894736842105263157895"
+      },
+      "S10": {
+        "process_cpu_time": "0.3333333333333333333333333333",
+        "total_handshake_bytes": "0.7777777777777777777777777778",
+        "wall_time": "0.6315789473684210526315789474"
+      },
+      "S11": {
+        "process_cpu_time": "0.2777777777777777777777777778",
+        "total_handshake_bytes": "0.4444444444444444444444444444",
+        "wall_time": "0.7894736842105263157894736842"
+      },
+      "S12": {
+        "process_cpu_time": "0.2222222222222222222222222222",
+        "total_handshake_bytes": "0.5555555555555555555555555556",
+        "wall_time": "0.8421052631578947368421052632"
+      },
+      "S13": {
+        "process_cpu_time": "0.1111111111111111111111111111",
+        "total_handshake_bytes": "0.1111111111111111111111111111",
+        "wall_time": "0.9473684210526315789473684211"
+      },
+      "S14": {
+        "process_cpu_time": "0.05555555555555555555555555556",
+        "total_handshake_bytes": "0.1666666666666666666666666667",
+        "wall_time": "1"
+      }
+    },
+    "pareto_frontier": [
+      "S00",
+      "S01",
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "pareto_frontier_size": 5,
+    "profile_count": 15,
+    "raw_vectors": {
+      "S00": {
+        "process_cpu_time": "0.85",
+        "total_handshake_bytes": "0.85",
+        "wall_time": "0.05"
+      },
+      "S01": {
+        "process_cpu_time": "0.55",
+        "total_handshake_bytes": "0.80",
+        "wall_time": "0.20"
+      },
+      "S02": {
+        "process_cpu_time": "0.25",
+        "total_handshake_bytes": "0.65",
+        "wall_time": "0.45"
+      },
+      "S03": {
+        "process_cpu_time": "0.15",
+        "total_handshake_bytes": "0.35",
+        "wall_time": "0.70"
+      },
+      "S04": {
+        "process_cpu_time": "0.05",
+        "total_handshake_bytes": "0.10",
+        "wall_time": "0.90"
+      },
+      "S05": {
+        "process_cpu_time": "0.95",
+        "total_handshake_bytes": "0.95",
+        "wall_time": "0.15"
+      },
+      "S06": {
+        "process_cpu_time": "0.90",
+        "total_handshake_bytes": "1.00",
+        "wall_time": "0.25"
+      },
+      "S07": {
+        "process_cpu_time": "0.70",
+        "total_handshake_bytes": "0.90",
+        "wall_time": "0.30"
+      },
+      "S08": {
+        "process_cpu_time": "0.65",
+        "total_handshake_bytes": "0.95",
+        "wall_time": "0.40"
+      },
+      "S09": {
+        "process_cpu_time": "0.40",
+        "total_handshake_bytes": "0.75",
+        "wall_time": "0.55"
+      },
+      "S10": {
+        "process_cpu_time": "0.35",
+        "total_handshake_bytes": "0.80",
+        "wall_time": "0.65"
+      },
+      "S11": {
+        "process_cpu_time": "0.30",
+        "total_handshake_bytes": "0.50",
+        "wall_time": "0.80"
+      },
+      "S12": {
+        "process_cpu_time": "0.25",
+        "total_handshake_bytes": "0.60",
+        "wall_time": "0.85"
+      },
+      "S13": {
+        "process_cpu_time": "0.15",
+        "total_handshake_bytes": "0.20",
+        "wall_time": "0.95"
+      },
+      "S14": {
+        "process_cpu_time": "0.10",
+        "total_handshake_bytes": "0.25",
+        "wall_time": "1.00"
+      }
+    }
+  },
+  "empirical_tls_measurement": false,
+  "individual_optimum_distributions": {
+    "initiator": {
+      "S00": 990,
+      "S01": 198,
+      "S02": 330,
+      "S04": 2838
+    },
+    "responder": {
+      "S00": 990,
+      "S01": 198,
+      "S02": 330,
+      "S04": 2838
+    }
+  },
+  "interpretation_boundary": "This constructed catalogue demonstrates selector behavior on a richer frontier; it is not empirical TLS deployment evidence.",
+  "method_comparison_all_pairs": {
+    "canonical_first_safe": {
+      "maximum_regret_tie_count": 395,
+      "minimax_degradation_count": 0,
+      "positive_gain_maximum": "0.8888888888888888888888888889",
+      "positive_gain_median": "0.5321637426900584795321637427",
+      "positive_gain_p95": "0.8777777777777777777777777778",
+      "selection_difference_count": 3961,
+      "strict_minimax_improvement_count": 3961
+    },
+    "initiator_minimum_cost": {
+      "maximum_regret_tie_count": 2556,
+      "minimax_degradation_count": 0,
+      "positive_gain_maximum": "0.8637426900584795321637426901",
+      "positive_gain_median": "0.2033625730994152046783625731",
+      "positive_gain_p95": "0.6380116959064327485380116959",
+      "selection_difference_count": 1800,
+      "strict_minimax_improvement_count": 1800
+    },
+    "minimum_total_cost": {
+      "maximum_regret_tie_count": 3364,
+      "minimax_degradation_count": 0,
+      "positive_gain_maximum": "0.3555555555555555555555555555",
+      "positive_gain_median": "0.0652046783625730994152046784",
+      "positive_gain_p95": "0.2119883040935672514619883041",
+      "selection_difference_count": 992,
+      "strict_minimax_improvement_count": 992
+    },
+    "responder_minimum_cost": {
+      "maximum_regret_tie_count": 2556,
+      "minimax_degradation_count": 0,
+      "positive_gain_maximum": "0.8637426900584795321637426901",
+      "positive_gain_median": "0.2033625730994152046783625731",
+      "positive_gain_p95": "0.6380116959064327485380116959",
+      "selection_difference_count": 1800,
+      "strict_minimax_improvement_count": 1800
+    }
+  },
+  "method_comparison_conflict_pairs": {
+    "canonical_first_safe": {
+      "selection_difference_count": 2078,
+      "strict_minimax_improvement_count": 2078
+    },
+    "initiator_minimum_cost": {
+      "selection_difference_count": 1800,
+      "strict_minimax_improvement_count": 1800
+    },
+    "minimum_total_cost": {
+      "selection_difference_count": 992,
+      "strict_minimax_improvement_count": 992
+    },
+    "responder_minimum_cost": {
+      "selection_difference_count": 1800,
+      "strict_minimax_improvement_count": 1800
+    }
+  },
+  "minimax_selected_profile_distribution": {
+    "S00": 395,
+    "S01": 285,
+    "S02": 625,
+    "S03": 540,
+    "S04": 2511
+  },
+  "preference_grid": {
+    "joint_pairs": 4356,
+    "no_conflict_pairs": 2108,
+    "points_per_endpoint": 66,
+    "preference_conflict_pairs": 2248
+  },
+  "validation_errors": [],
+  "validation_passed": true
+}

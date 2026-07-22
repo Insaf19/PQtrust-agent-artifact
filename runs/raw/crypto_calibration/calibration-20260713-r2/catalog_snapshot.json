@@ -1,0 +1,169 @@
+{
+  "catalog_version": "1.0",
+  "profiles": [
+    {
+      "assurance": {
+        "contract_evidence_threats": [
+          "classical",
+          "quantum"
+        ],
+        "endpoint_authentication_threats": [
+          "classical"
+        ],
+        "fallback_rule": "low_risk_only",
+        "key_establishment_threats": [
+          "classical"
+        ],
+        "lease_strictness": "long",
+        "resumption_rule": "context_bound"
+      },
+      "contract_evidence_mode": "mldsa65",
+      "description": "Classical X25519 key establishment with classical TLS endpoint authentication. ML-DSA-65 is represented only as application-level evidence for manifests and contracts. Hybrid or ML-KEM key establishment does not automatically imply fully post-quantum endpoint authentication; this initial catalog explicitly keeps endpoint TLS authentication classical.\n",
+      "endpoint_authentication_mode": "classical_x509",
+      "fallback_rule": "low_risk_only",
+      "lease_strictness": "long",
+      "max_lease_seconds": 3600,
+      "profile_id": "P0",
+      "resource_envelope": {
+        "max_cpu_time_microseconds": null,
+        "max_energy_proxy_units": null,
+        "max_handshake_bytes": null,
+        "max_peak_memory_kib": null
+      },
+      "resumption_rule": "context_bound",
+      "tls_group": "X25519"
+    },
+    {
+      "assurance": {
+        "contract_evidence_threats": [
+          "classical",
+          "quantum"
+        ],
+        "endpoint_authentication_threats": [
+          "classical"
+        ],
+        "fallback_rule": "explicit_only",
+        "key_establishment_threats": [
+          "classical",
+          "quantum"
+        ],
+        "lease_strictness": "medium",
+        "resumption_rule": "contract_bound"
+      },
+      "contract_evidence_mode": "mldsa65",
+      "description": "X25519MLKEM768 key establishment with classical TLS endpoint authentication. ML-DSA-65 is represented only as application-level evidence for manifests and contracts. Hybrid or ML-KEM key establishment does not automatically imply fully post-quantum endpoint authentication; this initial catalog explicitly keeps endpoint TLS authentication classical.\n",
+      "endpoint_authentication_mode": "classical_x509",
+      "fallback_rule": "explicit_only",
+      "lease_strictness": "medium",
+      "max_lease_seconds": 900,
+      "profile_id": "P1",
+      "resource_envelope": {
+        "max_cpu_time_microseconds": null,
+        "max_energy_proxy_units": null,
+        "max_handshake_bytes": null,
+        "max_peak_memory_kib": null
+      },
+      "resumption_rule": "contract_bound",
+      "tls_group": "X25519MLKEM768"
+    },
+    {
+      "assurance": {
+        "contract_evidence_threats": [
+          "classical",
+          "quantum"
+        ],
+        "endpoint_authentication_threats": [
+          "classical"
+        ],
+        "fallback_rule": "explicit_only",
+        "key_establishment_threats": [
+          "classical",
+          "quantum"
+        ],
+        "lease_strictness": "medium",
+        "resumption_rule": "contract_bound"
+      },
+      "contract_evidence_mode": "mldsa65",
+      "description": "SecP256r1MLKEM768 key establishment with the same assurance and policy class as P1. ML-DSA-65 is represented only as application-level evidence for manifests and contracts. Hybrid or ML-KEM key establishment does not automatically imply fully post-quantum endpoint authentication; this initial catalog explicitly keeps endpoint TLS authentication classical.\n",
+      "endpoint_authentication_mode": "classical_x509",
+      "fallback_rule": "explicit_only",
+      "lease_strictness": "medium",
+      "max_lease_seconds": 900,
+      "profile_id": "P2",
+      "resource_envelope": {
+        "max_cpu_time_microseconds": null,
+        "max_energy_proxy_units": null,
+        "max_handshake_bytes": null,
+        "max_peak_memory_kib": null
+      },
+      "resumption_rule": "contract_bound",
+      "tls_group": "SecP256r1MLKEM768"
+    },
+    {
+      "assurance": {
+        "contract_evidence_threats": [
+          "classical",
+          "quantum"
+        ],
+        "endpoint_authentication_threats": [
+          "classical"
+        ],
+        "fallback_rule": "forbidden",
+        "key_establishment_threats": [
+          "classical",
+          "quantum"
+        ],
+        "lease_strictness": "medium",
+        "resumption_rule": "contract_bound"
+      },
+      "contract_evidence_mode": "mldsa65",
+      "description": "MLKEM768 key establishment with classical TLS endpoint authentication. ML-DSA-65 is represented only as application-level evidence for manifests and contracts. Hybrid or ML-KEM key establishment does not automatically imply fully post-quantum endpoint authentication; this initial catalog explicitly keeps endpoint TLS authentication classical.\n",
+      "endpoint_authentication_mode": "classical_x509",
+      "fallback_rule": "forbidden",
+      "lease_strictness": "medium",
+      "max_lease_seconds": 900,
+      "profile_id": "P3",
+      "resource_envelope": {
+        "max_cpu_time_microseconds": null,
+        "max_energy_proxy_units": null,
+        "max_handshake_bytes": null,
+        "max_peak_memory_kib": null
+      },
+      "resumption_rule": "contract_bound",
+      "tls_group": "MLKEM768"
+    },
+    {
+      "assurance": {
+        "contract_evidence_threats": [
+          "classical",
+          "quantum"
+        ],
+        "endpoint_authentication_threats": [
+          "classical"
+        ],
+        "fallback_rule": "forbidden",
+        "key_establishment_threats": [
+          "classical",
+          "quantum"
+        ],
+        "lease_strictness": "short",
+        "resumption_rule": "forbidden"
+      },
+      "contract_evidence_mode": "mldsa87",
+      "description": "SecP384r1MLKEM1024 key establishment with classical TLS endpoint authentication. ML-DSA-87 is represented only as application-level evidence for manifests and contracts. Hybrid or ML-KEM key establishment does not automatically imply fully post-quantum endpoint authentication; this initial catalog explicitly keeps endpoint TLS authentication classical.\n",
+      "endpoint_authentication_mode": "classical_x509",
+      "fallback_rule": "forbidden",
+      "lease_strictness": "short",
+      "max_lease_seconds": 120,
+      "profile_id": "P4",
+      "resource_envelope": {
+        "max_cpu_time_microseconds": null,
+        "max_energy_proxy_units": null,
+        "max_handshake_bytes": null,
+        "max_peak_memory_kib": null
+      },
+      "resumption_rule": "forbidden",
+      "tls_group": "SecP384r1MLKEM1024"
+    }
+  ]
+}

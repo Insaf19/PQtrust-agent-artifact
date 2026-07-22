@@ -1,0 +1,17 @@
+scenario_schema_version: "1.0"
+scenario_id: critical-edge-command
+description: Deterministic critical edge command scenario definition.
+evaluation_time_utc: 2026-07-13T00:00:00Z
+task:
+  descriptor_version: "1.0"
+  sensitivity: restricted
+  operational_impact: physical_control
+  confidentiality_horizon: long
+  delegation_depth: 2
+  expected_session_seconds: 60
+  network_class: constrained_edge
+  organization_policy_class: critical-control
+initiator_agent_id: cloud-orchestrator
+initiator_policy_id: cloud-orchestrator-policy
+responder_agent_id: edge-control-agent
+responder_policy_id: edge-control-agent-policy

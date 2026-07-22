@@ -1,0 +1,5 @@
+{
+  "row_count": 6,
+  "significant_digits_policy": "compact general format, no invented precision",
+  "source_statistics_dir": "artifacts/analysis/statistics"
+}

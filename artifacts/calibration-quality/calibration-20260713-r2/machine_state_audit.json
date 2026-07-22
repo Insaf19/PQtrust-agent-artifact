@@ -1,0 +1,212 @@
+{
+  "causality_claimed": false,
+  "raw_run": "calibration-20260713-r2",
+  "replicates": {
+    "replicate-01": {
+      "applied_affinity": {
+        "changed": false,
+        "post": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "pre": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "available_memory_kb": {
+        "changed": true,
+        "post": 27568708,
+        "pre": 27568548
+      },
+      "frequency": {
+        "changed": false,
+        "post": null,
+        "pre": null
+      },
+      "governor": {
+        "changed": false,
+        "post": null,
+        "pre": null
+      },
+      "load_averages": {
+        "changed": true,
+        "post": [
+          3.16162109375,
+          3.0673828125,
+          3.2431640625
+        ],
+        "pre": [
+          3.2783203125,
+          3.0869140625,
+          3.25146484375
+        ]
+      },
+      "missing_value_fields": [
+        "governor",
+        "frequency",
+        "thermal_values"
+      ],
+      "selected_cpu": {
+        "changed": false,
+        "post": 0,
+        "pre": 0
+      },
+      "thermal_values": {
+        "changed": false,
+        "post": {},
+        "pre": {}
+      }
+    },
+    "replicate-02": {
+      "applied_affinity": {
+        "changed": false,
+        "post": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "pre": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "available_memory_kb": {
+        "changed": true,
+        "post": 27570948,
+        "pre": 27566340
+      },
+      "frequency": {
+        "changed": false,
+        "post": null,
+        "pre": null
+      },
+      "governor": {
+        "changed": false,
+        "post": null,
+        "pre": null
+      },
+      "load_averages": {
+        "changed": true,
+        "post": [
+          1.99169921875,
+          2.78857421875,
+          3.142578125
+        ],
+        "pre": [
+          2.078125,
+          2.81884765625,
+          3.154296875
+        ]
+      },
+      "missing_value_fields": [
+        "governor",
+        "frequency",
+        "thermal_values"
+      ],
+      "selected_cpu": {
+        "changed": false,
+        "post": 0,
+        "pre": 0
+      },
+      "thermal_values": {
+        "changed": false,
+        "post": {},
+        "pre": {}
+      }
+    },
+    "replicate-03": {
+      "applied_affinity": {
+        "changed": false,
+        "post": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "pre": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "available_memory_kb": {
+        "changed": true,
+        "post": 27579580,
+        "pre": 27579508
+      },
+      "frequency": {
+        "changed": false,
+        "post": null,
+        "pre": null
+      },
+      "governor": {
+        "changed": false,
+        "post": null,
+        "pre": null
+      },
+      "load_averages": {
+        "changed": true,
+        "post": [
+          1.173828125,
+          2.47021484375,
+          3.0185546875
+        ],
+        "pre": [
+          1.20556640625,
+          2.5205078125,
+          3.041015625
+        ]
+      },
+      "missing_value_fields": [
+        "governor",
+        "frequency",
+        "thermal_values"
+      ],
+      "selected_cpu": {
+        "changed": false,
+        "post": 0,
+        "pre": 0
+      },
+      "thermal_values": {
+        "changed": false,
+        "post": {},
+        "pre": {}
+      }
+    }
+  },
+  "schema_version": 1,
+  "selected_cpu": 0
+}

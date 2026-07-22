@@ -1,0 +1,64 @@
+{
+  "$defs": {
+    "RejectionCategory": {
+      "description": "Stable public categories for rejected profile candidates.",
+      "enum": [
+        "capability",
+        "organization_policy",
+        "kem_assurance",
+        "endpoint_authentication",
+        "contract_evidence",
+        "fallback",
+        "resumption",
+        "lease",
+        "resource_bound"
+      ],
+      "title": "RejectionCategory",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Compilation outcome for one profile candidate.",
+  "properties": {
+    "accepted": {
+      "title": "Accepted",
+      "type": "boolean"
+    },
+    "irreducible_unsat_core": {
+      "items": {
+        "$ref": "#/$defs/RejectionCategory"
+      },
+      "title": "Irreducible Unsat Core",
+      "type": "array"
+    },
+    "profile_id": {
+      "pattern": "^P[0-9]+$",
+      "title": "Profile Id",
+      "type": "string"
+    },
+    "solver_status": {
+      "enum": [
+        "sat",
+        "unsat"
+      ],
+      "title": "Solver Status",
+      "type": "string"
+    },
+    "violated_categories": {
+      "items": {
+        "$ref": "#/$defs/RejectionCategory"
+      },
+      "title": "Violated Categories",
+      "type": "array"
+    }
+  },
+  "required": [
+    "profile_id",
+    "accepted",
+    "violated_categories",
+    "irreducible_unsat_core",
+    "solver_status"
+  ],
+  "title": "ProfileCompilationDecision",
+  "type": "object"
+}

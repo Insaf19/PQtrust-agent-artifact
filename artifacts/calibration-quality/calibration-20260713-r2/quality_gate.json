@@ -1,0 +1,12 @@
+{
+  "calibration_usable_as_final_selector_cost": false,
+  "calibration_usable_for_exploratory_analysis": true,
+  "integrity_passed": true,
+  "interpretation": "Integrity and exploratory usability are distinct from timing stability; failed timing stability does not invalidate retained raw evidence.",
+  "requirements": {
+    "bootstrap_relative_width_reported": true,
+    "timing_stability_threshold": 0.1
+  },
+  "schema_version": 1,
+  "timing_stability_passed": false
+}

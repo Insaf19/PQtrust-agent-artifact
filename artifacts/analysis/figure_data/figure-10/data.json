@@ -1,0 +1,10 @@
+{
+  "observation_ids": [],
+  "provenance": {
+    "derived_artifact_hash": "70a7737bfec5cc31321ce7de31be61b955d795bcef5ed21a5d062973bad4fb2c",
+    "raw_manifest_hash": "62a38cefdd3eb2ef3bbbae76e4bd131ff9214dd3cd08f9935542d269c27330ae",
+    "raw_observation_count": 1040,
+    "registered_design_hash": "4bea395743afd4f3a83ca80c78d5279ae9756cf4b7142fb5f2c0bbc4a1ef7224",
+    "schedule_hash": "1221112f0e2dd47cacc9602a92267f7c0bfd20b0d7e049a72d75988cf73989e5"
+  }
+}

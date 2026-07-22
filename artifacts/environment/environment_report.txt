@@ -1,0 +1,52 @@
+PQTrust-Agent Environment Report
+================================
+UTC timestamp: 2026-07-13T13:59:15Z
+
+System
+  OS: Linux
+  Kernel: 6.17.0-35-generic
+  Kernel version: #35~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May 26 19:30:42 UTC 2
+  Architecture: x86_64
+  Processor: x86_64
+  Platform: Linux-6.17.0-35-generic-x86_64-with-glibc2.39
+
+Python
+  Executable: /home/lasledjii/pqtrust-agent-lab/.venv/bin/python
+  Version: 3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]
+
+Git
+  Version: git version 2.43.0
+
+OpenSSL
+  Selected executable: /home/lasledjii/pqtrust-agent-lab/.local/openssl-3.5.7/bin/openssl
+  Resolved executable: /home/lasledjii/pqtrust-agent-lab/.local/openssl-3.5.7/bin/openssl
+  Version: 3.5.7
+  Version detection succeeded: True
+  At least 3.5: True
+  TLS group query supported: True
+  TLS group query command: /home/lasledjii/pqtrust-agent-lab/.local/openssl-3.5.7/bin/openssl list -tls1_3 -tls-groups
+  TLS group query return code: 0
+  Target TLS groups:
+    X25519: True
+    X25519MLKEM768: True
+    SecP256r1MLKEM768: True
+    MLKEM768: True
+    SecP384r1MLKEM1024: True
+  PQ TLS ready: True
+
+OpenSSL version -a output
+-------------------------
+OpenSSL 3.5.7 9 Jun 2026 (Library: OpenSSL 3.5.7 9 Jun 2026)
+built on: Mon Jul 13 13:35:58 2026 UTC
+platform: linux-x86_64
+options:  bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -O3 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+OPENSSLDIR: "/home/lasledjii/pqtrust-agent-lab/.local/openssl-3.5.7/ssl"
+ENGINESDIR: "/home/lasledjii/pqtrust-agent-lab/.local/openssl-3.5.7/lib/engines-3"
+MODULESDIR: "/home/lasledjii/pqtrust-agent-lab/.local/openssl-3.5.7/lib/ossl-modules"
+Seeding source: os-specific
+CPUINFO: OPENSSL_ia32cap=0x9fbaa2234f8bffff:0x0000000400000002:0x00000000bc000400:0x0000000000000000:0x0000000000000000
+
+OpenSSL TLS groups output
+-------------------------
+secp256r1:secp384r1:secp521r1:x25519:x448:brainpoolP256r1tls13:brainpoolP384r1tls13:brainpoolP512r1tls13:ffdhe2048:ffdhe3072:ffdhe4096:ffdhe6144:ffdhe8192:MLKEM512:MLKEM768:MLKEM1024:SecP256r1MLKEM768:X25519MLKEM768:SecP384r1MLKEM1024

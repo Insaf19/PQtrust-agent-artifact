@@ -1,0 +1,16 @@
+policy_schema_version: "1.0"
+policy_id: public-tool-agent-policy
+policy_version: 1
+agent_id: public-tool-agent
+catalog_version: "1.0"
+base_requirement:
+  key_establishment_threats: [classical]
+  endpoint_authentication_threats: [classical]
+  contract_evidence_threats: [classical, quantum]
+  fallback_rule: low_risk_only
+  resumption_rule: context_bound
+  lease_strictness: long
+allowed_profile_ids: [P0, P1]
+denied_profile_ids: []
+rules: []
+solver_timeout_ms: 5000

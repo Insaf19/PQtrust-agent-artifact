@@ -1,0 +1,16 @@
+policy_schema_version: "1.0"
+policy_id: enterprise-api-agent-policy
+policy_version: 1
+agent_id: enterprise-api-agent
+catalog_version: "1.0"
+base_requirement:
+  key_establishment_threats: [classical, quantum]
+  endpoint_authentication_threats: [classical]
+  contract_evidence_threats: [classical, quantum]
+  fallback_rule: explicit_only
+  resumption_rule: contract_bound
+  lease_strictness: medium
+allowed_profile_ids: [P1, P2, P3]
+denied_profile_ids: []
+rules: []
+solver_timeout_ms: 5000

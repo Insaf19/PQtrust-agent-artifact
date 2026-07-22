@@ -1,0 +1,105 @@
+{
+  "$defs": {
+    "ConfidentialityHorizon": {
+      "description": "Expected confidentiality horizon of task data.",
+      "enum": [
+        "short",
+        "medium",
+        "long"
+      ],
+      "title": "ConfidentialityHorizon",
+      "type": "string"
+    },
+    "NetworkClass": {
+      "description": "Network environment class for the task descriptor public context.",
+      "enum": [
+        "stable_cloud",
+        "enterprise_wan",
+        "constrained_edge"
+      ],
+      "title": "NetworkClass",
+      "type": "string"
+    },
+    "OperationalImpact": {
+      "description": "Operational impact class of the task descriptor public context.",
+      "enum": [
+        "observation",
+        "business_action",
+        "physical_control"
+      ],
+      "title": "OperationalImpact",
+      "type": "string"
+    },
+    "TaskSensitivity": {
+      "description": "Sensitivity class of the task descriptor public context.",
+      "enum": [
+        "public",
+        "internal",
+        "confidential",
+        "restricted"
+      ],
+      "title": "TaskSensitivity",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Public canonical task context ``x = (s, i, h, d, l, n, o)``.",
+  "properties": {
+    "confidentiality_horizon": {
+      "$ref": "#/$defs/ConfidentialityHorizon",
+      "description": "Required confidentiality horizon."
+    },
+    "delegation_depth": {
+      "description": "Permitted delegation depth from 0 to 8.",
+      "maximum": 8,
+      "minimum": 0,
+      "title": "Delegation Depth",
+      "type": "integer"
+    },
+    "descriptor_version": {
+      "const": "1.0",
+      "default": "1.0",
+      "description": "Task descriptor schema version.",
+      "title": "Descriptor Version",
+      "type": "string"
+    },
+    "expected_session_seconds": {
+      "description": "Expected session duration in seconds.",
+      "maximum": 86400,
+      "minimum": 1,
+      "title": "Expected Session Seconds",
+      "type": "integer"
+    },
+    "network_class": {
+      "$ref": "#/$defs/NetworkClass",
+      "description": "Expected network class."
+    },
+    "operational_impact": {
+      "$ref": "#/$defs/OperationalImpact",
+      "description": "Task operational impact."
+    },
+    "organization_policy_class": {
+      "description": "Organization policy class.",
+      "maxLength": 64,
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9._-]+$",
+      "title": "Organization Policy Class",
+      "type": "string"
+    },
+    "sensitivity": {
+      "$ref": "#/$defs/TaskSensitivity",
+      "description": "Task sensitivity class."
+    }
+  },
+  "required": [
+    "sensitivity",
+    "operational_impact",
+    "confidentiality_horizon",
+    "delegation_depth",
+    "expected_session_seconds",
+    "network_class",
+    "organization_policy_class"
+  ],
+  "title": "TaskDescriptor",
+  "type": "object"
+}

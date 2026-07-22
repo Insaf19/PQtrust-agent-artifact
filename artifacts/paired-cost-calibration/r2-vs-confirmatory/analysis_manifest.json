@@ -1,0 +1,152 @@
+{
+  "analysis": "paired_block_normalized_crypto_costs",
+  "bootstrap_iterations": 10000,
+  "bootstrap_seed": 20260841,
+  "compatibility": {
+    "OpenSSL_versions_match": true,
+    "baseline_exact_configuration_hash": "4dcffcc3f3eb79971cf7568768a7343b2f38920793077f441f1809bade046c0f",
+    "baseline_scientific_design_hash": "3df8771603d20a446c6c9a3b2633bdc7298c4e6ebd20814a94c2716f6ce92dd8",
+    "case_definitions_match": true,
+    "catalog_hashes_match": true,
+    "comparison_compatible": true,
+    "compatibility_interpretation": "Exact execution configurations differ because permitted non-design fields differ, while scientific case design is identical.",
+    "confirmatory_exact_configuration_hash": "d2afb6f9aed627347ea6ce529b880b038ea9cb090296a0e0604dd195bc89a499",
+    "confirmatory_scientific_design_hash": "3df8771603d20a446c6c9a3b2633bdc7298c4e6ebd20814a94c2716f6ce92dd8",
+    "details": {
+      "benchmark_executable_hashes": {
+        "baseline": {
+          "mldsa_bench": "638ff8e9adb392d553f956ad9b81bf9a2a3739348e1bee39cf0c2dce314f7058",
+          "tls_handshake_bench": "eb07733ac041e113061fd9bb3ec333df9792de4c18785d982a2d35ef6182677b"
+        },
+        "confirmatory": {
+          "mldsa_bench": "638ff8e9adb392d553f956ad9b81bf9a2a3739348e1bee39cf0c2dce314f7058",
+          "tls_handshake_bench": "eb07733ac041e113061fd9bb3ec333df9792de4c18785d982a2d35ef6182677b"
+        }
+      },
+      "case_definitions": {
+        "baseline": {
+          "mldsa_algorithms": [
+            "ML-DSA-65",
+            "ML-DSA-87"
+          ],
+          "mldsa_message_sizes_bytes": [
+            512,
+            2048,
+            8192
+          ],
+          "tls_groups": [
+            "X25519",
+            "X25519MLKEM768",
+            "SecP256r1MLKEM768",
+            "MLKEM768",
+            "SecP384r1MLKEM1024"
+          ]
+        },
+        "confirmatory": {
+          "mldsa_algorithms": [
+            "ML-DSA-65",
+            "ML-DSA-87"
+          ],
+          "mldsa_message_sizes_bytes": [
+            512,
+            2048,
+            8192
+          ],
+          "tls_groups": [
+            "X25519",
+            "X25519MLKEM768",
+            "SecP256r1MLKEM768",
+            "MLKEM768",
+            "SecP384r1MLKEM1024"
+          ]
+        }
+      },
+      "catalog_hash": {
+        "baseline": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+        "confirmatory": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e"
+      },
+      "openssl_version": {
+        "baseline": "OpenSSL 3.5.7 9 Jun 2026 (Library: OpenSSL 3.5.7 9 Jun 2026)",
+        "confirmatory": "OpenSSL 3.5.7 9 Jun 2026 (Library: OpenSSL 3.5.7 9 Jun 2026)"
+      },
+      "record_designs": {
+        "baseline": {
+          "expected_mldsa_records_per_replicate": 1200,
+          "expected_mldsa_records_total": 3600,
+          "expected_tls_records_per_replicate": 1000,
+          "expected_tls_records_total": 3000,
+          "measured_blocks": 200,
+          "replicate_count": 3,
+          "warmups_per_case": 30
+        },
+        "confirmatory": {
+          "expected_mldsa_records_per_replicate": 1200,
+          "expected_mldsa_records_total": 3600,
+          "expected_tls_records_per_replicate": 1000,
+          "expected_tls_records_total": 3000,
+          "measured_blocks": 200,
+          "replicate_count": 3,
+          "warmups_per_case": 30
+        }
+      }
+    },
+    "exact_configuration_hashes_match": false,
+    "native_executable_hashes_match": true,
+    "record_designs_match": true,
+    "scientific_design_hashes_match": true
+  },
+  "generated_at_utc": "2026-07-13T19:24:19Z",
+  "git_commit": "db94c3c711156d3126421336b1c2e1b072a7711c",
+  "git_dirty": false,
+  "integrity": {
+    "baseline": {
+      "checks": {
+        "block_balance_valid": true,
+        "configuration_snapshot_matches_manifest": true,
+        "every_cryptographic_operation_successful": true,
+        "no_missing_replicates": true,
+        "raw_checksums_valid": true,
+        "record_counts_exact": true
+      },
+      "errors": [],
+      "exact_configuration_hash": "4dcffcc3f3eb79971cf7568768a7343b2f38920793077f441f1809bade046c0f",
+      "expected_mldsa_records_per_replicate": 1200,
+      "expected_replicates": 3,
+      "expected_tls_records_per_replicate": 1000,
+      "legacy_configuration_hash": "7bc8eb2e638e52dd5c9fdc257a21eb111196c0770613cd5b3ccb113485a6d0eb",
+      "not_evaluated_reasons": {},
+      "raw_run": "calibration-20260713-r2",
+      "raw_run_checksum": "7e4f6370b7f46680731843eccde1aa5d7f3e421ab1df1edad6e8a5e94c3718fa",
+      "schema_version": 1,
+      "scientific_design_hash": "3df8771603d20a446c6c9a3b2633bdc7298c4e6ebd20814a94c2716f6ce92dd8",
+      "validation_passed": true
+    },
+    "confirmatory": {
+      "checks": {
+        "block_balance_valid": true,
+        "configuration_snapshot_matches_manifest": true,
+        "every_cryptographic_operation_successful": true,
+        "no_missing_replicates": true,
+        "raw_checksums_valid": true,
+        "record_counts_exact": true
+      },
+      "errors": [],
+      "exact_configuration_hash": "d2afb6f9aed627347ea6ce529b880b038ea9cb090296a0e0604dd195bc89a499",
+      "expected_mldsa_records_per_replicate": 1200,
+      "expected_replicates": 3,
+      "expected_tls_records_per_replicate": 1000,
+      "legacy_configuration_hash": "a35f33611306a2fa9f32474da32822724c4e1fe4308523c9758b4c6ab9f23525",
+      "not_evaluated_reasons": {},
+      "raw_run": "calibration-20260713-confirmatory",
+      "raw_run_checksum": "e727e85f9b4cc322e8c45f4698d2470f79ce0ee500280f80882d8d7913c4a1f9",
+      "schema_version": 1,
+      "scientific_design_hash": "3df8771603d20a446c6c9a3b2633bdc7298c4e6ebd20814a94c2716f6ce92dd8",
+      "validation_passed": true
+    }
+  },
+  "schema_version": 1,
+  "source_raw_checksums": {
+    "calibration-20260713-confirmatory": "e727e85f9b4cc322e8c45f4698d2470f79ce0ee500280f80882d8d7913c4a1f9",
+    "calibration-20260713-r2": "7e4f6370b7f46680731843eccde1aa5d7f3e421ab1df1edad6e8a5e94c3718fa"
+  }
+}

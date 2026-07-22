@@ -1,0 +1,93 @@
+{
+  "artifact": "execution_gate_validation",
+  "case_count": 6,
+  "cases": [
+    {
+      "case_id": "authorized_contract",
+      "contract_hash": "97fdca8212c80fdc1e6488bd8d9bfc4f342528a7eca18e117505291760914215",
+      "expected_rejection_code": null,
+      "expected_result": true,
+      "fail_closed": true,
+      "observed_rejection_code": null,
+      "observed_result": true,
+      "profile_binding_checked": true,
+      "replay_check_performed": true,
+      "session_binding_checked": true,
+      "state_at_evaluation": "CONTRACT_VERIFIED",
+      "validation_passed": true
+    },
+    {
+      "case_id": "wrong_session",
+      "contract_hash": "a59c3d0d9f19252608d4616644513d145cdca74465e21638a91c8462837109ee",
+      "expected_rejection_code": "ERR_SESSION_BINDING_MISMATCH",
+      "expected_result": false,
+      "fail_closed": true,
+      "observed_rejection_code": "ERR_SESSION_BINDING_MISMATCH",
+      "observed_result": false,
+      "profile_binding_checked": true,
+      "replay_check_performed": true,
+      "session_binding_checked": true,
+      "state_at_evaluation": "CONTRACT_VERIFIED",
+      "validation_passed": true
+    },
+    {
+      "case_id": "modified_selected_profile",
+      "contract_hash": "1dc61f1f141b02d8e985c6d6497abcf81f6d7e212f9e9592633c2b011433750a",
+      "expected_rejection_code": "ERR_PROFILE_BINDING_MISMATCH",
+      "expected_result": false,
+      "fail_closed": true,
+      "observed_rejection_code": "ERR_PROFILE_BINDING_MISMATCH",
+      "observed_result": false,
+      "profile_binding_checked": true,
+      "replay_check_performed": true,
+      "session_binding_checked": true,
+      "state_at_evaluation": "CONTRACT_VERIFIED",
+      "validation_passed": true
+    },
+    {
+      "case_id": "modified_signed_contract_hash",
+      "contract_hash": "f10c5473233e381bac201d233f0a6653fadbee2df91405260887cc0ed48b84d3",
+      "expected_rejection_code": "ERR_CONTRACT_HASH_MISMATCH",
+      "expected_result": false,
+      "fail_closed": true,
+      "observed_rejection_code": "ERR_CONTRACT_HASH_MISMATCH",
+      "observed_result": false,
+      "profile_binding_checked": true,
+      "replay_check_performed": true,
+      "session_binding_checked": true,
+      "state_at_evaluation": "CONTRACT_VERIFIED",
+      "validation_passed": true
+    },
+    {
+      "case_id": "replayed_signed_contract",
+      "contract_hash": "dd9f9ce81a4ac8a9cbba26c557e6c7f65582d64e9b9468922a22c10bc295c4d5",
+      "expected_rejection_code": "ERR_CONTRACT_REPLAY",
+      "expected_result": false,
+      "fail_closed": true,
+      "observed_rejection_code": "ERR_CONTRACT_REPLAY",
+      "observed_result": false,
+      "profile_binding_checked": true,
+      "replay_check_performed": true,
+      "session_binding_checked": true,
+      "state_at_evaluation": "CONTRACT_VERIFIED",
+      "validation_passed": true
+    },
+    {
+      "case_id": "state_before_contract_verified",
+      "contract_hash": "f6b6bdddfd3e70338ef264ab74c2ae6dc7bd244d5b72ecf0a525a013334eb88a",
+      "expected_rejection_code": "ERR_RUNTIME_STATE_NOT_AUTHORIZED",
+      "expected_result": false,
+      "fail_closed": true,
+      "observed_rejection_code": "ERR_RUNTIME_STATE_NOT_AUTHORIZED",
+      "observed_result": false,
+      "profile_binding_checked": true,
+      "replay_check_performed": true,
+      "session_binding_checked": true,
+      "state_at_evaluation": "CONTRACT_CREATED",
+      "validation_passed": true
+    }
+  ],
+  "report_version": "1.0",
+  "validation_errors": [],
+  "validation_passed": true
+}

@@ -1,0 +1,109 @@
+{
+  "artifact": "stage7_state_trace",
+  "report_version": "1.0",
+  "scenario_id": "critical-edge-command",
+  "session_id": "f0efdaef4c507d72f0b7ff800b5a65c8cdc6dcdb5d64ee837da38c286f803147",
+  "state_trace_hash": "ce9659595511b2269eb4309375e112ec18745adea5fa3179472a600ef21a3434",
+  "transitions": [
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "CREATED_TO_DISCOVERY_COMPLETE",
+      "next_state": "DISCOVERY_COMPLETE",
+      "previous_state": "CREATED",
+      "sequence_index": 0,
+      "session_id": "f0efdaef4c507d72f0b7ff800b5a65c8cdc6dcdb5d64ee837da38c286f803147",
+      "state_transition_hash": "774135e62051c0974f7eb8978bb3b0819442693c52d1f865ef638bc7f1bfd761",
+      "timestamp_source": "deterministic_laboratory_clock"
+    },
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "DISCOVERY_COMPLETE_TO_COMMITMENTS_REGISTERED",
+      "next_state": "COMMITMENTS_REGISTERED",
+      "previous_state": "DISCOVERY_COMPLETE",
+      "sequence_index": 1,
+      "session_id": "f0efdaef4c507d72f0b7ff800b5a65c8cdc6dcdb5d64ee837da38c286f803147",
+      "state_transition_hash": "63b4d18a4378b39ee4baa85b105a234a095fe28214a99be53c35113e926f822e",
+      "timestamp_source": "deterministic_laboratory_clock"
+    },
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "COMMITMENTS_REGISTERED_TO_REVEALS_VERIFIED",
+      "next_state": "REVEALS_VERIFIED",
+      "previous_state": "COMMITMENTS_REGISTERED",
+      "sequence_index": 2,
+      "session_id": "f0efdaef4c507d72f0b7ff800b5a65c8cdc6dcdb5d64ee837da38c286f803147",
+      "state_transition_hash": "2638e943861a7c234d150483d3b3da086d222641250646062928c320b3b9a68b",
+      "timestamp_source": "deterministic_laboratory_clock"
+    },
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "REVEALS_VERIFIED_TO_FEASIBILITY_EVALUATED",
+      "next_state": "FEASIBILITY_EVALUATED",
+      "previous_state": "REVEALS_VERIFIED",
+      "sequence_index": 3,
+      "session_id": "f0efdaef4c507d72f0b7ff800b5a65c8cdc6dcdb5d64ee837da38c286f803147",
+      "state_transition_hash": "15f3029ad91cd36872d23e74bd1679c77f743431a4d75b1d9588952d41282f30",
+      "timestamp_source": "deterministic_laboratory_clock"
+    },
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "FEASIBILITY_EVALUATED_TO_PROFILE_SELECTED",
+      "next_state": "PROFILE_SELECTED",
+      "previous_state": "FEASIBILITY_EVALUATED",
+      "sequence_index": 4,
+      "session_id": "f0efdaef4c507d72f0b7ff800b5a65c8cdc6dcdb5d64ee837da38c286f803147",
+      "state_transition_hash": "ae076f18dab3da7edd5cca5e6526b5b9d7d05226ba697f08d0540c9944aa7562",
+      "timestamp_source": "deterministic_laboratory_clock"
+    },
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "PROFILE_SELECTED_TO_CONTRACT_CREATED",
+      "next_state": "CONTRACT_CREATED",
+      "previous_state": "PROFILE_SELECTED",
+      "sequence_index": 5,
+      "session_id": "f0efdaef4c507d72f0b7ff800b5a65c8cdc6dcdb5d64ee837da38c286f803147",
+      "state_transition_hash": "a4d81204ae2936af0f086804852e171d65fc86056698ca1e70fb317d6d27e006",
+      "timestamp_source": "deterministic_laboratory_clock"
+    },
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "CONTRACT_CREATED_TO_CONTRACT_VERIFIED",
+      "next_state": "CONTRACT_VERIFIED",
+      "previous_state": "CONTRACT_CREATED",
+      "sequence_index": 6,
+      "session_id": "f0efdaef4c507d72f0b7ff800b5a65c8cdc6dcdb5d64ee837da38c286f803147",
+      "state_transition_hash": "ff3aeecea088df5c9cf0a99425724819c3b5c8693dd00f9b3914867259065df7",
+      "timestamp_source": "deterministic_laboratory_clock"
+    },
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "CONTRACT_VERIFIED_TO_TLS_ACTIVATED",
+      "next_state": "TLS_ACTIVATED",
+      "previous_state": "CONTRACT_VERIFIED",
+      "sequence_index": 7,
+      "session_id": "f0efdaef4c507d72f0b7ff800b5a65c8cdc6dcdb5d64ee837da38c286f803147",
+      "state_transition_hash": "fec83bc95aedc8254074d64352b47ac6eb87963bc7a46d74bf76724528f4b64d",
+      "timestamp_source": "deterministic_laboratory_clock"
+    },
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "TLS_ACTIVATED_TO_TASK_EXECUTED",
+      "next_state": "TASK_EXECUTED",
+      "previous_state": "TLS_ACTIVATED",
+      "sequence_index": 8,
+      "session_id": "f0efdaef4c507d72f0b7ff800b5a65c8cdc6dcdb5d64ee837da38c286f803147",
+      "state_transition_hash": "26850a5a6c232e1d96490dfe19fc78a34902612b14d4445639a55b3f275ad210",
+      "timestamp_source": "deterministic_laboratory_clock"
+    },
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "TASK_EXECUTED_TO_COMPLETED",
+      "next_state": "COMPLETED",
+      "previous_state": "TASK_EXECUTED",
+      "sequence_index": 9,
+      "session_id": "f0efdaef4c507d72f0b7ff800b5a65c8cdc6dcdb5d64ee837da38c286f803147",
+      "state_transition_hash": "26610f4afaa1da684c92afdc72c870b4a3e2fd762b9768bb0050810b4aaf4ee6",
+      "timestamp_source": "deterministic_laboratory_clock"
+    }
+  ]
+}

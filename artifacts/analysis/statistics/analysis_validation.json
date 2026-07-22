@@ -1,0 +1,34 @@
+{
+  "all_expected_raw_observations_used": true,
+  "artifact": "stage9_analysis_validation",
+  "no_failed_observation_silently_removed": true,
+  "observation_count": 1040,
+  "stage8_input_verification": {
+    "counts": {
+      "adversarial": 200,
+      "component": 110,
+      "concurrency": 100,
+      "feasible": 480,
+      "infeasible": 150
+    },
+    "duplicate_observation_ids": [],
+    "failed_observation_ids": [],
+    "stage8_run_dir": "runs/stage8/stage8-final-20260714-r2",
+    "validation_errors": [],
+    "validation_passed": true
+  },
+  "statistics_files": [
+    "adversarial_analysis.json",
+    "assumptions_and_diagnostics.json",
+    "bootstrap_intervals.csv",
+    "component_analysis.json",
+    "concurrency_analysis.json",
+    "descriptive_statistics.csv",
+    "fairness_analysis.json",
+    "infeasible_analysis.json",
+    "multiple_comparison_correction.csv",
+    "paired_comparisons.csv"
+  ],
+  "validation_errors": [],
+  "validation_passed": true
+}

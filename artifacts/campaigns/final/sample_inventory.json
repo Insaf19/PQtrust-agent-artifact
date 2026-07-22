@@ -1,0 +1,10 @@
+{
+  "artifact": "stage8_sample_inventory",
+  "counts": {
+    "adversarial": 200,
+    "component": 110,
+    "concurrency": 100,
+    "feasible": 480,
+    "infeasible": 150
+  }
+}

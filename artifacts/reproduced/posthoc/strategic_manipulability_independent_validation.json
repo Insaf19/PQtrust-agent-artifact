@@ -1,0 +1,30 @@
+{
+  "alternative_reports_tested_per_endpoint_side": 283140,
+  "analysis": "independent exhaustive validation of unilateral weight manipulability",
+  "conflict_pairs": 1210,
+  "grid_points_per_endpoint": 66,
+  "initiator": {
+    "alternative_reports_tested": 283140,
+    "cost_neutral_changes": 0,
+    "harmful_changes": 13310,
+    "reports_changing_the_selected_profile": 13310,
+    "strictly_profitable_reports": 0
+  },
+  "interpretation_boundary": "This result applies only to unilateral deviations on the finite 10%-increment grid and evaluated P0/P3 frontier.",
+  "responder": {
+    "alternative_reports_tested": 283140,
+    "cost_neutral_changes": 0,
+    "harmful_changes": 13310,
+    "reports_changing_the_selected_profile": 13310,
+    "strictly_profitable_reports": 0
+  },
+  "selector_implementation_mismatches": 0,
+  "total_unilateral_alternative_reports_tested": 566280,
+  "truthful_joint_pairs": 4356,
+  "truthful_selected_profile_distribution": {
+    "P0": 4235,
+    "P3": 121
+  },
+  "validation_errors": [],
+  "validation_passed": true
+}

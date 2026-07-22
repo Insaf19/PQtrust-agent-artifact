@@ -1,0 +1,1 @@
+Conflict-certificate mechanism, including unsat core, deterministic IUS shrinking, final size, latency, and evidence sizes.

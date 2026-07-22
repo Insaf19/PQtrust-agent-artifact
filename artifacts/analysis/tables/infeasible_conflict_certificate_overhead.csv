@@ -1,0 +1,5 @@
+section,metric,value
+infeasible,by_scenario,"{""TLS-group-capability-conflict"": {""category_stable"": true, ""category_values"": [""TLS_GROUP_CONFLICT""], ""metrics"": {""IUS_shrinking_solver_call_count"": {""count"": 30, ""mad"": 0.0, ""maximum"": 3.0, ""mean"": 3.0, ""median"": 3.0, ""minimum"": 3.0, ""p05"": 3.0, ""p25"": 3.0, ""p75"": 3.0, ""p95"": 3.0, ""p99"": 3.0, ""sample_standard_deviation"": 0.0}, ""abort_record_latency_ns"": {""count"": 30, ""mad"": 437525.5, ""maximum"": 40152795.0, ""mean"": 27555299.066666666, ""median"": 26691892.5, ""minimum"": 25649392.0, ""p05"": 25880288"
+infeasible,limitation,"zero observed violations bounds, but does not prove, the true violation probability."
+infeasible,safety_counts,"{""TLS_invocation_count"": 0, ""contract_creation_count"": 0, ""fallback_count"": 0, ""selected_profile_count"": 0, ""task_invocation_count"": 0}"
+infeasible,zero_violation_upper_95_confidence_bound,0.019773438164508494

@@ -1,0 +1,69 @@
+{
+  "artifact": "stage7_state_trace",
+  "report_version": "1.0",
+  "scenario_id": "lease-policy-conflict",
+  "session_id": "48cff90c651aa356f44af4807e634956142084dfa5b7f01cfb6f93d617260076",
+  "state_trace_hash": "c8aff2ebc1b042d072b947609b5eef7c1faf4b35366e5a4e1e5a1f539906f691",
+  "transitions": [
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "CREATED_TO_DISCOVERY_COMPLETE",
+      "next_state": "DISCOVERY_COMPLETE",
+      "previous_state": "CREATED",
+      "sequence_index": 0,
+      "session_id": "48cff90c651aa356f44af4807e634956142084dfa5b7f01cfb6f93d617260076",
+      "state_transition_hash": "1b7ab5c645409071821cc5e5201249aac1fa334a2e79591c4dc0b9a926d4c081",
+      "timestamp_source": "deterministic_laboratory_clock"
+    },
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "DISCOVERY_COMPLETE_TO_COMMITMENTS_REGISTERED",
+      "next_state": "COMMITMENTS_REGISTERED",
+      "previous_state": "DISCOVERY_COMPLETE",
+      "sequence_index": 1,
+      "session_id": "48cff90c651aa356f44af4807e634956142084dfa5b7f01cfb6f93d617260076",
+      "state_transition_hash": "6220dacbff0d8ef4492bf1f42ece39dc6037d0d86498559d1d1afe73e0b0d18e",
+      "timestamp_source": "deterministic_laboratory_clock"
+    },
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "COMMITMENTS_REGISTERED_TO_REVEALS_VERIFIED",
+      "next_state": "REVEALS_VERIFIED",
+      "previous_state": "COMMITMENTS_REGISTERED",
+      "sequence_index": 2,
+      "session_id": "48cff90c651aa356f44af4807e634956142084dfa5b7f01cfb6f93d617260076",
+      "state_transition_hash": "e5999c43c38a27f710ad13f96b3c465c21da4f23121069204f4e208c3c3510d4",
+      "timestamp_source": "deterministic_laboratory_clock"
+    },
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "REVEALS_VERIFIED_TO_FEASIBILITY_EVALUATED",
+      "next_state": "FEASIBILITY_EVALUATED",
+      "previous_state": "REVEALS_VERIFIED",
+      "sequence_index": 3,
+      "session_id": "48cff90c651aa356f44af4807e634956142084dfa5b7f01cfb6f93d617260076",
+      "state_transition_hash": "bb065a80043504a3fab6793ebc9bd5ce66ef8c9ff5343222759661eea991c07f",
+      "timestamp_source": "deterministic_laboratory_clock"
+    },
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "FEASIBILITY_EVALUATED_TO_CONFLICT_CERTIFIED",
+      "next_state": "CONFLICT_CERTIFIED",
+      "previous_state": "FEASIBILITY_EVALUATED",
+      "sequence_index": 4,
+      "session_id": "48cff90c651aa356f44af4807e634956142084dfa5b7f01cfb6f93d617260076",
+      "state_transition_hash": "91befebb1b78468cfbc384096e5bc371db09f773f136ea10c3ad55cfa2b30e03",
+      "timestamp_source": "deterministic_laboratory_clock"
+    },
+    {
+      "deterministic_laboratory_timestamp": "2026-07-13T00:00:00Z",
+      "event": "CONFLICT_CERTIFIED_TO_ABORTED",
+      "next_state": "ABORTED",
+      "previous_state": "CONFLICT_CERTIFIED",
+      "sequence_index": 5,
+      "session_id": "48cff90c651aa356f44af4807e634956142084dfa5b7f01cfb6f93d617260076",
+      "state_transition_hash": "4166d41fae7b4af700b3c936007e7d86c42cb94c1335b33342a91e922ac2a301",
+      "timestamp_source": "deterministic_laboratory_clock"
+    }
+  ]
+}

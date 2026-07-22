@@ -1,0 +1,631 @@
+{
+  "mldsa": {
+    "ML-DSA-65:2048": {
+      "sign_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1392279.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1237675.4375,
+          "seed": 20260801,
+          "upper": 1413998.7249999999
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 176323.28749999986,
+        "relative_interval_width": 0.12664359957896376
+      },
+      "signature_size_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 3309.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3309.0,
+          "seed": 20260801,
+          "upper": 3309.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "verify_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 327841.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 326207.0,
+          "seed": 20260801,
+          "upper": 330581.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 4374.0,
+        "relative_interval_width": 0.013341813040752925
+      }
+    },
+    "ML-DSA-65:512": {
+      "sign_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1378662.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1140997.0,
+          "seed": 20260801,
+          "upper": 1406382.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 265385.0,
+        "relative_interval_width": 0.19249453727797775
+      },
+      "signature_size_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 3309.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3309.0,
+          "seed": 20260801,
+          "upper": 3309.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "verify_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 321536.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 320644.0,
+          "seed": 20260801,
+          "upper": 322252.5
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 1608.5,
+        "relative_interval_width": 0.005002550258757962
+      }
+    },
+    "ML-DSA-65:8192": {
+      "sign_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1411443.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1155723.0,
+          "seed": 20260801,
+          "upper": 1456540.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 300817.0,
+        "relative_interval_width": 0.21312719921130388
+      },
+      "signature_size_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 3309.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3309.0,
+          "seed": 20260801,
+          "upper": 3309.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "verify_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 352864.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 350514.5,
+          "seed": 20260801,
+          "upper": 354396.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 3881.5,
+        "relative_interval_width": 0.010999988664187903
+      }
+    },
+    "ML-DSA-87:2048": {
+      "sign_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1617851.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1284137.0,
+          "seed": 20260801,
+          "upper": 1629677.5
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 345540.5,
+        "relative_interval_width": 0.21357992794144826
+      },
+      "signature_size_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 4627.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 4627.0,
+          "seed": 20260801,
+          "upper": 4627.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "verify_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 503688.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 502906.3625,
+          "seed": 20260801,
+          "upper": 504930.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 2023.6375000000116,
+        "relative_interval_width": 0.00401764088086278
+      }
+    },
+    "ML-DSA-87:512": {
+      "sign_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1616195.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1304300.0,
+          "seed": 20260801,
+          "upper": 1637073.5
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 332773.5,
+        "relative_interval_width": 0.2058992863177753
+      },
+      "signature_size_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 4627.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 4627.0,
+          "seed": 20260801,
+          "upper": 4627.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "verify_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 496332.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 495840.0,
+          "seed": 20260801,
+          "upper": 498571.5
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 2731.5,
+        "relative_interval_width": 0.005503372742438529
+      }
+    },
+    "ML-DSA-87:8192": {
+      "sign_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1647658.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1279299.5,
+          "seed": 20260801,
+          "upper": 1803320.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 524020.5,
+        "relative_interval_width": 0.31803960530644104
+      },
+      "signature_size_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 4627.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 4627.0,
+          "seed": 20260801,
+          "upper": 4627.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "verify_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 527886.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 525105.5,
+          "seed": 20260801,
+          "upper": 528296.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 3190.5,
+        "relative_interval_width": 0.006043918573328332
+      }
+    }
+  },
+  "schema_version": 1,
+  "tls": {
+    "MLKEM768": {
+      "client_to_server_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1433.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1433.0,
+          "seed": 20260801,
+          "upper": 1433.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "process_cpu_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1084582.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1082990.0,
+          "seed": 20260801,
+          "upper": 1141091.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 58101.0,
+        "relative_interval_width": 0.05356994676290036
+      },
+      "server_to_client_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1958.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1958.0,
+          "seed": 20260801,
+          "upper": 1958.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "total_handshake_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 3391.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3391.0,
+          "seed": 20260801,
+          "upper": 3391.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "wall_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1088384.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1086577.0,
+          "seed": 20260801,
+          "upper": 1144903.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 58326.0,
+        "relative_interval_width": 0.05358954192637892
+      }
+    },
+    "SecP256r1MLKEM768": {
+      "client_to_server_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1498.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1498.0,
+          "seed": 20260801,
+          "upper": 1498.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "process_cpu_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1447776.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1444943.5,
+          "seed": 20260801,
+          "upper": 1569795.0625
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 124851.5625,
+        "relative_interval_width": 0.08623679526390823
+      },
+      "server_to_client_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 2023.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 2023.0,
+          "seed": 20260801,
+          "upper": 2023.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "total_handshake_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 3521.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3521.0,
+          "seed": 20260801,
+          "upper": 3521.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "wall_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1451343.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1448295.5,
+          "seed": 20260801,
+          "upper": 1574947.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 126651.5,
+        "relative_interval_width": 0.08726500652671129
+      }
+    },
+    "SecP384r1MLKEM1024": {
+      "client_to_server_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1914.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1914.0,
+          "seed": 20260801,
+          "upper": 1914.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "process_cpu_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 5998573.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 5994468.5,
+          "seed": 20260801,
+          "upper": 6338274.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 343805.5,
+        "relative_interval_width": 0.057314543199312305
+      },
+      "server_to_client_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 2535.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 2535.0,
+          "seed": 20260801,
+          "upper": 2535.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "total_handshake_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 4449.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 4449.0,
+          "seed": 20260801,
+          "upper": 4449.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "wall_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 6002044.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 5998042.5,
+          "seed": 20260801,
+          "upper": 6342388.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 344345.5,
+        "relative_interval_width": 0.05737137215255336
+      }
+    },
+    "X25519": {
+      "client_to_server_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 289.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 289.0,
+          "seed": 20260801,
+          "upper": 289.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "process_cpu_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1094469.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1092662.5,
+          "seed": 20260801,
+          "upper": 1161233.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 68570.5,
+        "relative_interval_width": 0.06265181441785267
+      },
+      "server_to_client_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 902.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 902.0,
+          "seed": 20260801,
+          "upper": 902.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "total_handshake_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1191.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1191.0,
+          "seed": 20260801,
+          "upper": 1191.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "wall_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1098009.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1096354.0,
+          "seed": 20260801,
+          "upper": 1164907.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 68553.0,
+        "relative_interval_width": 0.06243391447611085
+      }
+    },
+    "X25519MLKEM768": {
+      "client_to_server_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1465.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1465.0,
+          "seed": 20260801,
+          "upper": 1465.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "process_cpu_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1340563.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1336888.0,
+          "seed": 20260801,
+          "upper": 1424858.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 87970.0,
+        "relative_interval_width": 0.06562168283027354
+      },
+      "server_to_client_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1990.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1990.0,
+          "seed": 20260801,
+          "upper": 1990.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "total_handshake_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 3455.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3455.0,
+          "seed": 20260801,
+          "upper": 3455.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "wall_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1344120.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1340216.0,
+          "seed": 20260801,
+          "upper": 1431927.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 91711.0,
+        "relative_interval_width": 0.0682312337323923
+      }
+    }
+  }
+}

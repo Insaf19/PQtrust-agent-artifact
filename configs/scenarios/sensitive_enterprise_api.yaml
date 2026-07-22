@@ -1,0 +1,17 @@
+scenario_schema_version: "1.0"
+scenario_id: sensitive-enterprise-api
+description: Deterministic sensitive enterprise API scenario definition.
+evaluation_time_utc: 2026-07-13T00:00:00Z
+task:
+  descriptor_version: "1.0"
+  sensitivity: confidential
+  operational_impact: business_action
+  confidentiality_horizon: long
+  delegation_depth: 1
+  expected_session_seconds: 600
+  network_class: enterprise_wan
+  organization_policy_class: enterprise-sensitive
+initiator_agent_id: cloud-orchestrator
+initiator_policy_id: cloud-orchestrator-policy
+responder_agent_id: enterprise-api-agent
+responder_policy_id: enterprise-api-agent-policy

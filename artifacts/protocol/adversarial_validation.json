@@ -1,0 +1,150 @@
+{
+  "artifact": "adversarial_validation",
+  "cases": [
+    {
+      "case": "low-risk-public-tool:modified_tls_group",
+      "rejected": true
+    },
+    {
+      "case": "low-risk-public-tool:expiry:before_issued_at",
+      "error_code": "CONTRACT_NOT_YET_VALID",
+      "expectation_met": true,
+      "expected_pass": false,
+      "passed": false,
+      "reference_time": "2026-07-12T23:59:59Z"
+    },
+    {
+      "case": "low-risk-public-tool:expiry:issued_at_plus_1s",
+      "error_code": null,
+      "expectation_met": true,
+      "expected_pass": true,
+      "passed": true,
+      "reference_time": "2026-07-13T00:00:01Z"
+    },
+    {
+      "case": "low-risk-public-tool:expiry:at_expires_at",
+      "error_code": "PROPOSAL_EXPIRED",
+      "expectation_met": true,
+      "expected_pass": false,
+      "passed": false,
+      "reference_time": "2026-07-13T01:00:00Z"
+    },
+    {
+      "case": "low-risk-public-tool:expiry:after_expires_at",
+      "error_code": "PROPOSAL_EXPIRED",
+      "expectation_met": true,
+      "expected_pass": false,
+      "passed": false,
+      "reference_time": "2026-07-13T01:00:01Z"
+    },
+    {
+      "case": "sensitive-enterprise-api:modified_tls_group",
+      "rejected": true
+    },
+    {
+      "case": "sensitive-enterprise-api:expiry:before_issued_at",
+      "error_code": "CONTRACT_NOT_YET_VALID",
+      "expectation_met": true,
+      "expected_pass": false,
+      "passed": false,
+      "reference_time": "2026-07-12T23:59:59Z"
+    },
+    {
+      "case": "sensitive-enterprise-api:expiry:issued_at_plus_1s",
+      "error_code": null,
+      "expectation_met": true,
+      "expected_pass": true,
+      "passed": true,
+      "reference_time": "2026-07-13T00:00:01Z"
+    },
+    {
+      "case": "sensitive-enterprise-api:expiry:at_expires_at",
+      "error_code": "CONTRACT_EXPIRED",
+      "expectation_met": true,
+      "expected_pass": false,
+      "passed": false,
+      "reference_time": "2026-07-13T00:15:00Z"
+    },
+    {
+      "case": "sensitive-enterprise-api:expiry:after_expires_at",
+      "error_code": "CONTRACT_EXPIRED",
+      "expectation_met": true,
+      "expected_pass": false,
+      "passed": false,
+      "reference_time": "2026-07-13T00:15:01Z"
+    },
+    {
+      "case": "critical-edge-command:modified_tls_group",
+      "rejected": true
+    },
+    {
+      "case": "critical-edge-command:expiry:before_issued_at",
+      "error_code": "CONTRACT_NOT_YET_VALID",
+      "expectation_met": true,
+      "expected_pass": false,
+      "passed": false,
+      "reference_time": "2026-07-12T23:59:59Z"
+    },
+    {
+      "case": "critical-edge-command:expiry:issued_at_plus_1s",
+      "error_code": null,
+      "expectation_met": true,
+      "expected_pass": true,
+      "passed": true,
+      "reference_time": "2026-07-13T00:00:01Z"
+    },
+    {
+      "case": "critical-edge-command:expiry:at_expires_at",
+      "error_code": "CONTRACT_EXPIRED",
+      "expectation_met": true,
+      "expected_pass": false,
+      "passed": false,
+      "reference_time": "2026-07-13T00:02:00Z"
+    },
+    {
+      "case": "critical-edge-command:expiry:after_expires_at",
+      "error_code": "CONTRACT_EXPIRED",
+      "expectation_met": true,
+      "expected_pass": false,
+      "passed": false,
+      "reference_time": "2026-07-13T00:02:01Z"
+    },
+    {
+      "case": "low-risk-quantum-ready-tool:modified_tls_group",
+      "rejected": true
+    },
+    {
+      "case": "low-risk-quantum-ready-tool:expiry:before_issued_at",
+      "error_code": "CONTRACT_NOT_YET_VALID",
+      "expectation_met": true,
+      "expected_pass": false,
+      "passed": false,
+      "reference_time": "2026-07-12T23:59:59Z"
+    },
+    {
+      "case": "low-risk-quantum-ready-tool:expiry:issued_at_plus_1s",
+      "error_code": null,
+      "expectation_met": true,
+      "expected_pass": true,
+      "passed": true,
+      "reference_time": "2026-07-13T00:00:01Z"
+    },
+    {
+      "case": "low-risk-quantum-ready-tool:expiry:at_expires_at",
+      "error_code": "PROPOSAL_EXPIRED",
+      "expectation_met": true,
+      "expected_pass": false,
+      "passed": false,
+      "reference_time": "2026-07-13T01:00:00Z"
+    },
+    {
+      "case": "low-risk-quantum-ready-tool:expiry:after_expires_at",
+      "error_code": "PROPOSAL_EXPIRED",
+      "expectation_met": true,
+      "expected_pass": false,
+      "passed": false,
+      "reference_time": "2026-07-13T01:00:01Z"
+    }
+  ],
+  "validation_passed": true
+}

@@ -1,0 +1,82 @@
+{
+  "conflict_pair_count": 1210,
+  "methods": {
+    "bilateral_minimax_regret": {
+      "maximum_observed_maximum_regret": "0.002360303378243850679486305036",
+      "median_maximum_regret": "0.00233828687732863435985740131",
+      "median_total_regret": "0.00233828687732863435985740131",
+      "p95_maximum_regret": "0.002360303378243850679486305036"
+    },
+    "canonical_first_safe": {
+      "degradation_count": 0,
+      "fairness_gain": {
+        "maximum_fairness_gain": "0",
+        "median_fairness_gain": "0",
+        "minimum_fairness_gain": "0",
+        "negative_gain_count": 0,
+        "strict_positive_gain_proportion": "0",
+        "zero_gain_proportion": "1"
+      },
+      "maximum_observed_maximum_regret": "0.002360303378243850679486305036",
+      "median_maximum_regret": "0.00233828687732863435985740131",
+      "median_total_regret": "0.00233828687732863435985740131",
+      "p95_maximum_regret": "0.002360303378243850679486305036",
+      "strict_minimax_improvement_count": 0,
+      "tie_count": 1210
+    },
+    "initiator_minimum_cost": {
+      "degradation_count": 0,
+      "fairness_gain": {
+        "maximum_fairness_gain": "0.6729446258789579195749575807",
+        "median_fairness_gain": "0.03152075660343690873524731413",
+        "minimum_fairness_gain": "0",
+        "negative_gain_count": 0,
+        "strict_positive_gain_proportion": "0.5",
+        "zero_gain_proportion": "0.5"
+      },
+      "maximum_observed_maximum_regret": "0.6752608962553713376151860783",
+      "median_maximum_regret": "0.03388105998168075941473361917",
+      "median_total_regret": "0.03388105998168075941473361917",
+      "p95_maximum_regret": "0.5397366563286482999562516016",
+      "strict_minimax_improvement_count": 605,
+      "tie_count": 605
+    },
+    "minimum_total_cost": {
+      "degradation_count": 0,
+      "fairness_gain": {
+        "maximum_fairness_gain": "0",
+        "median_fairness_gain": "0",
+        "minimum_fairness_gain": "0",
+        "negative_gain_count": 0,
+        "strict_positive_gain_proportion": "0",
+        "zero_gain_proportion": "1"
+      },
+      "maximum_observed_maximum_regret": "0.002360303378243850679486305036",
+      "median_maximum_regret": "0.00233828687732863435985740131",
+      "median_total_regret": "0.00233828687732863435985740131",
+      "p95_maximum_regret": "0.002360303378243850679486305036",
+      "strict_minimax_improvement_count": 0,
+      "tie_count": 1210
+    },
+    "responder_minimum_cost": {
+      "degradation_count": 0,
+      "fairness_gain": {
+        "maximum_fairness_gain": "0.6729446258789579195749575807",
+        "median_fairness_gain": "0.03152075660343690873524731413",
+        "minimum_fairness_gain": "0",
+        "negative_gain_count": 0,
+        "strict_positive_gain_proportion": "0.5",
+        "zero_gain_proportion": "0.5"
+      },
+      "maximum_observed_maximum_regret": "0.6752608962553713376151860783",
+      "median_maximum_regret": "0.03388105998168075941473361917",
+      "median_total_regret": "0.03388105998168075941473361917",
+      "p95_maximum_regret": "0.5397366563286482999562516016",
+      "strict_minimax_improvement_count": 605,
+      "tie_count": 605
+    }
+  },
+  "scenario_id": "low-risk-quantum-ready-tool",
+  "validation_errors": [],
+  "validation_passed": true
+}

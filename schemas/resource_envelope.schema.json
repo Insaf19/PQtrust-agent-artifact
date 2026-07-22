@@ -1,0 +1,64 @@
+{
+  "additionalProperties": false,
+  "description": "Optional resource limits, left null until calibrated by real measurements.",
+  "properties": {
+    "max_cpu_time_microseconds": {
+      "anyOf": [
+        {
+          "exclusiveMinimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional positive bound on CPU time; null means unconstrained.",
+      "title": "Max Cpu Time Microseconds"
+    },
+    "max_energy_proxy_units": {
+      "anyOf": [
+        {
+          "exclusiveMinimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional positive bound on energy proxy units; null means unconstrained.",
+      "title": "Max Energy Proxy Units"
+    },
+    "max_handshake_bytes": {
+      "anyOf": [
+        {
+          "exclusiveMinimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional positive bound on handshake bytes; null means unconstrained.",
+      "title": "Max Handshake Bytes"
+    },
+    "max_peak_memory_kib": {
+      "anyOf": [
+        {
+          "exclusiveMinimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Optional positive bound on peak memory in KiB; null means unconstrained.",
+      "title": "Max Peak Memory Kib"
+    }
+  },
+  "title": "ResourceEnvelope",
+  "type": "object"
+}

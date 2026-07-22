@@ -1,0 +1,8 @@
+preference_schema_version: "1.0"
+preference_id: edge-control-agent-cost-preference
+preference_version: 1
+agent_id: edge-control-agent
+wall_time_weight_bps: 2500
+process_cpu_time_weight_bps: 4500
+total_handshake_bytes_weight_bps: 3000
+description: Explicit negotiation preference for edge controller CPU budget.

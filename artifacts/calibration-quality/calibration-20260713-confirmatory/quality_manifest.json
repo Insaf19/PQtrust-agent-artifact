@@ -1,0 +1,28 @@
+{
+  "analysis_git_commit": "eaf932fd5381bebc2c1f625ef07998492ecedebb",
+  "diagnostic_thresholds": {
+    "timing_stability_relative_range": 0.1,
+    "windowed_drift_relative_change": 0.1
+  },
+  "exact_configuration_hash": "d2afb6f9aed627347ea6ce529b880b038ea9cb090296a0e0604dd195bc89a499",
+  "generated_at_utc": "2026-07-13T17:28:11Z",
+  "generated_files": [
+    "bootstrap_quality.json",
+    "checksums.sha256",
+    "integrity_summary.json",
+    "machine_state_audit.json",
+    "quality_gate.json",
+    "quality_manifest.json",
+    "replicate_stability.json",
+    "robust_trend.json",
+    "windowed_drift.json"
+  ],
+  "git_dirty": true,
+  "implementation_version": 1,
+  "raw_run_checksum": "e727e85f9b4cc322e8c45f4698d2470f79ce0ee500280f80882d8d7913c4a1f9",
+  "run_id": "calibration-20260713-confirmatory",
+  "schema_version": 1,
+  "scientific_design_hash": "3df8771603d20a446c6c9a3b2633bdc7298c4e6ebd20814a94c2716f6ce92dd8",
+  "validation_source": "recomputed",
+  "window_size_blocks": 20
+}

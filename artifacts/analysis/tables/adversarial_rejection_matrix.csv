@@ -1,0 +1,7 @@
+section,metric,value
+adversarial,aggregate_rejected,200
+adversarial,aggregate_trials,200
+adversarial,by_attack,"{""attempted_weaker_group_retry"": {""TLS_invocation_count"": 10, ""aggregate_phase"": ""tls handshake"", ""expected_observed_code_agreement"": true, ""n"": 10, ""observation_ids"": [""adversarial:attempted_weaker_group_retry:t01"", ""adversarial:attempted_weaker_group_retry:t02"", ""adversarial:attempted_weaker_group_retry:t03"", ""adversarial:attempted_weaker_group_retry:t04"", ""adversarial:attempted_weaker_group_retry:t05"", ""adversarial:attempted_weaker_group_retry:t06"", ""adversarial:attempted_weaker_group_retry:t"
+adversarial,by_phase,"{""TLS"": {""rejected_count"": 30, ""trial_count"": 30}, ""execution gate"": {""rejected_count"": 30, ""trial_count"": 30}, ""framing"": {""rejected_count"": 60, ""trial_count"": 60}, ""local transport"": {""rejected_count"": 10, ""trial_count"": 10}, ""replay/state machine"": {""rejected_count"": 10, ""trial_count"": 10}, ""task"": {""rejected_count"": 30, ""trial_count"": 30}, ""tls handshake"": {""rejected_count"": 30, ""trial_count"": 30}}"
+adversarial,limitation,200/200 rejection validates this registered attack set only.
+adversarial,success_lower_95_confidence_bound,0.9997435664127765

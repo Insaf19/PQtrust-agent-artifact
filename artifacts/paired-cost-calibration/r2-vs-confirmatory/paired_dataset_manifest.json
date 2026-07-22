@@ -1,0 +1,16 @@
+{
+  "baseline_run_id": "calibration-20260713-r2",
+  "complete_tls_paired_blocks": 1200,
+  "confirmatory_run_id": "calibration-20260713-confirmatory",
+  "expected_tls_paired_blocks": 1200,
+  "profile_mapping": {
+    "P0": "X25519",
+    "P1": "X25519MLKEM768",
+    "P2": "SecP256r1MLKEM768",
+    "P3": "MLKEM768",
+    "P4": "SecP384r1MLKEM1024"
+  },
+  "raw_runs_modified": false,
+  "reference_profile": "P0",
+  "schema_version": 1
+}

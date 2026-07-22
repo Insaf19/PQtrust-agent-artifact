@@ -1,0 +1,504 @@
+{
+  "report_timestamp_utc": "2026-07-14T10:17:38Z",
+  "scenarios": [
+    {
+      "candidates": [
+        {
+          "dominated_dimensions": {},
+          "dominating_profile_ids": [],
+          "domination_explanation": null,
+          "eligible_for_regret_computation": true,
+          "initiator_cost": "1",
+          "initiator_regret": "0",
+          "initiator_weighted_components": {
+            "process_cpu_time": "0.3",
+            "total_handshake_bytes": "0.3",
+            "wall_time": "0.4"
+          },
+          "maximum_regret": "0",
+          "normalized_cost_vector": {
+            "process_cpu_time": "1",
+            "total_handshake_bytes": "1",
+            "wall_time": "1"
+          },
+          "pareto_status": "frontier",
+          "profile_id": "P4",
+          "raw_measured_cost_vector": {
+            "process_cpu_time": "5.45639365610338",
+            "total_handshake_bytes": "3.7355163727959697",
+            "wall_time": "5.442533746729593"
+          },
+          "regret_exclusion_reason": null,
+          "responder_cost": "1",
+          "responder_regret": "0",
+          "responder_weighted_components": {
+            "process_cpu_time": "0.45",
+            "total_handshake_bytes": "0.3",
+            "wall_time": "0.25"
+          },
+          "total_regret": "0"
+        }
+      ],
+      "common_safe_set": [
+        "P4"
+      ],
+      "pareto_frontier": [
+        "P4"
+      ],
+      "scenario_id": "critical-edge-command",
+      "scenario_type": "primary"
+    },
+    {
+      "candidates": [
+        {
+          "dominated_dimensions": {},
+          "dominating_profile_ids": [],
+          "domination_explanation": null,
+          "eligible_for_regret_computation": true,
+          "initiator_cost": "0.001634599164038522419937290545",
+          "initiator_regret": "0",
+          "initiator_weighted_components": {
+            "process_cpu_time": "0.0007080910134731552038458915108",
+            "total_handshake_bytes": "0",
+            "wall_time": "0.000926508150565367216091399034"
+          },
+          "maximum_regret": "0",
+          "normalized_cost_vector": {
+            "process_cpu_time": "0.002360303378243850679486305036",
+            "total_handshake_bytes": "0",
+            "wall_time": "0.002316270376413418040228497585"
+          },
+          "pareto_status": "frontier",
+          "profile_id": "P0",
+          "raw_measured_cost_vector": {
+            "process_cpu_time": "1",
+            "total_handshake_bytes": "1",
+            "wall_time": "1"
+          },
+          "regret_exclusion_reason": null,
+          "responder_cost": "0.001625792563672435892085729055",
+          "responder_regret": "0",
+          "responder_weighted_components": {
+            "process_cpu_time": "0.0002360303378243850679486305036",
+            "total_handshake_bytes": "0",
+            "wall_time": "0.001389762225848050824137098551"
+          },
+          "total_regret": "0"
+        },
+        {
+          "dominated_dimensions": {
+            "P0": [
+              "wall_time",
+              "process_cpu_time",
+              "total_handshake_bytes"
+            ]
+          },
+          "dominating_profile_ids": [
+            "P0"
+          ],
+          "domination_explanation": {
+            "dominated_dimensions": {
+              "P0": [
+                "wall_time",
+                "process_cpu_time",
+                "total_handshake_bytes"
+              ]
+            },
+            "dominating_profile_ids": [
+              "P0"
+            ],
+            "measured_values": {
+              "P0": {
+                "process_cpu_time": "1",
+                "total_handshake_bytes": "1",
+                "wall_time": "1"
+              },
+              "P1": {
+                "process_cpu_time": "1.219737267668786",
+                "total_handshake_bytes": "2.9009235936188076",
+                "wall_time": "1.219042873637888"
+              }
+            },
+            "profile_id": "P1"
+          },
+          "eligible_for_regret_computation": false,
+          "initiator_cost": null,
+          "initiator_regret": null,
+          "initiator_weighted_components": null,
+          "maximum_regret": null,
+          "normalized_cost_vector": {
+            "process_cpu_time": "0.05155223702920043238326734619",
+            "total_handshake_bytes": "0.6949048496009821707382422867",
+            "wall_time": "0.05150790820682782268057609196"
+          },
+          "pareto_status": "dominated",
+          "profile_id": "P1",
+          "raw_measured_cost_vector": {
+            "process_cpu_time": "1.219737267668786",
+            "total_handshake_bytes": "2.9009235936188076",
+            "wall_time": "1.219042873637888"
+          },
+          "regret_exclusion_reason": "removed_by_measured_pareto_dominance",
+          "responder_cost": null,
+          "responder_regret": null,
+          "responder_weighted_components": null,
+          "total_regret": null
+        }
+      ],
+      "common_safe_set": [
+        "P0",
+        "P1"
+      ],
+      "pareto_frontier": [
+        "P0"
+      ],
+      "scenario_id": "low-risk-public-tool",
+      "scenario_type": "primary"
+    },
+    {
+      "candidates": [
+        {
+          "dominated_dimensions": {},
+          "dominating_profile_ids": [],
+          "domination_explanation": null,
+          "eligible_for_regret_computation": true,
+          "initiator_cost": "0.001634599164038522419937290545",
+          "initiator_regret": "0",
+          "initiator_weighted_components": {
+            "process_cpu_time": "0.0007080910134731552038458915108",
+            "total_handshake_bytes": "0",
+            "wall_time": "0.000926508150565367216091399034"
+          },
+          "maximum_regret": "0",
+          "normalized_cost_vector": {
+            "process_cpu_time": "0.002360303378243850679486305036",
+            "total_handshake_bytes": "0",
+            "wall_time": "0.002316270376413418040228497585"
+          },
+          "pareto_status": "frontier",
+          "profile_id": "P0",
+          "raw_measured_cost_vector": {
+            "process_cpu_time": "1",
+            "total_handshake_bytes": "1",
+            "wall_time": "1"
+          },
+          "regret_exclusion_reason": null,
+          "responder_cost": "0.0006992844131070686759943300206",
+          "responder_regret": "0",
+          "responder_weighted_components": {
+            "process_cpu_time": "0.0002360303378243850679486305036",
+            "total_handshake_bytes": "0",
+            "wall_time": "0.000463254075282683608045699517"
+          },
+          "total_regret": "0"
+        },
+        {
+          "dominated_dimensions": {
+            "P0": [
+              "wall_time",
+              "process_cpu_time",
+              "total_handshake_bytes"
+            ],
+            "P3": [
+              "wall_time",
+              "process_cpu_time",
+              "total_handshake_bytes"
+            ]
+          },
+          "dominating_profile_ids": [
+            "P0",
+            "P3"
+          ],
+          "domination_explanation": {
+            "dominated_dimensions": {
+              "P0": [
+                "wall_time",
+                "process_cpu_time",
+                "total_handshake_bytes"
+              ],
+              "P3": [
+                "wall_time",
+                "process_cpu_time",
+                "total_handshake_bytes"
+              ]
+            },
+            "dominating_profile_ids": [
+              "P0",
+              "P3"
+            ],
+            "measured_values": {
+              "P0": {
+                "process_cpu_time": "1",
+                "total_handshake_bytes": "1",
+                "wall_time": "1"
+              },
+              "P1": {
+                "process_cpu_time": "1.219737267668786",
+                "total_handshake_bytes": "2.9009235936188076",
+                "wall_time": "1.219042873637888"
+              },
+              "P3": {
+                "process_cpu_time": "0.9894566735496761",
+                "total_handshake_bytes": "2.847187237615449",
+                "wall_time": "0.9896860006751348"
+              }
+            },
+            "profile_id": "P1"
+          },
+          "eligible_for_regret_computation": false,
+          "initiator_cost": null,
+          "initiator_regret": null,
+          "initiator_weighted_components": null,
+          "maximum_regret": null,
+          "normalized_cost_vector": {
+            "process_cpu_time": "0.05155223702920043238326734619",
+            "total_handshake_bytes": "0.6949048496009821707382422867",
+            "wall_time": "0.05150790820682782268057609196"
+          },
+          "pareto_status": "dominated",
+          "profile_id": "P1",
+          "raw_measured_cost_vector": {
+            "process_cpu_time": "1.219737267668786",
+            "total_handshake_bytes": "2.9009235936188076",
+            "wall_time": "1.219042873637888"
+          },
+          "regret_exclusion_reason": "removed_by_measured_pareto_dominance",
+          "responder_cost": null,
+          "responder_regret": null,
+          "responder_weighted_components": null,
+          "total_regret": null
+        },
+        {
+          "dominated_dimensions": {},
+          "dominating_profile_ids": [],
+          "domination_explanation": null,
+          "eligible_for_regret_computation": true,
+          "initiator_cost": "0.2025782688766114012845558235",
+          "initiator_regret": "0.200943669712572878864618533",
+          "initiator_weighted_components": {
+            "process_cpu_time": "0",
+            "total_handshake_bytes": "0.2025782688766114012845558235",
+            "wall_time": "0"
+          },
+          "maximum_regret": "0.4719833429656528676546359248",
+          "normalized_cost_vector": {
+            "process_cpu_time": "0",
+            "total_handshake_bytes": "0.6752608962553713376151860783",
+            "wall_time": "0"
+          },
+          "pareto_status": "frontier",
+          "profile_id": "P3",
+          "raw_measured_cost_vector": {
+            "process_cpu_time": "0.9894566735496761",
+            "total_handshake_bytes": "2.847187237615449",
+            "wall_time": "0.9896860006751348"
+          },
+          "regret_exclusion_reason": null,
+          "responder_cost": "0.4726826273787599363306302548",
+          "responder_regret": "0.4719833429656528676546359248",
+          "responder_weighted_components": {
+            "process_cpu_time": "0",
+            "total_handshake_bytes": "0.4726826273787599363306302548",
+            "wall_time": "0"
+          },
+          "total_regret": "0.6729270126782257465192544578"
+        }
+      ],
+      "common_safe_set": [
+        "P0",
+        "P1",
+        "P3"
+      ],
+      "pareto_frontier": [
+        "P0",
+        "P3"
+      ],
+      "scenario_id": "low-risk-quantum-ready-tool",
+      "scenario_type": "capability_ablation"
+    },
+    {
+      "candidates": [
+        {
+          "dominated_dimensions": {
+            "P3": [
+              "wall_time",
+              "process_cpu_time",
+              "total_handshake_bytes"
+            ]
+          },
+          "dominating_profile_ids": [
+            "P3"
+          ],
+          "domination_explanation": {
+            "dominated_dimensions": {
+              "P3": [
+                "wall_time",
+                "process_cpu_time",
+                "total_handshake_bytes"
+              ]
+            },
+            "dominating_profile_ids": [
+              "P3"
+            ],
+            "measured_values": {
+              "P1": {
+                "process_cpu_time": "1.219737267668786",
+                "total_handshake_bytes": "2.9009235936188076",
+                "wall_time": "1.219042873637888"
+              },
+              "P3": {
+                "process_cpu_time": "0.9894566735496761",
+                "total_handshake_bytes": "2.847187237615449",
+                "wall_time": "0.9896860006751348"
+              }
+            },
+            "profile_id": "P1"
+          },
+          "eligible_for_regret_computation": false,
+          "initiator_cost": null,
+          "initiator_regret": null,
+          "initiator_weighted_components": null,
+          "maximum_regret": null,
+          "normalized_cost_vector": {
+            "process_cpu_time": "0.05155223702920043238326734619",
+            "total_handshake_bytes": "0.6949048496009821707382422867",
+            "wall_time": "0.05150790820682782268057609196"
+          },
+          "pareto_status": "dominated",
+          "profile_id": "P1",
+          "raw_measured_cost_vector": {
+            "process_cpu_time": "1.219737267668786",
+            "total_handshake_bytes": "2.9009235936188076",
+            "wall_time": "1.219042873637888"
+          },
+          "regret_exclusion_reason": "removed_by_measured_pareto_dominance",
+          "responder_cost": null,
+          "responder_regret": null,
+          "responder_weighted_components": null,
+          "total_regret": null
+        },
+        {
+          "dominated_dimensions": {
+            "P1": [
+              "wall_time",
+              "process_cpu_time",
+              "total_handshake_bytes"
+            ],
+            "P3": [
+              "wall_time",
+              "process_cpu_time",
+              "total_handshake_bytes"
+            ]
+          },
+          "dominating_profile_ids": [
+            "P1",
+            "P3"
+          ],
+          "domination_explanation": {
+            "dominated_dimensions": {
+              "P1": [
+                "wall_time",
+                "process_cpu_time",
+                "total_handshake_bytes"
+              ],
+              "P3": [
+                "wall_time",
+                "process_cpu_time",
+                "total_handshake_bytes"
+              ]
+            },
+            "dominating_profile_ids": [
+              "P1",
+              "P3"
+            ],
+            "measured_values": {
+              "P1": {
+                "process_cpu_time": "1.219737267668786",
+                "total_handshake_bytes": "2.9009235936188076",
+                "wall_time": "1.219042873637888"
+              },
+              "P2": {
+                "process_cpu_time": "1.3221845219456105",
+                "total_handshake_bytes": "2.956339210747271",
+                "wall_time": "1.3213905760505673"
+              },
+              "P3": {
+                "process_cpu_time": "0.9894566735496761",
+                "total_handshake_bytes": "2.847187237615449",
+                "wall_time": "0.9896860006751348"
+              }
+            },
+            "profile_id": "P2"
+          },
+          "eligible_for_regret_computation": false,
+          "initiator_cost": null,
+          "initiator_regret": null,
+          "initiator_weighted_components": null,
+          "maximum_regret": null,
+          "normalized_cost_vector": {
+            "process_cpu_time": "0.07448680151420384813099640542",
+            "total_handshake_bytes": "0.7151626764886432852773792687",
+            "wall_time": "0.07449268295089282906133384066"
+          },
+          "pareto_status": "dominated",
+          "profile_id": "P2",
+          "raw_measured_cost_vector": {
+            "process_cpu_time": "1.3221845219456105",
+            "total_handshake_bytes": "2.956339210747271",
+            "wall_time": "1.3213905760505673"
+          },
+          "regret_exclusion_reason": "removed_by_measured_pareto_dominance",
+          "responder_cost": null,
+          "responder_regret": null,
+          "responder_weighted_components": null,
+          "total_regret": null
+        },
+        {
+          "dominated_dimensions": {},
+          "dominating_profile_ids": [],
+          "domination_explanation": null,
+          "eligible_for_regret_computation": true,
+          "initiator_cost": "0.2025782688766114012845558235",
+          "initiator_regret": "0",
+          "initiator_weighted_components": {
+            "process_cpu_time": "0",
+            "total_handshake_bytes": "0.2025782688766114012845558235",
+            "wall_time": "0"
+          },
+          "maximum_regret": "0",
+          "normalized_cost_vector": {
+            "process_cpu_time": "0",
+            "total_handshake_bytes": "0.6752608962553713376151860783",
+            "wall_time": "0"
+          },
+          "pareto_status": "frontier",
+          "profile_id": "P3",
+          "raw_measured_cost_vector": {
+            "process_cpu_time": "0.9894566735496761",
+            "total_handshake_bytes": "2.847187237615449",
+            "wall_time": "0.9896860006751348"
+          },
+          "regret_exclusion_reason": null,
+          "responder_cost": "0.2701043585021485350460744313",
+          "responder_regret": "0",
+          "responder_weighted_components": {
+            "process_cpu_time": "0",
+            "total_handshake_bytes": "0.2701043585021485350460744313",
+            "wall_time": "0"
+          },
+          "total_regret": "0"
+        }
+      ],
+      "common_safe_set": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "pareto_frontier": [
+        "P3"
+      ],
+      "scenario_id": "sensitive-enterprise-api",
+      "scenario_type": "primary"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "$defs": {
+    "FallbackRule": {
+      "description": "Fallback policy for profile selection and future negotiation.",
+      "enum": [
+        "low_risk_only",
+        "explicit_only",
+        "forbidden"
+      ],
+      "title": "FallbackRule",
+      "type": "string"
+    },
+    "LeaseStrictness": {
+      "description": "Lease-duration strictness class.",
+      "enum": [
+        "long",
+        "medium",
+        "short"
+      ],
+      "title": "LeaseStrictness",
+      "type": "string"
+    },
+    "ResumptionRule": {
+      "description": "Session resumption binding rule.",
+      "enum": [
+        "context_bound",
+        "contract_bound",
+        "forbidden"
+      ],
+      "title": "ResumptionRule",
+      "type": "string"
+    },
+    "ThreatClass": {
+      "description": "Threat classes represented independently for each assurance dimension.",
+      "enum": [
+        "classical",
+        "quantum"
+      ],
+      "title": "ThreatClass",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Minimum assurance required by one agent for one task.",
+  "properties": {
+    "contract_evidence_threats": {
+      "description": "Required contract-evidence threat coverage.",
+      "items": {
+        "$ref": "#/$defs/ThreatClass"
+      },
+      "title": "Contract Evidence Threats",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "endpoint_authentication_threats": {
+      "description": "Required endpoint-authentication threat coverage.",
+      "items": {
+        "$ref": "#/$defs/ThreatClass"
+      },
+      "title": "Endpoint Authentication Threats",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "fallback_rule": {
+      "$ref": "#/$defs/FallbackRule",
+      "description": "Minimum fallback strictness."
+    },
+    "key_establishment_threats": {
+      "description": "Required key-establishment threat coverage.",
+      "items": {
+        "$ref": "#/$defs/ThreatClass"
+      },
+      "title": "Key Establishment Threats",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "lease_strictness": {
+      "$ref": "#/$defs/LeaseStrictness",
+      "description": "Minimum lease strictness."
+    },
+    "resumption_rule": {
+      "$ref": "#/$defs/ResumptionRule",
+      "description": "Minimum resumption strictness."
+    }
+  },
+  "required": [
+    "key_establishment_threats",
+    "endpoint_authentication_threats",
+    "contract_evidence_threats",
+    "fallback_rule",
+    "resumption_rule",
+    "lease_strictness"
+  ],
+  "title": "AssuranceRequirement",
+  "type": "object"
+}

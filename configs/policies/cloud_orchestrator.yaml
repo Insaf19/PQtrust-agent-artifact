@@ -1,0 +1,61 @@
+policy_schema_version: "1.0"
+policy_id: cloud-orchestrator-policy
+policy_version: 1
+agent_id: cloud-orchestrator
+catalog_version: "1.0"
+base_requirement:
+  key_establishment_threats: [classical]
+  endpoint_authentication_threats: [classical]
+  contract_evidence_threats: [classical, quantum]
+  fallback_rule: low_risk_only
+  resumption_rule: context_bound
+  lease_strictness: long
+allowed_profile_ids: [P0, P1, P2, P3, P4]
+denied_profile_ids: []
+rules:
+  - rule_id: confidential-data
+    description: Strengthen assurance for confidential or restricted data.
+    condition:
+      minimum_sensitivity: confidential
+    contribution:
+      key_establishment_threats: [classical, quantum]
+      fallback_rule: explicit_only
+      resumption_rule: contract_bound
+      lease_strictness: medium
+  - rule_id: long-horizon
+    description: Strengthen assurance for long confidentiality horizons.
+    condition:
+      minimum_confidentiality_horizon: long
+    contribution:
+      key_establishment_threats: [classical, quantum]
+      fallback_rule: explicit_only
+      resumption_rule: contract_bound
+      lease_strictness: medium
+  - rule_id: physical-control
+    description: Require strict handling for physical-control operations.
+    condition:
+      minimum_operational_impact: physical_control
+    contribution:
+      key_establishment_threats: [classical, quantum]
+      fallback_rule: forbidden
+      resumption_rule: forbidden
+      lease_strictness: short
+  - rule_id: delegated-depth-2
+    description: Strengthen assurance for delegated tasks at depth two or greater.
+    condition:
+      minimum_delegation_depth: 2
+    contribution:
+      key_establishment_threats: [classical, quantum]
+      fallback_rule: explicit_only
+      resumption_rule: contract_bound
+      lease_strictness: medium
+  - rule_id: restricted-task
+    description: Require strict handling for restricted tasks.
+    condition:
+      minimum_sensitivity: restricted
+    contribution:
+      key_establishment_threats: [classical, quantum]
+      fallback_rule: forbidden
+      resumption_rule: forbidden
+      lease_strictness: short
+solver_timeout_ms: 5000

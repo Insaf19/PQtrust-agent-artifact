@@ -1,0 +1,3 @@
+section,metric,value
+component,by_component,"{""IUS_verification"": {""batch_latency_ns"": {""count"": 10, ""mad"": 9157523.5, ""maximum"": 737572970.0, ""mean"": 723918241.2, ""median"": 724195645.0, ""minimum"": 712585838.0, ""p05"": 713438348.15, ""p25"": 714950099.75, ""p75"": 729625189.5, ""p95"": 737254960.4, ""p99"": 737509368.08, ""sample_standard_deviation"": 9439429.807559032}, ""component_family"": ""solver/certificate"", ""failure_count"": 0, ""n_batches"": 10, ""observation_ids"": [""component:IUS_verification:p01"", ""component:IUS_verification:p02"", ""component:IUS_"
+component,ranking_note,components are not ranked across incomparable operation semantics

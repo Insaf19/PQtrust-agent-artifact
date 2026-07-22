@@ -1,0 +1,32 @@
+{
+  "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+  "catalog_path": "/home/lasledjii/pqtrust-agent-lab/configs/profiles/trust_profiles.yaml",
+  "catalog_version": "1.0",
+  "openssl_executable": "/home/lasledjii/pqtrust-agent-lab/.local/openssl-3.5.7/bin/openssl",
+  "openssl_version": "3.5.7",
+  "profile_count": 5,
+  "profile_ids": [
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+  ],
+  "profile_tls_group_available": {
+    "P0": true,
+    "P1": true,
+    "P2": true,
+    "P3": true,
+    "P4": true
+  },
+  "timestamp_utc": "2026-07-13T15:35:57Z",
+  "tls_groups": [
+    "X25519",
+    "X25519MLKEM768",
+    "SecP256r1MLKEM768",
+    "MLKEM768",
+    "SecP384r1MLKEM1024"
+  ],
+  "validation_errors": [],
+  "validation_passed": true
+}

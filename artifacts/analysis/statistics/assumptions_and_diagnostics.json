@@ -1,0 +1,12 @@
+{
+  "bootstrap": "deterministic percentile bootstrap",
+  "normality_assumption": "not assumed",
+  "paired_tests": "two-sided sign tests with Holm correction",
+  "pseudoreplication_control": "scenario_id, block_id, repetition for feasible paired methods",
+  "software_versions": {
+    "matplotlib": "unavailable",
+    "platform": "Linux-6.17.0-35-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3",
+    "yaml": "6.0.3"
+  }
+}

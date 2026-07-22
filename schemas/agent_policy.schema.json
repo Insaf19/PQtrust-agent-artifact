@@ -1,0 +1,489 @@
+{
+  "$defs": {
+    "AssuranceRequirement": {
+      "additionalProperties": false,
+      "description": "Minimum assurance required by one agent for one task.",
+      "properties": {
+        "contract_evidence_threats": {
+          "description": "Required contract-evidence threat coverage.",
+          "items": {
+            "$ref": "#/$defs/ThreatClass"
+          },
+          "title": "Contract Evidence Threats",
+          "type": "array",
+          "uniqueItems": true
+        },
+        "endpoint_authentication_threats": {
+          "description": "Required endpoint-authentication threat coverage.",
+          "items": {
+            "$ref": "#/$defs/ThreatClass"
+          },
+          "title": "Endpoint Authentication Threats",
+          "type": "array",
+          "uniqueItems": true
+        },
+        "fallback_rule": {
+          "$ref": "#/$defs/FallbackRule",
+          "description": "Minimum fallback strictness."
+        },
+        "key_establishment_threats": {
+          "description": "Required key-establishment threat coverage.",
+          "items": {
+            "$ref": "#/$defs/ThreatClass"
+          },
+          "title": "Key Establishment Threats",
+          "type": "array",
+          "uniqueItems": true
+        },
+        "lease_strictness": {
+          "$ref": "#/$defs/LeaseStrictness",
+          "description": "Minimum lease strictness."
+        },
+        "resumption_rule": {
+          "$ref": "#/$defs/ResumptionRule",
+          "description": "Minimum resumption strictness."
+        }
+      },
+      "required": [
+        "key_establishment_threats",
+        "endpoint_authentication_threats",
+        "contract_evidence_threats",
+        "fallback_rule",
+        "resumption_rule",
+        "lease_strictness"
+      ],
+      "title": "AssuranceRequirement",
+      "type": "object"
+    },
+    "ConfidentialityHorizon": {
+      "description": "Expected confidentiality horizon of task data.",
+      "enum": [
+        "short",
+        "medium",
+        "long"
+      ],
+      "title": "ConfidentialityHorizon",
+      "type": "string"
+    },
+    "ContractEvidenceMode": {
+      "description": "Application-level evidence mode for manifests and future contracts.",
+      "enum": [
+        "mldsa65",
+        "mldsa87"
+      ],
+      "title": "ContractEvidenceMode",
+      "type": "string"
+    },
+    "EndpointAuthenticationMode": {
+      "description": "Endpoint-authentication mechanisms represented in a trust profile.",
+      "enum": [
+        "classical_x509",
+        "dual_x509_mldsa",
+        "pq_mldsa"
+      ],
+      "title": "EndpointAuthenticationMode",
+      "type": "string"
+    },
+    "FallbackRule": {
+      "description": "Fallback policy for profile selection and future negotiation.",
+      "enum": [
+        "low_risk_only",
+        "explicit_only",
+        "forbidden"
+      ],
+      "title": "FallbackRule",
+      "type": "string"
+    },
+    "LeaseStrictness": {
+      "description": "Lease-duration strictness class.",
+      "enum": [
+        "long",
+        "medium",
+        "short"
+      ],
+      "title": "LeaseStrictness",
+      "type": "string"
+    },
+    "NetworkClass": {
+      "description": "Network environment class for the task descriptor public context.",
+      "enum": [
+        "stable_cloud",
+        "enterprise_wan",
+        "constrained_edge"
+      ],
+      "title": "NetworkClass",
+      "type": "string"
+    },
+    "OperationalImpact": {
+      "description": "Operational impact class of the task descriptor public context.",
+      "enum": [
+        "observation",
+        "business_action",
+        "physical_control"
+      ],
+      "title": "OperationalImpact",
+      "type": "string"
+    },
+    "PolicyRule": {
+      "additionalProperties": false,
+      "description": "One named monotone policy rule.",
+      "properties": {
+        "condition": {
+          "$ref": "#/$defs/TaskRuleCondition"
+        },
+        "contribution": {
+          "$ref": "#/$defs/RequirementContribution"
+        },
+        "description": {
+          "maxLength": 1200,
+          "minLength": 1,
+          "title": "Description",
+          "type": "string"
+        },
+        "rule_id": {
+          "pattern": "^[a-z][a-z0-9_.-]{2,63}$",
+          "title": "Rule Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "rule_id",
+        "description",
+        "condition",
+        "contribution"
+      ],
+      "title": "PolicyRule",
+      "type": "object"
+    },
+    "RequirementContribution": {
+      "additionalProperties": false,
+      "description": "Optional requirement fields that strengthen by join.",
+      "properties": {
+        "contract_evidence_threats": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/ThreatClass"
+              },
+              "type": "array",
+              "uniqueItems": true
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Contract Evidence Threats"
+        },
+        "endpoint_authentication_threats": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/ThreatClass"
+              },
+              "type": "array",
+              "uniqueItems": true
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Endpoint Authentication Threats"
+        },
+        "fallback_rule": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/FallbackRule"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "key_establishment_threats": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/ThreatClass"
+              },
+              "type": "array",
+              "uniqueItems": true
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Key Establishment Threats"
+        },
+        "lease_strictness": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LeaseStrictness"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "resumption_rule": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResumptionRule"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "title": "RequirementContribution",
+      "type": "object"
+    },
+    "ResumptionRule": {
+      "description": "Session resumption binding rule.",
+      "enum": [
+        "context_bound",
+        "contract_bound",
+        "forbidden"
+      ],
+      "title": "ResumptionRule",
+      "type": "string"
+    },
+    "TaskRuleCondition": {
+      "additionalProperties": false,
+      "description": "Monotone lower-bound task predicates plus exact unordered class filters.",
+      "properties": {
+        "minimum_confidentiality_horizon": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ConfidentialityHorizon"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "minimum_delegation_depth": {
+          "anyOf": [
+            {
+              "maximum": 8,
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Minimum Delegation Depth"
+        },
+        "minimum_expected_session_seconds": {
+          "anyOf": [
+            {
+              "maximum": 86400,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Minimum Expected Session Seconds"
+        },
+        "minimum_operational_impact": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/OperationalImpact"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "minimum_sensitivity": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/TaskSensitivity"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "network_classes": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/NetworkClass"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Network Classes"
+        },
+        "organization_policy_classes": {
+          "anyOf": [
+            {
+              "items": {
+                "maxLength": 64,
+                "minLength": 1,
+                "pattern": "^[A-Za-z0-9._-]+$",
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Organization Policy Classes"
+        }
+      },
+      "title": "TaskRuleCondition",
+      "type": "object"
+    },
+    "TaskSensitivity": {
+      "description": "Sensitivity class of the task descriptor public context.",
+      "enum": [
+        "public",
+        "internal",
+        "confidential",
+        "restricted"
+      ],
+      "title": "TaskSensitivity",
+      "type": "string"
+    },
+    "ThreatClass": {
+      "description": "Threat classes represented independently for each assurance dimension.",
+      "enum": [
+        "classical",
+        "quantum"
+      ],
+      "title": "ThreatClass",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Versioned private agent policy for local profile compilation.",
+  "properties": {
+    "agent_id": {
+      "maxLength": 128,
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9._-]+$",
+      "title": "Agent Id",
+      "type": "string"
+    },
+    "allowed_profile_ids": {
+      "items": {
+        "pattern": "^P[0-9]+$",
+        "type": "string"
+      },
+      "title": "Allowed Profile Ids",
+      "type": "array"
+    },
+    "base_requirement": {
+      "$ref": "#/$defs/AssuranceRequirement"
+    },
+    "catalog_version": {
+      "const": "1.0",
+      "title": "Catalog Version",
+      "type": "string"
+    },
+    "denied_profile_ids": {
+      "default": [],
+      "items": {
+        "pattern": "^P[0-9]+$",
+        "type": "string"
+      },
+      "title": "Denied Profile Ids",
+      "type": "array"
+    },
+    "permitted_contract_evidence_modes": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/ContractEvidenceMode"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Permitted Contract Evidence Modes"
+    },
+    "permitted_endpoint_authentication_modes": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/EndpointAuthenticationMode"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Permitted Endpoint Authentication Modes"
+    },
+    "policy_id": {
+      "maxLength": 128,
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9._-]+$",
+      "title": "Policy Id",
+      "type": "string"
+    },
+    "policy_schema_version": {
+      "const": "1.0",
+      "default": "1.0",
+      "title": "Policy Schema Version",
+      "type": "string"
+    },
+    "policy_version": {
+      "exclusiveMinimum": 0,
+      "title": "Policy Version",
+      "type": "integer"
+    },
+    "rules": {
+      "default": [],
+      "items": {
+        "$ref": "#/$defs/PolicyRule"
+      },
+      "title": "Rules",
+      "type": "array"
+    },
+    "solver_timeout_ms": {
+      "default": 5000,
+      "exclusiveMinimum": 0,
+      "maximum": 60000,
+      "title": "Solver Timeout Ms",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "policy_id",
+    "policy_version",
+    "agent_id",
+    "catalog_version",
+    "base_requirement",
+    "allowed_profile_ids"
+  ],
+  "title": "AgentPolicy",
+  "type": "object"
+}

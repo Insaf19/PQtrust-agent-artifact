@@ -1,0 +1,140 @@
+campaign_id: stage8-final-campaign
+campaign_version: "1.0"
+registered_at: "2026-07-14T00:00:00Z"
+catalog_hash:
+  path: configs/profiles/trust_profiles.yaml
+  sha256: "90c667758872e590b56e2119cbb706064eec3ef02b534cd77580887088b6ffbe"
+paired_cost_evidence_hash:
+  path: artifacts/paired-cost-calibration/r2-vs-confirmatory/checksums.sha256
+  sha256: "aa11b72c9a4bbe47a90e0dd428b9e47401763c41be4bbfda948886349edc630d"
+stage_bundle_hashes:
+  stage5:
+    path: artifacts/protocol/checksums.sha256
+    sha256: "64981298686a4f2433dccff77cdc135632a4506ee6d47f3c8145f5484e58eec7"
+  stage6:
+    path: artifacts/conflicts/checksums.sha256
+    sha256: "d248032a1077b53e0e94abba1751e48510e0080f12a0cca45bfb801db9b9842d"
+  stage7:
+    path: artifacts/runtime/checksums.sha256
+    sha256: "f64d5c490f25f50227942337065a4c9ebd6bcf7e950249fc8701ee054f8efae9"
+  stage7_bundle_validation:
+    path: artifacts/runtime/stage7_bundle_validation.json
+    sha256: "cae1bb3bb55e998dcb384a6be98be2370b84355fe6760c6cccd8c343ff153fb8"
+openssl:
+  version: "OpenSSL 3.5.7 9 Jun 2026"
+  path: ".local/openssl-3.5.7/bin/openssl"
+host_environment_requirements:
+  machine_scope: single-machine local laboratory
+  operating_system: linux
+  python: ">=3.11"
+  native_binaries:
+    - ".build/native/tls_handshake_bench"
+    - ".build/native/mldsa_bench"
+  repository_local_openssl_required: true
+methods:
+  - bilateral_minimax_regret
+  - canonical_first_safe
+  - initiator_minimum_cost
+  - minimum_total_cost
+scenarios:
+  feasible:
+    - low-risk-public-tool
+    - sensitive-enterprise-api
+    - critical-edge-command
+    - low-risk-quantum-ready-tool
+  infeasible:
+    - no-common-profile
+    - assurance-floor-conflict
+    - TLS-group-capability-conflict
+    - lease-policy-conflict
+    - multi-cause-conflict
+  adversarial_source: artifacts/runtime/adversarial_runtime_validation.json
+  concurrency:
+    - low-risk-public-tool
+    - sensitive-enterprise-api
+repetitions:
+  feasible_per_scenario_method: 30
+  infeasible_per_scenario: 30
+  adversarial_trials_per_attack: 10
+  concurrency_per_scenario_level: 10
+  component_operations_per_process: 100
+  component_processes: 10
+block_design:
+  feasible_blocks: 3
+  feasible_repetitions_per_block: 10
+  randomized_methods_within_each_block: true
+  paired_comparison_scope: scenario_block_repetition
+deterministic_ordering_seed: 88081357
+timeout_policy:
+  feasible_session_seconds: 120
+  infeasible_session_seconds: 60
+  adversarial_trial_seconds: 60
+  concurrency_trial_seconds: 240
+  component_batch_seconds: 120
+failure_policy:
+  preserve_failed_observations: true
+  no_automatic_exclusion: true
+  fail_validation_on_unexpected_feasible_failure: true
+  failure_classes:
+    - protocol_rejection
+    - expected_adversarial_rejection
+    - environment_failure
+    - process_failure
+    - timeout
+    - measurement_failure
+    - integrity_failure
+measured_metrics:
+  feasible:
+    - identification
+    - outcome
+    - monotonic_timing
+    - resources
+    - communication
+    - cryptographic_counts
+  infeasible:
+    - abort_latency
+    - certificate_metrics
+    - failure_transcript_metrics
+    - abort_record_metrics
+    - safety_invariants
+  adversarial:
+    - rejection_code
+    - fail_closed
+    - rejection_latency
+    - runtime_state_at_rejection
+  concurrency:
+    - throughput
+    - latency_distribution
+    - aggregate_resources
+    - transport_failures
+  components:
+    - per_component_batch_latency
+    - operation_count
+exclusion_rules:
+  valid_slow_observations: never_exclude
+  failed_observations: preserve_and_classify
+  missing_required_metrics: mark_null_with_reason
+  fabricated_measurements: forbidden
+no_adaptive_stopping: true
+no_post_hoc_method_changes: true
+warmup:
+  tls_groups:
+    - X25519
+    - X25519MLKEM768
+    - SecP256r1MLKEM768
+    - MLKEM768
+    - SecP384r1MLKEM1024
+  measured: false
+concurrency_levels: [1, 2, 4, 8, 16]
+components:
+  - policy_compilation
+  - commit_creation
+  - reveal_verification
+  - Pareto_computation
+  - minimax_regret_computation
+  - unsigned_contract_canonicalization
+  - ML-DSA-65_signing_and_verification
+  - ML-DSA-87_signing_and_verification
+  - conflict_certificate_generation
+  - IUS_verification
+  - state_trace_verification

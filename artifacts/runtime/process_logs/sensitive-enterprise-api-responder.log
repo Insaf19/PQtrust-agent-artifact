@@ -1,0 +1,11 @@
+scenario_id=sensitive-enterprise-api
+process_role=responder
+process_started=true
+transport_endpoint_type=local_process_pipe
+connection_accepted=true
+tls_executor_invoked=true
+requested_group=MLKEM768
+negotiated_group=MLKEM768
+task_request_received=true
+clean_shutdown=true
+exit_code=0

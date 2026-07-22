@@ -1,0 +1,24 @@
+{
+  "TLS_socket_created": false,
+  "artifact": "stage7_infeasible_session",
+  "execution_audit": {
+    "reason": "conflict certified before execution gate authorization",
+    "tls_child_process_started": false
+  },
+  "execution_gate_authorized": false,
+  "fallback_attempted": false,
+  "final_state": "ABORTED",
+  "native_tls_invoked": false,
+  "report_version": "1.0",
+  "resumption_used": false,
+  "scenario_id": "lease-policy-conflict",
+  "session_id": "48cff90c651aa356f44af4807e634956142084dfa5b7f01cfb6f93d617260076",
+  "state_trace_hash": "c8aff2ebc1b042d072b947609b5eef7c1faf4b35366e5a4e1e5a1f539906f691",
+  "state_trace_path": "state_traces/lease-policy-conflict.json",
+  "task_execution_invoked": false,
+  "validation_errors": [],
+  "validation_passed": true,
+  "verified_abort_record_hash": "f1934f01575a2810dcfbe6e5f333b4545516d8a126691ef36aae4b34bed9e162",
+  "verified_conflict_certificate_hash": "89f6630d22478513dd3281d9455d98a1bcacb271fe4478e102906e43d77ea1b0",
+  "verified_failure_transcript_hash": "d0a3e3baca386062027dc1fa2ff774ee29181302941897e5001df38d71dff4c6"
+}

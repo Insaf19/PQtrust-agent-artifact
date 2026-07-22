@@ -1,0 +1,24 @@
+{
+  "TLS_socket_created": false,
+  "artifact": "stage7_infeasible_session",
+  "execution_audit": {
+    "reason": "conflict certified before execution gate authorization",
+    "tls_child_process_started": false
+  },
+  "execution_gate_authorized": false,
+  "fallback_attempted": false,
+  "final_state": "ABORTED",
+  "native_tls_invoked": false,
+  "report_version": "1.0",
+  "resumption_used": false,
+  "scenario_id": "assurance-floor-conflict",
+  "session_id": "8878b73953d4c8df94e4f79b6bb75915cc76028a6d336947cc3a9f0f6614ea81",
+  "state_trace_hash": "879e80282f08557c3a320078a57697a07759b1bfaee670aaf1a941387d551f5f",
+  "state_trace_path": "state_traces/assurance-floor-conflict.json",
+  "task_execution_invoked": false,
+  "validation_errors": [],
+  "validation_passed": true,
+  "verified_abort_record_hash": "c6cd346f2dd31b95b12ee0514e8767c90a8afcfd789823f8cb9774c6486dfb88",
+  "verified_conflict_certificate_hash": "944f45cad4b7c53e6921a26ec8c11d0885f64d52b171dbfe8f11cb9fa883f13c",
+  "verified_failure_transcript_hash": "996e3c5fa04a7b57c479c947f4e69e7cfd3ee30485a34b2410a104d8e7ad5e55"
+}

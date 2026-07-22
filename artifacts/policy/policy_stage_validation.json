@@ -1,0 +1,208 @@
+{
+  "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+  "compiler_implementation_version": "0.2.0",
+  "report_timestamp_utc": "2026-07-13T14:53:39Z",
+  "scenario_count": 3,
+  "scenarios": [
+    {
+      "common_safe_set_sanity_check": [
+        "P4"
+      ],
+      "initiator_agent_id": "cloud-orchestrator",
+      "initiator_compilation_hash": "372458137ffb2adc6b468e1a0f9c97cc3fa0fd872898ef1d72b1d347558ab1c9",
+      "initiator_matched_rules": [
+        "confidential-data",
+        "delegated-depth-2",
+        "long-horizon",
+        "physical-control",
+        "restricted-task"
+      ],
+      "initiator_policy_hash": "a73b7c01e395109d549c6042fe9c9046f3aef460c69cbad3077c0f13e7e298b2",
+      "initiator_rejection_categories_by_profile": {
+        "P0": [
+          "kem_assurance",
+          "fallback",
+          "resumption",
+          "lease"
+        ],
+        "P1": [
+          "fallback",
+          "resumption",
+          "lease"
+        ],
+        "P2": [
+          "fallback",
+          "resumption",
+          "lease"
+        ],
+        "P3": [
+          "resumption",
+          "lease"
+        ],
+        "P4": []
+      },
+      "initiator_safe_set": [
+        "P4"
+      ],
+      "responder_agent_id": "edge-control-agent",
+      "responder_compilation_hash": "21577e03266eef1957a66c36648b94032aed05fc4f576b23cb4f813a532f6e14",
+      "responder_matched_rules": [],
+      "responder_policy_hash": "6ac91e69b496c00be1cff2c58095d2ce5b6e41951d8c89ab519c45bb1176bf56",
+      "responder_rejection_categories_by_profile": {
+        "P0": [
+          "capability",
+          "organization_policy",
+          "kem_assurance",
+          "fallback",
+          "resumption",
+          "lease"
+        ],
+        "P1": [
+          "fallback",
+          "resumption",
+          "lease"
+        ],
+        "P2": [
+          "capability",
+          "organization_policy",
+          "fallback",
+          "resumption",
+          "lease"
+        ],
+        "P3": [
+          "resumption",
+          "lease"
+        ],
+        "P4": []
+      },
+      "responder_safe_set": [
+        "P4"
+      ],
+      "scenario_hash": "56945b6052158b09dd9c121f03b7820a28c3ce87c111c47a438326de4a4e1b73",
+      "scenario_id": "critical-edge-command",
+      "task_hash": "cfb487bd7bbdce61194a833cc873ba7f016ef934b34a20b6e9e6e56932969e8a",
+      "z3_version": "4.16.0"
+    },
+    {
+      "common_safe_set_sanity_check": [
+        "P0",
+        "P1"
+      ],
+      "initiator_agent_id": "cloud-orchestrator",
+      "initiator_compilation_hash": "a87a7a53cd3bdfd50c6cc305c4e355053ad95ce0d5aa15b7f9a51c4032a7a885",
+      "initiator_matched_rules": [],
+      "initiator_policy_hash": "a73b7c01e395109d549c6042fe9c9046f3aef460c69cbad3077c0f13e7e298b2",
+      "initiator_rejection_categories_by_profile": {
+        "P0": [],
+        "P1": [],
+        "P2": [],
+        "P3": [],
+        "P4": [
+          "lease"
+        ]
+      },
+      "initiator_safe_set": [
+        "P0",
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "responder_agent_id": "public-tool-agent",
+      "responder_compilation_hash": "339c6646429588f4e02a72ed85adf41c26e9ec2afa696ed206476b440a9dcd06",
+      "responder_matched_rules": [],
+      "responder_policy_hash": "2835d3e48c13be07f95d8f8afb293f679bbb67952acfae28b1e3ffabe53be157",
+      "responder_rejection_categories_by_profile": {
+        "P0": [],
+        "P1": [],
+        "P2": [
+          "capability",
+          "organization_policy"
+        ],
+        "P3": [
+          "capability",
+          "organization_policy"
+        ],
+        "P4": [
+          "capability",
+          "organization_policy",
+          "lease"
+        ]
+      },
+      "responder_safe_set": [
+        "P0",
+        "P1"
+      ],
+      "scenario_hash": "14122d5746ec7cf64ca6e6ab4b9afaee4379be7fe119d40e7d9e5aca23ef88ce",
+      "scenario_id": "low-risk-public-tool",
+      "task_hash": "11acdde4c6f3bb6fa8d57d111b6f0e501cc120abce7564f699592a7a1d559a78",
+      "z3_version": "4.16.0"
+    },
+    {
+      "common_safe_set_sanity_check": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "initiator_agent_id": "cloud-orchestrator",
+      "initiator_compilation_hash": "ac44bdd38f6d2666d9169d8bae99a84d0bf0bbd6a582ecbf25859356ac92b9c1",
+      "initiator_matched_rules": [
+        "confidential-data",
+        "long-horizon"
+      ],
+      "initiator_policy_hash": "a73b7c01e395109d549c6042fe9c9046f3aef460c69cbad3077c0f13e7e298b2",
+      "initiator_rejection_categories_by_profile": {
+        "P0": [
+          "kem_assurance",
+          "fallback",
+          "resumption",
+          "lease"
+        ],
+        "P1": [],
+        "P2": [],
+        "P3": [],
+        "P4": [
+          "lease"
+        ]
+      },
+      "initiator_safe_set": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "responder_agent_id": "enterprise-api-agent",
+      "responder_compilation_hash": "04583202e8708a203e0feabef4b6a39c5ea3d4cbeeedb21c0249d1ecdfd1ff63",
+      "responder_matched_rules": [],
+      "responder_policy_hash": "19b2afebe4c36e8480b562e091a00a1843a52e46090cb0c438f9b30fab7a3181",
+      "responder_rejection_categories_by_profile": {
+        "P0": [
+          "capability",
+          "organization_policy",
+          "kem_assurance",
+          "fallback",
+          "resumption",
+          "lease"
+        ],
+        "P1": [],
+        "P2": [],
+        "P3": [],
+        "P4": [
+          "capability",
+          "organization_policy",
+          "lease"
+        ]
+      },
+      "responder_safe_set": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "scenario_hash": "e00014e5a17048ec1ea02999dd5e0e3383978541afc56d7b24eb23a253725c3e",
+      "scenario_id": "sensitive-enterprise-api",
+      "task_hash": "b765bbd0cc39262ad8bd0ca22b62e10d28897095d2a5f4f765866c28046e1cd5",
+      "z3_version": "4.16.0"
+    }
+  ],
+  "validation_errors": [],
+  "validation_passed": true,
+  "z3_version": "4.16.0"
+}

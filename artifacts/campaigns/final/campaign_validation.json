@@ -1,0 +1,20 @@
+{
+  "artifact": "stage8_campaign_validation",
+  "expected_counts": {
+    "adversarial": 200,
+    "component": 110,
+    "concurrency": 100,
+    "feasible": 480,
+    "infeasible": 150
+  },
+  "observed_counts": {
+    "adversarial": 200,
+    "component": 110,
+    "concurrency": 100,
+    "feasible": 480,
+    "infeasible": 150
+  },
+  "run_dir": "runs/stage8/stage8-final-20260714-r2",
+  "validation_errors": [],
+  "validation_passed": true
+}

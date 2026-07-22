@@ -1,0 +1,17 @@
+scenario_schema_version: "1.0"
+scenario_id: low-risk-quantum-ready-tool
+description: Deterministic low-risk public tool capability-ablation scenario.
+evaluation_time_utc: 2026-07-13T00:00:00Z
+task:
+  descriptor_version: "1.0"
+  sensitivity: public
+  operational_impact: observation
+  confidentiality_horizon: short
+  delegation_depth: 0
+  expected_session_seconds: 300
+  network_class: stable_cloud
+  organization_policy_class: public-tool
+initiator_agent_id: cloud-orchestrator
+initiator_policy_id: cloud-orchestrator-policy
+responder_agent_id: quantum-ready-tool-agent
+responder_policy_id: quantum-ready-tool-agent-policy

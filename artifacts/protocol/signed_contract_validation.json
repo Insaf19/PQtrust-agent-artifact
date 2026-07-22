@@ -1,0 +1,69 @@
+{
+  "artifact": "signed_contract_validation",
+  "contracts": [
+    {
+      "activation_within_lease": true,
+      "algorithm": "ML-DSA-65",
+      "both_signatures_valid": true,
+      "contract_id": "25098cab372877a8132e60845d5aaf26e1728f8794fde2c0074132b47b6df199",
+      "contract_verification_passed": true,
+      "deterministic_activation_time": "2026-07-13T00:00:01Z",
+      "expires_at": "2026-07-13T01:00:00Z",
+      "issued_at": "2026-07-13T00:00:00Z",
+      "replay_registration_passed": true,
+      "scenario_id": "low-risk-public-tool",
+      "selected_profile_id": "P0",
+      "signed_contract_hash": "8d3876b5d190b392a6693c1654f0a6aa08b88b2dec70773549408d464e114b62",
+      "validation_passed": true
+    },
+    {
+      "activation_within_lease": true,
+      "algorithm": "ML-DSA-65",
+      "both_signatures_valid": true,
+      "contract_id": "380fabde805523160c17d3f34de1297ee7cabebe8e6111a5a683341a0c395337",
+      "contract_verification_passed": true,
+      "deterministic_activation_time": "2026-07-13T00:00:01Z",
+      "expires_at": "2026-07-13T00:15:00Z",
+      "issued_at": "2026-07-13T00:00:00Z",
+      "replay_registration_passed": true,
+      "scenario_id": "sensitive-enterprise-api",
+      "selected_profile_id": "P3",
+      "signed_contract_hash": "2ff60ad1aee462436d218245bc4b7ba99b3413d65fb120d929fdca39bd49dae2",
+      "validation_passed": true
+    },
+    {
+      "activation_within_lease": true,
+      "algorithm": "ML-DSA-87",
+      "both_signatures_valid": true,
+      "contract_id": "2ff0611cfea827a828c7c7b2fe7c27c80cb6381cdc77a20d554cd74dc1fb1e85",
+      "contract_verification_passed": true,
+      "deterministic_activation_time": "2026-07-13T00:00:01Z",
+      "expires_at": "2026-07-13T00:02:00Z",
+      "issued_at": "2026-07-13T00:00:00Z",
+      "replay_registration_passed": true,
+      "scenario_id": "critical-edge-command",
+      "selected_profile_id": "P4",
+      "signed_contract_hash": "87a26ba6c3e1cbd57be88f0d3e7332c8a475da404d4cbb0bebb86d7ad2df5d9d",
+      "validation_passed": true
+    },
+    {
+      "activation_within_lease": true,
+      "algorithm": "ML-DSA-65",
+      "both_signatures_valid": true,
+      "contract_id": "0a43ada02402895fed04e3f7522162a7e499896dd7dbbcb30bf843b18b8a5a45",
+      "contract_verification_passed": true,
+      "deterministic_activation_time": "2026-07-13T00:00:01Z",
+      "expires_at": "2026-07-13T01:00:00Z",
+      "issued_at": "2026-07-13T00:00:00Z",
+      "replay_registration_passed": true,
+      "scenario_id": "low-risk-quantum-ready-tool",
+      "selected_profile_id": "P0",
+      "signed_contract_hash": "df19cc6fb8c711976952126192fb9d78de1882e3c68158013a943158a75e0eae",
+      "validation_passed": true
+    }
+  ],
+  "scenario_count": 4,
+  "time_source": "deterministic_laboratory_fixture",
+  "validation_errors": [],
+  "validation_passed": true
+}

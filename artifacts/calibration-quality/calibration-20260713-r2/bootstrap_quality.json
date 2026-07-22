@@ -1,0 +1,631 @@
+{
+  "mldsa": {
+    "ML-DSA-65:2048": {
+      "sign_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1418750.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1145973.0,
+          "seed": 20260801,
+          "upper": 1546693.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 400720.0,
+        "relative_interval_width": 0.28244581497797355
+      },
+      "signature_size_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 3309.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3309.0,
+          "seed": 20260801,
+          "upper": 3309.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "verify_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 328577.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 327534.5,
+          "seed": 20260801,
+          "upper": 360779.5
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 33245.0,
+        "relative_interval_width": 0.10117856517868691
+      }
+    },
+    "ML-DSA-65:512": {
+      "sign_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1382039.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1160914.0,
+          "seed": 20260801,
+          "upper": 1550054.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 389140.0,
+        "relative_interval_width": 0.2815693762732541
+      },
+      "signature_size_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 3309.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3309.0,
+          "seed": 20260801,
+          "upper": 3309.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "verify_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 322058.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 321001.3875,
+          "seed": 20260801,
+          "upper": 355393.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 34391.61249999999,
+        "relative_interval_width": 0.10678684928359285
+      }
+    },
+    "ML-DSA-65:8192": {
+      "sign_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1410297.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1201924.0,
+          "seed": 20260801,
+          "upper": 1551711.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 349787.0,
+        "relative_interval_width": 0.2480235553136838
+      },
+      "signature_size_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 3309.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3309.0,
+          "seed": 20260801,
+          "upper": 3309.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "verify_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 350795.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 350079.0,
+          "seed": 20260801,
+          "upper": 388391.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 38312.0,
+        "relative_interval_width": 0.10921478356304964
+      }
+    },
+    "ML-DSA-87:2048": {
+      "sign_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1619430.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1326293.0,
+          "seed": 20260801,
+          "upper": 1793877.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 467584.0,
+        "relative_interval_width": 0.28873360110236285
+      },
+      "signature_size_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 4627.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 4627.0,
+          "seed": 20260801,
+          "upper": 4627.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "verify_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 505375.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 503132.0,
+          "seed": 20260801,
+          "upper": 553876.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 50744.0,
+        "relative_interval_width": 0.10040860746970072
+      }
+    },
+    "ML-DSA-87:512": {
+      "sign_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1618937.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1288906.0,
+          "seed": 20260801,
+          "upper": 1788667.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 499761.0,
+        "relative_interval_width": 0.3086969076940895
+      },
+      "signature_size_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 4627.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 4627.0,
+          "seed": 20260801,
+          "upper": 4627.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "verify_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 498336.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 496831.4375,
+          "seed": 20260801,
+          "upper": 548193.5
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 51362.0625,
+        "relative_interval_width": 0.10306713241668272
+      }
+    },
+    "ML-DSA-87:8192": {
+      "sign_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1642006.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1330378.0,
+          "seed": 20260801,
+          "upper": 1809470.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 479092.0,
+        "relative_interval_width": 0.2917723808560992
+      },
+      "signature_size_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 4627.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 4627.0,
+          "seed": 20260801,
+          "upper": 4627.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "verify_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 525590.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 525347.0,
+          "seed": 20260801,
+          "upper": 579463.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 54116.0,
+        "relative_interval_width": 0.10296238512909302
+      }
+    }
+  },
+  "schema_version": 1,
+  "tls": {
+    "MLKEM768": {
+      "client_to_server_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1433.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1433.0,
+          "seed": 20260801,
+          "upper": 1433.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "process_cpu_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1087407.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1083064.0,
+          "seed": 20260801,
+          "upper": 1243167.5
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 160103.5,
+        "relative_interval_width": 0.1472341325584015
+      },
+      "server_to_client_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1958.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1958.0,
+          "seed": 20260801,
+          "upper": 1958.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "total_handshake_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 3391.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3391.0,
+          "seed": 20260801,
+          "upper": 3391.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "wall_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1091390.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1087305.1125,
+          "seed": 20260801,
+          "upper": 1247483.5
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 160178.38749999995,
+        "relative_interval_width": 0.14676542218390207
+      }
+    },
+    "SecP256r1MLKEM768": {
+      "client_to_server_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1498.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1498.0,
+          "seed": 20260801,
+          "upper": 1498.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "process_cpu_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1455115.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1448596.5,
+          "seed": 20260801,
+          "upper": 1655689.5
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 207093.0,
+        "relative_interval_width": 0.14232066114339378
+      },
+      "server_to_client_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 2023.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 2023.0,
+          "seed": 20260801,
+          "upper": 2023.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "total_handshake_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 3521.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3521.0,
+          "seed": 20260801,
+          "upper": 3521.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "wall_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1458695.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1452247.0875,
+          "seed": 20260801,
+          "upper": 1659340.5
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 207093.4125000001,
+        "relative_interval_width": 0.14197165378243787
+      }
+    },
+    "SecP384r1MLKEM1024": {
+      "client_to_server_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1914.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1914.0,
+          "seed": 20260801,
+          "upper": 1914.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "process_cpu_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 6027702.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 6010536.0,
+          "seed": 20260801,
+          "upper": 6799624.5
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 789088.5,
+        "relative_interval_width": 0.1309103261151326
+      },
+      "server_to_client_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 2535.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 2535.0,
+          "seed": 20260801,
+          "upper": 2535.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "total_handshake_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 4449.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 4449.0,
+          "seed": 20260801,
+          "upper": 4449.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "wall_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 6033287.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 6014008.0,
+          "seed": 20260801,
+          "upper": 6804484.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 790476.0,
+        "relative_interval_width": 0.13101911685793194
+      }
+    },
+    "X25519": {
+      "client_to_server_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 289.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 289.0,
+          "seed": 20260801,
+          "upper": 289.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "process_cpu_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1098866.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1095464.5,
+          "seed": 20260801,
+          "upper": 1254157.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 158692.5,
+        "relative_interval_width": 0.14441478760831622
+      },
+      "server_to_client_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 902.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 902.0,
+          "seed": 20260801,
+          "upper": 902.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "total_handshake_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1191.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1191.0,
+          "seed": 20260801,
+          "upper": 1191.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "wall_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1102516.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1099054.5,
+          "seed": 20260801,
+          "upper": 1258824.5
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 159770.0,
+        "relative_interval_width": 0.14491399671297286
+      }
+    },
+    "X25519MLKEM768": {
+      "client_to_server_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1465.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1465.0,
+          "seed": 20260801,
+          "upper": 1465.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "process_cpu_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1353819.5,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1339089.5,
+          "seed": 20260801,
+          "upper": 1535129.5
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 196040.0,
+        "relative_interval_width": 0.14480512357814318
+      },
+      "server_to_client_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1990.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1990.0,
+          "seed": 20260801,
+          "upper": 1990.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "total_handshake_bytes": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 3455.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3455.0,
+          "seed": 20260801,
+          "upper": 3455.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 0.0,
+        "relative_interval_width": 0.0
+      },
+      "wall_time_ns": {
+        "all_replicate_medians_inside_interval": true,
+        "campaign_median": 1357363.0,
+        "confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1342761.0,
+          "seed": 20260801,
+          "upper": 1541801.0
+        },
+        "interval_strictly_positive": true,
+        "interval_width": 199040.0,
+        "relative_interval_width": 0.14663726652339867
+      }
+    }
+  }
+}

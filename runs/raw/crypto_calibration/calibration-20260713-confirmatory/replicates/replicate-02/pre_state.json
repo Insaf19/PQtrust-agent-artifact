@@ -1,0 +1,36 @@
+{
+  "available_memory_kb": 27429904,
+  "configuration_hash": "a35f33611306a2fa9f32474da32822724c4e1fe4308523c9758b4c6ab9f23525",
+  "cpu_model": "Intel(R) Xeon(R) CPU E5-2680 0 @ 2.70GHz",
+  "cpu_scaling_frequency": null,
+  "cpu_scaling_governor": null,
+  "git_commit": "512c4c697ddf77abdb7015a665f0e2dd8f91af71",
+  "git_dirty": false,
+  "kernel": "6.17.0-35-generic",
+  "load_averages": [
+    2.8955078125,
+    3.83056640625,
+    3.966796875
+  ],
+  "logical_cpu_count": 8,
+  "monotonic_timestamp": 1070133.207856242,
+  "native_executable_hashes": {
+    "mldsa_bench": "638ff8e9adb392d553f956ad9b81bf9a2a3739348e1bee39cf0c2dce314f7058",
+    "tls_handshake_bench": "eb07733ac041e113061fd9bb3ec333df9792de4c18785d982a2d35ef6182677b"
+  },
+  "openssl_runtime_version": "OpenSSL 3.5.7 9 Jun 2026 (Library: OpenSSL 3.5.7 9 Jun 2026)",
+  "process_affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "python_version": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "selected_cpu": 0,
+  "thermal_zone_temperatures": {},
+  "timestamp_utc": "2026-07-13T16:53:58Z"
+}

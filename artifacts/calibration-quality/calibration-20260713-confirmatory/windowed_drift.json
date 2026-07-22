@@ -1,0 +1,2396 @@
+{
+  "mldsa": {
+    "ML-DSA-65:2048": {
+      "sign_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.37140300173765856,
+          "median_relative_change": 0.0830989938174891,
+          "minimum_relative_change": -0.16436006776738324,
+          "negative_direction_count": 1,
+          "positive_direction_count": 2,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1388362.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1904004.5,
+            "relative_change": 0.37140300173765856
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1820935.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1521646.0,
+            "relative_change": -0.16436006776738324
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1283216.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1389850.5,
+            "relative_change": 0.0830989938174891
+          }
+        }
+      },
+      "signature_size_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3309.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3309.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3309.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3309.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3309.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3309.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "verify_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.0018208019763478738,
+          "median_relative_change": -0.007914873157920997,
+          "minimum_relative_change": -0.019761406477836793,
+          "negative_direction_count": 2,
+          "positive_direction_count": 1,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 330706.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 328089.0,
+            "relative_change": -0.007914873157920997
+          },
+          "replicate-02": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 327877.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 328474.5,
+            "relative_change": 0.0018208019763478738
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 330897.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 324358.5,
+            "relative_change": -0.019761406477836793
+          }
+        }
+      }
+    },
+    "ML-DSA-65:512": {
+      "sign_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.2827554300716526,
+          "median_relative_change": 0.19636771105700554,
+          "minimum_relative_change": -0.020768615480367084,
+          "negative_direction_count": 1,
+          "positive_direction_count": 2,
+          "same_direction_count": 2,
+          "warning": true
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1282856.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1645590.5,
+            "relative_change": 0.2827554300716526
+          },
+          "replicate-02": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1277954.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1528903.5,
+            "relative_change": 0.19636771105700554
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1278949.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1252387.0,
+            "relative_change": -0.020768615480367084
+          }
+        }
+      },
+      "signature_size_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3309.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3309.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3309.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3309.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3309.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3309.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "verify_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.024122917479946104,
+          "median_relative_change": 0.01678387949523667,
+          "minimum_relative_change": -0.029389821973123443,
+          "negative_direction_count": 1,
+          "positive_direction_count": 2,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 317644.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 325306.5,
+            "relative_change": 0.024122917479946104
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 321693.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 312238.5,
+            "relative_change": -0.029389821973123443
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 320784.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 326168.0,
+            "relative_change": 0.01678387949523667
+          }
+        }
+      }
+    },
+    "ML-DSA-65:8192": {
+      "sign_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.11114218839704995,
+          "median_relative_change": -0.10100603466774671,
+          "minimum_relative_change": -0.2200888362811546,
+          "negative_direction_count": 2,
+          "positive_direction_count": 1,
+          "same_direction_count": 2,
+          "warning": true
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1428330.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1284060.5,
+            "relative_change": -0.10100603466774671
+          },
+          "replicate-02": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1154827.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1283177.0,
+            "relative_change": 0.11114218839704995
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1811309.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1412660.5,
+            "relative_change": -0.2200888362811546
+          }
+        }
+      },
+      "signature_size_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3309.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3309.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3309.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3309.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3309.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3309.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "verify_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.0037246267855225003,
+          "median_relative_change": 0.0029817962477167066,
+          "minimum_relative_change": -0.010583766122388151,
+          "negative_direction_count": 1,
+          "positive_direction_count": 2,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 351466.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 352514.0,
+            "relative_change": 0.0029817962477167066
+          },
+          "replicate-02": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 349162.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 350463.0,
+            "relative_change": 0.0037246267855225003
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 355639.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 351875.0,
+            "relative_change": -0.010583766122388151
+          }
+        }
+      }
+    },
+    "ML-DSA-87:2048": {
+      "sign_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.136785573396286,
+          "median_relative_change": -0.003356148433863872,
+          "minimum_relative_change": -0.1440177219858359,
+          "negative_direction_count": 2,
+          "positive_direction_count": 1,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1629695.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1624226.0,
+            "relative_change": -0.003356148433863872
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1466878.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1255622.0,
+            "relative_change": -0.1440177219858359
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1447437.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1645425.5,
+            "relative_change": 0.136785573396286
+          }
+        }
+      },
+      "signature_size_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4627.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4627.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4627.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4627.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4627.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4627.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "verify_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.00875691197877594,
+          "median_relative_change": 0.0016707411579544456,
+          "minimum_relative_change": -0.004078488060394982,
+          "negative_direction_count": 1,
+          "positive_direction_count": 2,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 503202.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 507609.0,
+            "relative_change": 0.00875691197877594
+          },
+          "replicate-02": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 500676.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 501512.5,
+            "relative_change": 0.0016707411579544456
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 503618.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 501564.0,
+            "relative_change": -0.004078488060394982
+          }
+        }
+      }
+    },
+    "ML-DSA-87:512": {
+      "sign_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.14129167019121472,
+          "median_relative_change": 0.1321844530697263,
+          "minimum_relative_change": -0.3817262266481093,
+          "negative_direction_count": 1,
+          "positive_direction_count": 2,
+          "same_direction_count": 2,
+          "warning": true
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1465717.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1659462.0,
+            "relative_change": 0.1321844530697263
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 2015013.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1245830.0,
+            "relative_change": -0.3817262266481093
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1619593.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1848428.0,
+            "relative_change": 0.14129167019121472
+          }
+        }
+      },
+      "signature_size_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4627.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4627.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4627.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4627.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4627.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4627.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "verify_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.008155235121825614,
+          "median_relative_change": -0.00017841950558644576,
+          "minimum_relative_change": -0.005334485864368053,
+          "negative_direction_count": 2,
+          "positive_direction_count": 1,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 497104.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 501158.0,
+            "relative_change": 0.008155235121825614
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 496022.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 495933.5,
+            "relative_change": -0.00017841950558644576
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 496299.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 493651.5,
+            "relative_change": -0.005334485864368053
+          }
+        }
+      }
+    },
+    "ML-DSA-87:8192": {
+      "sign_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.3965481652984868,
+          "median_relative_change": 0.29009109025076163,
+          "minimum_relative_change": -0.0948859829719623,
+          "negative_direction_count": 1,
+          "positive_direction_count": 2,
+          "same_direction_count": 2,
+          "warning": true
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1497001.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 2090634.0,
+            "relative_change": 0.3965481652984868
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 2024719.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1832602.0,
+            "relative_change": -0.0948859829719623
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1276371.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1646635.5,
+            "relative_change": 0.29009109025076163
+          }
+        }
+      },
+      "signature_size_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4627.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4627.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4627.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4627.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4627.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4627.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "verify_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.0025754662710427514,
+          "median_relative_change": 0.0022477101571124784,
+          "minimum_relative_change": -0.001898724500521743,
+          "negative_direction_count": 1,
+          "positive_direction_count": 2,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 528093.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 529280.0,
+            "relative_change": 0.0022477101571124784
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 523246.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 522252.5,
+            "relative_change": -0.001898724500521743
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 528448.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 529809.0,
+            "relative_change": 0.0025754662710427514
+          }
+        }
+      }
+    }
+  },
+  "schema_version": 1,
+  "tls": {
+    "MLKEM768": {
+      "client_to_server_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1433.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1433.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1433.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1433.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1433.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1433.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "process_cpu_time_ns": {
+        "campaign": {
+          "maximum_relative_change": -2.3047401128953897e-05,
+          "median_relative_change": -0.007743599689504073,
+          "minimum_relative_change": -0.028010452969501685,
+          "negative_direction_count": 3,
+          "positive_direction_count": 0,
+          "same_direction_count": 3,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1112602.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1081438.0,
+            "relative_change": -0.028010452969501685
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1090513.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1082069.0,
+            "relative_change": -0.007743599689504073
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1084721.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1084696.0,
+            "relative_change": -2.3047401128953897e-05
+          }
+        }
+      },
+      "server_to_client_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1958.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1958.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1958.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1958.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1958.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1958.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "total_handshake_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3391.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3391.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3391.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3391.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3391.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3391.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "wall_time_ns": {
+        "campaign": {
+          "maximum_relative_change": -0.0011736168365841786,
+          "median_relative_change": -0.00799265043638034,
+          "minimum_relative_change": -0.02755301414307993,
+          "negative_direction_count": 3,
+          "positive_direction_count": 0,
+          "same_direction_count": 3,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1115740.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1084998.0,
+            "relative_change": -0.02755301414307993
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1093942.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1085199.0,
+            "relative_change": -0.00799265043638034
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1089793.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1088514.5,
+            "relative_change": -0.0011736168365841786
+          }
+        }
+      }
+    },
+    "SecP256r1MLKEM768": {
+      "client_to_server_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1498.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1498.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1498.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1498.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1498.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1498.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "process_cpu_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.0006846099611442271,
+          "median_relative_change": -0.0034867050585378153,
+          "minimum_relative_change": -0.02217829784716021,
+          "negative_direction_count": 2,
+          "positive_direction_count": 1,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1487152.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1454169.5,
+            "relative_change": -0.02217829784716021
+          },
+          "replicate-02": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1443157.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1444145.5,
+            "relative_change": 0.0006846099611442271
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1447355.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1442308.5,
+            "relative_change": -0.0034867050585378153
+          }
+        }
+      },
+      "server_to_client_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 2023.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 2023.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 2023.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 2023.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 2023.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 2023.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "total_handshake_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3521.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3521.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3521.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3521.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3521.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3521.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "wall_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.0005298786947632569,
+          "median_relative_change": -0.00418144481281474,
+          "minimum_relative_change": -0.022088733913963876,
+          "negative_direction_count": 2,
+          "positive_direction_count": 1,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1490850.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1457919.5,
+            "relative_change": -0.022088733913963876
+          },
+          "replicate-02": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1446557.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1447324.0,
+            "relative_change": 0.0005298786947632569
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1451890.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1445819.5,
+            "relative_change": -0.00418144481281474
+          }
+        }
+      }
+    },
+    "SecP384r1MLKEM1024": {
+      "client_to_server_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1914.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1914.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1914.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1914.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1914.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1914.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "process_cpu_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.004212475886743469,
+          "median_relative_change": -0.008225745586995613,
+          "minimum_relative_change": -0.03944394930424945,
+          "negative_direction_count": 2,
+          "positive_direction_count": 1,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 6257487.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 6010667.0,
+            "relative_change": -0.03944394930424945
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 6004866.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 5955471.5,
+            "relative_change": -0.008225745586995613
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 5970004.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 5995153.0,
+            "relative_change": 0.004212475886743469
+          }
+        }
+      },
+      "server_to_client_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 2535.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 2535.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 2535.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 2535.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 2535.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 2535.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "total_handshake_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4449.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4449.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4449.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4449.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 4449.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 4449.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "wall_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.003490841934767526,
+          "median_relative_change": -0.008079138271855014,
+          "minimum_relative_change": -0.038450154575852324,
+          "negative_direction_count": 2,
+          "positive_direction_count": 1,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 6263915.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 6023066.5,
+            "relative_change": -0.038450154575852324
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 6008066.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 5959526.5,
+            "relative_change": -0.008079138271855014
+          },
+          "replicate-03": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 5977927.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 5998795.5,
+            "relative_change": 0.003490841934767526
+          }
+        }
+      }
+    },
+    "X25519": {
+      "client_to_server_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 289.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 289.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 289.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 289.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 289.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 289.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "process_cpu_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.0034383309892600912,
+          "median_relative_change": -0.0038079030087777715,
+          "minimum_relative_change": -0.045131606819604625,
+          "negative_direction_count": 2,
+          "positive_direction_count": 1,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1163674.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1111156.0,
+            "relative_change": -0.045131606819604625
+          },
+          "replicate-02": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1089627.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1093374.0,
+            "relative_change": 0.0034383309892600912
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1094697.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1090528.5,
+            "relative_change": -0.0038079030087777715
+          }
+        }
+      },
+      "server_to_client_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 902.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 902.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 902.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 902.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 902.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 902.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "total_handshake_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1191.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1191.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1191.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1191.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1191.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1191.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "wall_time_ns": {
+        "campaign": {
+          "maximum_relative_change": 0.0033068622765718573,
+          "median_relative_change": -0.003385310040748512,
+          "minimum_relative_change": -0.04541460481894279,
+          "negative_direction_count": 2,
+          "positive_direction_count": 1,
+          "same_direction_count": 2,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1167642.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1114614.0,
+            "relative_change": -0.04541460481894279
+          },
+          "replicate-02": {
+            "direction": "positive",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1093332.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1096948.0,
+            "relative_change": 0.0033068622765718573
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1097831.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1094115.0,
+            "relative_change": -0.003385310040748512
+          }
+        }
+      }
+    },
+    "X25519MLKEM768": {
+      "client_to_server_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1465.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1465.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1465.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1465.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1465.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1465.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "process_cpu_time_ns": {
+        "campaign": {
+          "maximum_relative_change": -0.002493841087153242,
+          "median_relative_change": -0.002910387014137448,
+          "minimum_relative_change": -0.031939573876711216,
+          "negative_direction_count": 3,
+          "positive_direction_count": 0,
+          "same_direction_count": 3,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1385162.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1340921.0,
+            "relative_change": -0.031939573876711216
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1336592.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1332702.0,
+            "relative_change": -0.002910387014137448
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1337695.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1334359.5,
+            "relative_change": -0.002493841087153242
+          }
+        }
+      },
+      "server_to_client_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1990.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1990.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1990.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1990.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1990.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1990.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "total_handshake_bytes": {
+        "campaign": {
+          "maximum_relative_change": 0.0,
+          "median_relative_change": 0.0,
+          "minimum_relative_change": 0.0,
+          "negative_direction_count": 0,
+          "positive_direction_count": 0,
+          "same_direction_count": 0,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3455.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3455.0,
+            "relative_change": 0.0
+          },
+          "replicate-02": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3455.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3455.0,
+            "relative_change": 0.0
+          },
+          "replicate-03": {
+            "direction": "zero",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 3455.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 3455.0,
+            "relative_change": 0.0
+          }
+        }
+      },
+      "wall_time_ns": {
+        "campaign": {
+          "maximum_relative_change": -0.002371489926480457,
+          "median_relative_change": -0.0028809690742652707,
+          "minimum_relative_change": -0.02750975676493037,
+          "negative_direction_count": 3,
+          "positive_direction_count": 0,
+          "same_direction_count": 3,
+          "warning": false
+        },
+        "replicates": {
+          "replicate-01": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1388780.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1350575.0,
+            "relative_change": -0.02750975676493037
+          },
+          "replicate-02": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1340000.5,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1336140.0,
+            "relative_change": -0.0028809690742652707
+          },
+          "replicate-03": {
+            "direction": "negative",
+            "first_window_blocks": [
+              0,
+              19
+            ],
+            "first_window_median": 1341140.0,
+            "last_window_blocks": [
+              180,
+              199
+            ],
+            "last_window_median": 1337959.5,
+            "relative_change": -0.002371489926480457
+          }
+        }
+      }
+    }
+  },
+  "warning_threshold": 0.1,
+  "window_size_blocks": 20
+}

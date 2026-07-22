@@ -1,0 +1,72 @@
+{
+  "absolute_timing_stability": {
+    "absolute_timing_stability_passed": false,
+    "source_gates": {
+      "calibration-20260713-confirmatory": {
+        "integrity_passed": true,
+        "source": "/home/lasledjii/pqtrust-agent-lab/artifacts/calibration-quality/calibration-20260713-confirmatory/quality_gate.json",
+        "timing_stability_passed": false
+      },
+      "calibration-20260713-r2": {
+        "integrity_passed": true,
+        "source": "/home/lasledjii/pqtrust-agent-lab/artifacts/calibration-quality/calibration-20260713-r2/quality_gate.json",
+        "timing_stability_passed": false
+      }
+    }
+  },
+  "absolute_timing_stability_passed": false,
+  "complete_paired_blocks": 1200,
+  "expected_paired_blocks": 1200,
+  "interpretation": "Absolute timing instability remains visible; selector usability is based on all profiles passing paired relative timing gates.",
+  "paired_relative_timing_stability_passed": true,
+  "profile_gates": {
+    "P0": {
+      "paired_relative_timing_stability_passed": true,
+      "profile_id": "P0",
+      "timing_metrics": {
+        "process_cpu_time_ns": true,
+        "wall_time_ns": true
+      },
+      "tls_group": "X25519"
+    },
+    "P1": {
+      "paired_relative_timing_stability_passed": true,
+      "profile_id": "P1",
+      "timing_metrics": {
+        "process_cpu_time_ns": true,
+        "wall_time_ns": true
+      },
+      "tls_group": "X25519MLKEM768"
+    },
+    "P2": {
+      "paired_relative_timing_stability_passed": true,
+      "profile_id": "P2",
+      "timing_metrics": {
+        "process_cpu_time_ns": true,
+        "wall_time_ns": true
+      },
+      "tls_group": "SecP256r1MLKEM768"
+    },
+    "P3": {
+      "paired_relative_timing_stability_passed": true,
+      "profile_id": "P3",
+      "timing_metrics": {
+        "process_cpu_time_ns": true,
+        "wall_time_ns": true
+      },
+      "tls_group": "MLKEM768"
+    },
+    "P4": {
+      "paired_relative_timing_stability_passed": true,
+      "profile_id": "P4",
+      "timing_metrics": {
+        "process_cpu_time_ns": true,
+        "wall_time_ns": true
+      },
+      "tls_group": "SecP384r1MLKEM1024"
+    }
+  },
+  "relative_cost_usable_for_selector": true,
+  "schema_version": 1,
+  "threshold": 0.1
+}

@@ -1,0 +1,387 @@
+{
+  "artifact_type": "calibrated_tls_selector_cost_evidence",
+  "policy_specific_cost_vector": false,
+  "profiles": [
+    {
+      "baseline_run_medians": {
+        "process_cpu_time_ns": 1.0,
+        "total_handshake_bytes": 1.0,
+        "wall_time_ns": 1.0
+      },
+      "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+      "confirmatory_run_medians": {
+        "process_cpu_time_ns": 1.0,
+        "total_handshake_bytes": 1.0,
+        "wall_time_ns": 1.0
+      },
+      "cpu_time_paired_bootstrap_interval": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1.0,
+        "seed": 20260841,
+        "upper": 1.0
+      },
+      "cpu_time_relative_estimate": 1.0,
+      "profile_id": "P0",
+      "scientific_design_hash": "3df8771603d20a446c6c9a3b2633bdc7298c4e6ebd20814a94c2716f6ce92dd8",
+      "six_replicate_medians": {
+        "process_cpu_time_ns": {
+          "calibration-20260713-confirmatory:replicate-01": 1.0,
+          "calibration-20260713-confirmatory:replicate-02": 1.0,
+          "calibration-20260713-confirmatory:replicate-03": 1.0,
+          "calibration-20260713-r2:replicate-01": 1.0,
+          "calibration-20260713-r2:replicate-02": 1.0,
+          "calibration-20260713-r2:replicate-03": 1.0
+        },
+        "total_handshake_bytes": {
+          "calibration-20260713-confirmatory:replicate-01": 1.0,
+          "calibration-20260713-confirmatory:replicate-02": 1.0,
+          "calibration-20260713-confirmatory:replicate-03": 1.0,
+          "calibration-20260713-r2:replicate-01": 1.0,
+          "calibration-20260713-r2:replicate-02": 1.0,
+          "calibration-20260713-r2:replicate-03": 1.0
+        },
+        "wall_time_ns": {
+          "calibration-20260713-confirmatory:replicate-01": 1.0,
+          "calibration-20260713-confirmatory:replicate-02": 1.0,
+          "calibration-20260713-confirmatory:replicate-03": 1.0,
+          "calibration-20260713-r2:replicate-01": 1.0,
+          "calibration-20260713-r2:replicate-02": 1.0,
+          "calibration-20260713-r2:replicate-03": 1.0
+        }
+      },
+      "source_raw_checksums": {
+        "calibration-20260713-confirmatory": "e727e85f9b4cc322e8c45f4698d2470f79ce0ee500280f80882d8d7913c4a1f9",
+        "calibration-20260713-r2": "7e4f6370b7f46680731843eccde1aa5d7f3e421ab1df1edad6e8a5e94c3718fa"
+      },
+      "source_run_ids": [
+        "calibration-20260713-r2",
+        "calibration-20260713-confirmatory"
+      ],
+      "tls_group": "X25519",
+      "total_handshake_byte_relative_estimate": 1.0,
+      "usability_status": {
+        "paired_relative_timing_stability_passed": true,
+        "profile_id": "P0",
+        "timing_metrics": {
+          "process_cpu_time_ns": true,
+          "wall_time_ns": true
+        },
+        "tls_group": "X25519"
+      },
+      "wall_time_paired_bootstrap_interval": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1.0,
+        "seed": 20260841,
+        "upper": 1.0
+      },
+      "wall_time_relative_estimate": 1.0
+    },
+    {
+      "baseline_run_medians": {
+        "process_cpu_time_ns": 1.2204194124908665,
+        "total_handshake_bytes": 2.9009235936188076,
+        "wall_time_ns": 1.2202574377012558
+      },
+      "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+      "confirmatory_run_medians": {
+        "process_cpu_time_ns": 1.2190551228467057,
+        "total_handshake_bytes": 2.9009235936188076,
+        "wall_time_ns": 1.2178283095745202
+      },
+      "cpu_time_paired_bootstrap_interval": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1.2169317307399774,
+        "seed": 20260841,
+        "upper": 1.2244308562345145
+      },
+      "cpu_time_relative_estimate": 1.219737267668786,
+      "profile_id": "P1",
+      "scientific_design_hash": "3df8771603d20a446c6c9a3b2633bdc7298c4e6ebd20814a94c2716f6ce92dd8",
+      "six_replicate_medians": {
+        "process_cpu_time_ns": {
+          "calibration-20260713-confirmatory:replicate-01": 1.2214983514726796,
+          "calibration-20260713-confirmatory:replicate-02": 1.21869626526608,
+          "calibration-20260713-confirmatory:replicate-03": 1.2190551228467057,
+          "calibration-20260713-r2:replicate-01": 1.2184987866221846,
+          "calibration-20260713-r2:replicate-02": 1.2253589224538033,
+          "calibration-20260713-r2:replicate-03": 1.2204194124908665
+        },
+        "total_handshake_bytes": {
+          "calibration-20260713-confirmatory:replicate-01": 2.9009235936188076,
+          "calibration-20260713-confirmatory:replicate-02": 2.9009235936188076,
+          "calibration-20260713-confirmatory:replicate-03": 2.9009235936188076,
+          "calibration-20260713-r2:replicate-01": 2.9009235936188076,
+          "calibration-20260713-r2:replicate-02": 2.9009235936188076,
+          "calibration-20260713-r2:replicate-03": 2.9009235936188076
+        },
+        "wall_time_ns": {
+          "calibration-20260713-confirmatory:replicate-01": 1.2207145505926742,
+          "calibration-20260713-confirmatory:replicate-02": 1.2163418515062987,
+          "calibration-20260713-confirmatory:replicate-03": 1.2178283095745202,
+          "calibration-20260713-r2:replicate-01": 1.2182104535714369,
+          "calibration-20260713-r2:replicate-02": 1.2247449570177515,
+          "calibration-20260713-r2:replicate-03": 1.2202574377012558
+        }
+      },
+      "source_raw_checksums": {
+        "calibration-20260713-confirmatory": "e727e85f9b4cc322e8c45f4698d2470f79ce0ee500280f80882d8d7913c4a1f9",
+        "calibration-20260713-r2": "7e4f6370b7f46680731843eccde1aa5d7f3e421ab1df1edad6e8a5e94c3718fa"
+      },
+      "source_run_ids": [
+        "calibration-20260713-r2",
+        "calibration-20260713-confirmatory"
+      ],
+      "tls_group": "X25519MLKEM768",
+      "total_handshake_byte_relative_estimate": 2.9009235936188076,
+      "usability_status": {
+        "paired_relative_timing_stability_passed": true,
+        "profile_id": "P1",
+        "timing_metrics": {
+          "process_cpu_time_ns": true,
+          "wall_time_ns": true
+        },
+        "tls_group": "X25519MLKEM768"
+      },
+      "wall_time_paired_bootstrap_interval": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1.2160826950404138,
+        "seed": 20260841,
+        "upper": 1.223902526013594
+      },
+      "wall_time_relative_estimate": 1.219042873637888
+    },
+    {
+      "baseline_run_medians": {
+        "process_cpu_time_ns": 1.3229180553452935,
+        "total_handshake_bytes": 2.956339210747271,
+        "wall_time_ns": 1.3221072767736364
+      },
+      "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+      "confirmatory_run_medians": {
+        "process_cpu_time_ns": 1.3214509885459276,
+        "total_handshake_bytes": 2.956339210747271,
+        "wall_time_ns": 1.3206738753274985
+      },
+      "cpu_time_paired_bootstrap_interval": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1.3161450038018805,
+        "seed": 20260841,
+        "upper": 1.3242151704951082
+      },
+      "cpu_time_relative_estimate": 1.3221845219456105,
+      "profile_id": "P2",
+      "scientific_design_hash": "3df8771603d20a446c6c9a3b2633bdc7298c4e6ebd20814a94c2716f6ce92dd8",
+      "six_replicate_medians": {
+        "process_cpu_time_ns": {
+          "calibration-20260713-confirmatory:replicate-01": 1.323904476315389,
+          "calibration-20260713-confirmatory:replicate-02": 1.3214509885459276,
+          "calibration-20260713-confirmatory:replicate-03": 1.3200673644713796,
+          "calibration-20260713-r2:replicate-01": 1.3127691712584637,
+          "calibration-20260713-r2:replicate-02": 1.323229705834303,
+          "calibration-20260713-r2:replicate-03": 1.3229180553452935
+        },
+        "total_handshake_bytes": {
+          "calibration-20260713-confirmatory:replicate-01": 2.956339210747271,
+          "calibration-20260713-confirmatory:replicate-02": 2.956339210747271,
+          "calibration-20260713-confirmatory:replicate-03": 2.956339210747271,
+          "calibration-20260713-r2:replicate-01": 2.956339210747271,
+          "calibration-20260713-r2:replicate-02": 2.956339210747271,
+          "calibration-20260713-r2:replicate-03": 2.956339210747271
+        },
+        "wall_time_ns": {
+          "calibration-20260713-confirmatory:replicate-01": 1.322429572534662,
+          "calibration-20260713-confirmatory:replicate-02": 1.3206738753274985,
+          "calibration-20260713-confirmatory:replicate-03": 1.3190720945189223,
+          "calibration-20260713-r2:replicate-01": 1.314580745118929,
+          "calibration-20260713-r2:replicate-02": 1.32237221934089,
+          "calibration-20260713-r2:replicate-03": 1.3221072767736364
+        }
+      },
+      "source_raw_checksums": {
+        "calibration-20260713-confirmatory": "e727e85f9b4cc322e8c45f4698d2470f79ce0ee500280f80882d8d7913c4a1f9",
+        "calibration-20260713-r2": "7e4f6370b7f46680731843eccde1aa5d7f3e421ab1df1edad6e8a5e94c3718fa"
+      },
+      "source_run_ids": [
+        "calibration-20260713-r2",
+        "calibration-20260713-confirmatory"
+      ],
+      "tls_group": "SecP256r1MLKEM768",
+      "total_handshake_byte_relative_estimate": 2.956339210747271,
+      "usability_status": {
+        "paired_relative_timing_stability_passed": true,
+        "profile_id": "P2",
+        "timing_metrics": {
+          "process_cpu_time_ns": true,
+          "wall_time_ns": true
+        },
+        "tls_group": "SecP256r1MLKEM768"
+      },
+      "wall_time_paired_bootstrap_interval": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1.3154950043908498,
+        "seed": 20260841,
+        "upper": 1.3229900497915221
+      },
+      "wall_time_relative_estimate": 1.3213905760505673
+    },
+    {
+      "baseline_run_medians": {
+        "process_cpu_time_ns": 0.9892557679837555,
+        "total_handshake_bytes": 2.847187237615449,
+        "wall_time_ns": 0.9896901810038528
+      },
+      "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+      "confirmatory_run_medians": {
+        "process_cpu_time_ns": 0.9896575791155968,
+        "total_handshake_bytes": 2.847187237615449,
+        "wall_time_ns": 0.9896818203464168
+      },
+      "cpu_time_paired_bootstrap_interval": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 0.9870348411951095,
+        "seed": 20260841,
+        "upper": 0.9910419063072139
+      },
+      "cpu_time_relative_estimate": 0.9894566735496761,
+      "profile_id": "P3",
+      "scientific_design_hash": "3df8771603d20a446c6c9a3b2633bdc7298c4e6ebd20814a94c2716f6ce92dd8",
+      "six_replicate_medians": {
+        "process_cpu_time_ns": {
+          "calibration-20260713-confirmatory:replicate-01": 0.98594195265378,
+          "calibration-20260713-confirmatory:replicate-02": 0.9909270672890442,
+          "calibration-20260713-confirmatory:replicate-03": 0.9896575791155968,
+          "calibration-20260713-r2:replicate-01": 0.9888408623923004,
+          "calibration-20260713-r2:replicate-02": 0.9892557679837555,
+          "calibration-20260713-r2:replicate-03": 0.99003042417029
+        },
+        "total_handshake_bytes": {
+          "calibration-20260713-confirmatory:replicate-01": 2.847187237615449,
+          "calibration-20260713-confirmatory:replicate-02": 2.847187237615449,
+          "calibration-20260713-confirmatory:replicate-03": 2.847187237615449,
+          "calibration-20260713-r2:replicate-01": 2.847187237615449,
+          "calibration-20260713-r2:replicate-02": 2.847187237615449,
+          "calibration-20260713-r2:replicate-03": 2.847187237615449
+        },
+        "wall_time_ns": {
+          "calibration-20260713-confirmatory:replicate-01": 0.9862383988685881,
+          "calibration-20260713-confirmatory:replicate-02": 0.9910214608361096,
+          "calibration-20260713-confirmatory:replicate-03": 0.9896818203464168,
+          "calibration-20260713-r2:replicate-01": 0.989575567610574,
+          "calibration-20260713-r2:replicate-02": 0.9896901810038528,
+          "calibration-20260713-r2:replicate-03": 0.9900342403258062
+        }
+      },
+      "source_raw_checksums": {
+        "calibration-20260713-confirmatory": "e727e85f9b4cc322e8c45f4698d2470f79ce0ee500280f80882d8d7913c4a1f9",
+        "calibration-20260713-r2": "7e4f6370b7f46680731843eccde1aa5d7f3e421ab1df1edad6e8a5e94c3718fa"
+      },
+      "source_run_ids": [
+        "calibration-20260713-r2",
+        "calibration-20260713-confirmatory"
+      ],
+      "tls_group": "MLKEM768",
+      "total_handshake_byte_relative_estimate": 2.847187237615449,
+      "usability_status": {
+        "paired_relative_timing_stability_passed": true,
+        "profile_id": "P3",
+        "timing_metrics": {
+          "process_cpu_time_ns": true,
+          "wall_time_ns": true
+        },
+        "tls_group": "MLKEM768"
+      },
+      "wall_time_paired_bootstrap_interval": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 0.9872874918831314,
+        "seed": 20260841,
+        "upper": 0.991276374162716
+      },
+      "wall_time_relative_estimate": 0.9896860006751348
+    },
+    {
+      "baseline_run_medians": {
+        "process_cpu_time_ns": 5.4449445190664925,
+        "total_handshake_bytes": 3.7355163727959697,
+        "wall_time_ns": 5.4302660092797215
+      },
+      "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+      "confirmatory_run_medians": {
+        "process_cpu_time_ns": 5.467842793140267,
+        "total_handshake_bytes": 3.7355163727959697,
+        "wall_time_ns": 5.454801484179464
+      },
+      "cpu_time_paired_bootstrap_interval": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 5.418234925988473,
+        "seed": 20260841,
+        "upper": 5.479711173603357
+      },
+      "cpu_time_relative_estimate": 5.45639365610338,
+      "profile_id": "P4",
+      "scientific_design_hash": "3df8771603d20a446c6c9a3b2633bdc7298c4e6ebd20814a94c2716f6ce92dd8",
+      "six_replicate_medians": {
+        "process_cpu_time_ns": {
+          "calibration-20260713-confirmatory:replicate-01": 5.463890803722192,
+          "calibration-20260713-confirmatory:replicate-02": 5.467842793140267,
+          "calibration-20260713-confirmatory:replicate-03": 5.474812046532806,
+          "calibration-20260713-r2:replicate-01": 5.39784513195783,
+          "calibration-20260713-r2:replicate-02": 5.4449445190664925,
+          "calibration-20260713-r2:replicate-03": 5.483440853534509
+        },
+        "total_handshake_bytes": {
+          "calibration-20260713-confirmatory:replicate-01": 3.7355163727959697,
+          "calibration-20260713-confirmatory:replicate-02": 3.7355163727959697,
+          "calibration-20260713-confirmatory:replicate-03": 3.7355163727959697,
+          "calibration-20260713-r2:replicate-01": 3.7355163727959697,
+          "calibration-20260713-r2:replicate-02": 3.7355163727959697,
+          "calibration-20260713-r2:replicate-03": 3.7355163727959697
+        },
+        "wall_time_ns": {
+          "calibration-20260713-confirmatory:replicate-01": 5.45028691098925,
+          "calibration-20260713-confirmatory:replicate-02": 5.454801484179464,
+          "calibration-20260713-confirmatory:replicate-03": 5.460300644070161,
+          "calibration-20260713-r2:replicate-01": 5.386349837636207,
+          "calibration-20260713-r2:replicate-02": 5.4302660092797215,
+          "calibration-20260713-r2:replicate-03": 5.468612528713534
+        }
+      },
+      "source_raw_checksums": {
+        "calibration-20260713-confirmatory": "e727e85f9b4cc322e8c45f4698d2470f79ce0ee500280f80882d8d7913c4a1f9",
+        "calibration-20260713-r2": "7e4f6370b7f46680731843eccde1aa5d7f3e421ab1df1edad6e8a5e94c3718fa"
+      },
+      "source_run_ids": [
+        "calibration-20260713-r2",
+        "calibration-20260713-confirmatory"
+      ],
+      "tls_group": "SecP384r1MLKEM1024",
+      "total_handshake_byte_relative_estimate": 3.7355163727959697,
+      "usability_status": {
+        "paired_relative_timing_stability_passed": true,
+        "profile_id": "P4",
+        "timing_metrics": {
+          "process_cpu_time_ns": true,
+          "wall_time_ns": true
+        },
+        "tls_group": "SecP384r1MLKEM1024"
+      },
+      "wall_time_paired_bootstrap_interval": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 5.406453490388675,
+        "seed": 20260841,
+        "upper": 5.464866805896075
+      },
+      "wall_time_relative_estimate": 5.442533746729593
+    }
+  ],
+  "schema_version": 1
+}

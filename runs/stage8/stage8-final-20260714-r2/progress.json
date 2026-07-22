@@ -1,0 +1,12 @@
+{
+  "block": null,
+  "completed": 1040,
+  "component": "state_trace_verification",
+  "elapsed_seconds": 516.8888986639213,
+  "failures_so_far": 0,
+  "method": null,
+  "observation_type": "component",
+  "repetition": null,
+  "scenario": null,
+  "total": 1040
+}

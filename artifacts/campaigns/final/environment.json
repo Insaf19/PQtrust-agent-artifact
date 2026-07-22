@@ -1,0 +1,20 @@
+{
+  "artifact": "stage8_environment_preflight",
+  "native_binaries": [
+    {
+      "exists": true,
+      "path": ".build/native/tls_handshake_bench"
+    },
+    {
+      "exists": true,
+      "path": ".build/native/mldsa_bench"
+    }
+  ],
+  "openssl_path": ".local/openssl-3.5.7/bin/openssl",
+  "openssl_version_output": "OpenSSL 3.5.7 9 Jun 2026 (Library: OpenSSL 3.5.7 9 Jun 2026)",
+  "platform": "Linux-6.17.0-35-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3",
+  "registration_commit": "570b8a778e94b5d49f25c68308b299f83fb162de",
+  "validation_errors": [],
+  "validation_passed": true
+}

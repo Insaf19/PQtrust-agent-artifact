@@ -1,0 +1,878 @@
+{
+  "aggregate_rejected": 200,
+  "aggregate_trials": 200,
+  "by_attack": {
+    "attempted_weaker_group_retry": {
+      "TLS_invocation_count": 10,
+      "aggregate_phase": "tls handshake",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:attempted_weaker_group_retry:t01",
+        "adversarial:attempted_weaker_group_retry:t02",
+        "adversarial:attempted_weaker_group_retry:t03",
+        "adversarial:attempted_weaker_group_retry:t04",
+        "adversarial:attempted_weaker_group_retry:t05",
+        "adversarial:attempted_weaker_group_retry:t06",
+        "adversarial:attempted_weaker_group_retry:t07",
+        "adversarial:attempted_weaker_group_retry:t08",
+        "adversarial:attempted_weaker_group_retry:t09",
+        "adversarial:attempted_weaker_group_retry:t10"
+      ],
+      "observed_codes": {
+        "ERR_WEAKER_RETRY_FORBIDDEN": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 4475622.5,
+        "maximum": 416950886.0,
+        "mean": 406878496.2,
+        "median": 405569726.0,
+        "minimum": 400209014.0,
+        "p05": 400257308.45,
+        "p25": 402851219.5,
+        "p75": 410189578.25,
+        "p95": 415732961.0,
+        "p99": 416707301.0,
+        "sample_standard_deviation": 5777563.235802363
+      },
+      "runtime_states": {
+        "CONTRACT_VERIFIED": 10
+      },
+      "target_phase": "tls_handshake",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    },
+    "duplicate_sequence_number": {
+      "TLS_invocation_count": 0,
+      "aggregate_phase": "framing",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:duplicate_sequence_number:t01",
+        "adversarial:duplicate_sequence_number:t02",
+        "adversarial:duplicate_sequence_number:t03",
+        "adversarial:duplicate_sequence_number:t04",
+        "adversarial:duplicate_sequence_number:t05",
+        "adversarial:duplicate_sequence_number:t06",
+        "adversarial:duplicate_sequence_number:t07",
+        "adversarial:duplicate_sequence_number:t08",
+        "adversarial:duplicate_sequence_number:t09",
+        "adversarial:duplicate_sequence_number:t10"
+      ],
+      "observed_codes": {
+        "ERR_DUPLICATE_SEQUENCE": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 5528877.0,
+        "maximum": 435754340.0,
+        "mean": 412675910.0,
+        "median": 410435281.5,
+        "minimum": 398180742.0,
+        "p05": 399467476.95,
+        "p25": 407243538.25,
+        "p75": 416967832.75,
+        "p95": 430521616.7,
+        "p99": 434707795.34,
+        "sample_standard_deviation": 11125716.964682221
+      },
+      "runtime_states": {
+        "DISCOVERY_COMPLETE": 10
+      },
+      "target_phase": "framing",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    },
+    "handshake_timeout": {
+      "TLS_invocation_count": 10,
+      "aggregate_phase": "tls handshake",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:handshake_timeout:t01",
+        "adversarial:handshake_timeout:t02",
+        "adversarial:handshake_timeout:t03",
+        "adversarial:handshake_timeout:t04",
+        "adversarial:handshake_timeout:t05",
+        "adversarial:handshake_timeout:t06",
+        "adversarial:handshake_timeout:t07",
+        "adversarial:handshake_timeout:t08",
+        "adversarial:handshake_timeout:t09",
+        "adversarial:handshake_timeout:t10"
+      ],
+      "observed_codes": {
+        "ERR_TLS_HANDSHAKE_TIMEOUT": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 4381700.5,
+        "maximum": 454141111.0,
+        "mean": 410110183.5,
+        "median": 404438252.0,
+        "minimum": 399403688.0,
+        "p05": 399991265.15,
+        "p25": 403308093.75,
+        "p75": 410292478.5,
+        "p95": 434522679.24999994,
+        "p99": 450217424.65,
+        "sample_standard_deviation": 15960945.822230143
+      },
+      "runtime_states": {
+        "CONTRACT_VERIFIED": 10
+      },
+      "target_phase": "tls_handshake",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    },
+    "illegal_state_transition": {
+      "TLS_invocation_count": 0,
+      "aggregate_phase": "replay/state machine",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:illegal_state_transition:t01",
+        "adversarial:illegal_state_transition:t02",
+        "adversarial:illegal_state_transition:t03",
+        "adversarial:illegal_state_transition:t04",
+        "adversarial:illegal_state_transition:t05",
+        "adversarial:illegal_state_transition:t06",
+        "adversarial:illegal_state_transition:t07",
+        "adversarial:illegal_state_transition:t08",
+        "adversarial:illegal_state_transition:t09",
+        "adversarial:illegal_state_transition:t10"
+      ],
+      "observed_codes": {
+        "ERR_ILLEGAL_STATE_TRANSITION": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 6719689.5,
+        "maximum": 450563914.0,
+        "mean": 416225705.7,
+        "median": 411389315.5,
+        "minimum": 404468928.0,
+        "p05": 404547164.55,
+        "p25": 405782786.5,
+        "p75": 421061238.25,
+        "p95": 439704130.59999996,
+        "p99": 448391957.32,
+        "sample_standard_deviation": 14241469.626702577
+      },
+      "runtime_states": {
+        "CREATED": 10
+      },
+      "target_phase": "state_machine",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    },
+    "modified_selected_profile": {
+      "TLS_invocation_count": 0,
+      "aggregate_phase": "execution gate",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:modified_selected_profile:t01",
+        "adversarial:modified_selected_profile:t02",
+        "adversarial:modified_selected_profile:t03",
+        "adversarial:modified_selected_profile:t04",
+        "adversarial:modified_selected_profile:t05",
+        "adversarial:modified_selected_profile:t06",
+        "adversarial:modified_selected_profile:t07",
+        "adversarial:modified_selected_profile:t08",
+        "adversarial:modified_selected_profile:t09",
+        "adversarial:modified_selected_profile:t10"
+      ],
+      "observed_codes": {
+        "ERR_PROFILE_BINDING_MISMATCH": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 2297180.0,
+        "maximum": 411900903.0,
+        "mean": 406640670.9,
+        "median": 408283804.0,
+        "minimum": 397761696.0,
+        "p05": 399396179.7,
+        "p25": 403536382.75,
+        "p75": 410061022.25,
+        "p95": 411203257.65,
+        "p99": 411761373.93,
+        "sample_standard_deviation": 4612110.577936128
+      },
+      "runtime_states": {
+        "CONTRACT_VERIFIED": 10
+      },
+      "target_phase": "execution_gate",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    },
+    "modified_signed_contract_hash": {
+      "TLS_invocation_count": 0,
+      "aggregate_phase": "execution gate",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:modified_signed_contract_hash:t01",
+        "adversarial:modified_signed_contract_hash:t02",
+        "adversarial:modified_signed_contract_hash:t03",
+        "adversarial:modified_signed_contract_hash:t04",
+        "adversarial:modified_signed_contract_hash:t05",
+        "adversarial:modified_signed_contract_hash:t06",
+        "adversarial:modified_signed_contract_hash:t07",
+        "adversarial:modified_signed_contract_hash:t08",
+        "adversarial:modified_signed_contract_hash:t09",
+        "adversarial:modified_signed_contract_hash:t10"
+      ],
+      "observed_codes": {
+        "ERR_CONTRACT_HASH_MISMATCH": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 2002918.0,
+        "maximum": 411452955.0,
+        "mean": 404921714.6,
+        "median": 405718315.0,
+        "minimum": 397529184.0,
+        "p05": 398739861.75,
+        "p25": 402992909.75,
+        "p75": 407350149.5,
+        "p95": 409747491.0,
+        "p99": 411111862.2,
+        "sample_standard_deviation": 4035679.241585491
+      },
+      "runtime_states": {
+        "CONTRACT_VERIFIED": 10
+      },
+      "target_phase": "execution_gate",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    },
+    "modified_task_contract_hash": {
+      "TLS_invocation_count": 10,
+      "aggregate_phase": "task",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:modified_task_contract_hash:t01",
+        "adversarial:modified_task_contract_hash:t02",
+        "adversarial:modified_task_contract_hash:t03",
+        "adversarial:modified_task_contract_hash:t04",
+        "adversarial:modified_task_contract_hash:t05",
+        "adversarial:modified_task_contract_hash:t06",
+        "adversarial:modified_task_contract_hash:t07",
+        "adversarial:modified_task_contract_hash:t08",
+        "adversarial:modified_task_contract_hash:t09",
+        "adversarial:modified_task_contract_hash:t10"
+      ],
+      "observed_codes": {
+        "ERR_TASK_CONTRACT_HASH_MISMATCH": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 2913281.0,
+        "maximum": 421667075.0,
+        "mean": 406816195.5,
+        "median": 404735787.5,
+        "minimum": 397036037.0,
+        "p05": 398647534.25,
+        "p25": 403253021.0,
+        "p75": 409964972.5,
+        "p95": 418931037.65,
+        "p99": 421119867.53,
+        "sample_standard_deviation": 7360914.373142062
+      },
+      "runtime_states": {
+        "TLS_ACTIVATED": 10
+      },
+      "target_phase": "task_execution",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    },
+    "negotiated_tls_group_mismatch": {
+      "TLS_invocation_count": 10,
+      "aggregate_phase": "TLS",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:negotiated_tls_group_mismatch:t01",
+        "adversarial:negotiated_tls_group_mismatch:t02",
+        "adversarial:negotiated_tls_group_mismatch:t03",
+        "adversarial:negotiated_tls_group_mismatch:t04",
+        "adversarial:negotiated_tls_group_mismatch:t05",
+        "adversarial:negotiated_tls_group_mismatch:t06",
+        "adversarial:negotiated_tls_group_mismatch:t07",
+        "adversarial:negotiated_tls_group_mismatch:t08",
+        "adversarial:negotiated_tls_group_mismatch:t09",
+        "adversarial:negotiated_tls_group_mismatch:t10"
+      ],
+      "observed_codes": {
+        "ERR_NEGOTIATED_GROUP_MISMATCH": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 4909048.0,
+        "maximum": 432139203.0,
+        "mean": 410841033.0,
+        "median": 409849340.5,
+        "minimum": 398125322.0,
+        "p05": 399625227.35,
+        "p25": 405124155.25,
+        "p75": 414129752.0,
+        "p95": 425484460.34999996,
+        "p99": 430808254.47,
+        "sample_standard_deviation": 9610084.023480522
+      },
+      "runtime_states": {
+        "TLS_ACTIVATED": 10
+      },
+      "target_phase": "tls_activation",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    },
+    "oversized_frame": {
+      "TLS_invocation_count": 0,
+      "aggregate_phase": "framing",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:oversized_frame:t01",
+        "adversarial:oversized_frame:t02",
+        "adversarial:oversized_frame:t03",
+        "adversarial:oversized_frame:t04",
+        "adversarial:oversized_frame:t05",
+        "adversarial:oversized_frame:t06",
+        "adversarial:oversized_frame:t07",
+        "adversarial:oversized_frame:t08",
+        "adversarial:oversized_frame:t09",
+        "adversarial:oversized_frame:t10"
+      ],
+      "observed_codes": {
+        "ERR_OVERSIZED_FRAME": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 4141785.5,
+        "maximum": 416321094.0,
+        "mean": 408999621.8,
+        "median": 411424520.5,
+        "minimum": 399267473.0,
+        "p05": 399962855.75,
+        "p25": 405246656.5,
+        "p75": 412139065.5,
+        "p95": 415757410.5,
+        "p99": 416208357.3,
+        "sample_standard_deviation": 5833440.624102266
+      },
+      "runtime_states": {
+        "DISCOVERY_COMPLETE": 10
+      },
+      "target_phase": "framing",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    },
+    "payload_hash_mismatch": {
+      "TLS_invocation_count": 0,
+      "aggregate_phase": "framing",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:payload_hash_mismatch:t01",
+        "adversarial:payload_hash_mismatch:t02",
+        "adversarial:payload_hash_mismatch:t03",
+        "adversarial:payload_hash_mismatch:t04",
+        "adversarial:payload_hash_mismatch:t05",
+        "adversarial:payload_hash_mismatch:t06",
+        "adversarial:payload_hash_mismatch:t07",
+        "adversarial:payload_hash_mismatch:t08",
+        "adversarial:payload_hash_mismatch:t09",
+        "adversarial:payload_hash_mismatch:t10"
+      ],
+      "observed_codes": {
+        "ERR_PAYLOAD_HASH_MISMATCH": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 3358210.5,
+        "maximum": 426020816.0,
+        "mean": 406104370.4,
+        "median": 402957294.0,
+        "minimum": 398690295.0,
+        "p05": 399508204.65,
+        "p25": 401741578.5,
+        "p75": 408437637.25,
+        "p95": 418862278.09999996,
+        "p99": 424589108.42,
+        "sample_standard_deviation": 7915237.913793399
+      },
+      "runtime_states": {
+        "DISCOVERY_COMPLETE": 10
+      },
+      "target_phase": "framing",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    },
+    "replayed_signed_contract": {
+      "TLS_invocation_count": 0,
+      "aggregate_phase": "execution gate",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:replayed_signed_contract:t01",
+        "adversarial:replayed_signed_contract:t02",
+        "adversarial:replayed_signed_contract:t03",
+        "adversarial:replayed_signed_contract:t04",
+        "adversarial:replayed_signed_contract:t05",
+        "adversarial:replayed_signed_contract:t06",
+        "adversarial:replayed_signed_contract:t07",
+        "adversarial:replayed_signed_contract:t08",
+        "adversarial:replayed_signed_contract:t09",
+        "adversarial:replayed_signed_contract:t10"
+      ],
+      "observed_codes": {
+        "ERR_CONTRACT_REPLAY": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 4552853.0,
+        "maximum": 461460506.0,
+        "mean": 415418276.7,
+        "median": 410734715.5,
+        "minimum": 400719008.0,
+        "p05": 402493786.4,
+        "p25": 406142291.75,
+        "p75": 414653893.25,
+        "p95": 444247433.59999996,
+        "p99": 458017891.52,
+        "sample_standard_deviation": 17364386.062829293
+      },
+      "runtime_states": {
+        "CONTRACT_VERIFIED": 10
+      },
+      "target_phase": "execution_gate",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    },
+    "replayed_task_request": {
+      "TLS_invocation_count": 10,
+      "aggregate_phase": "task",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:replayed_task_request:t01",
+        "adversarial:replayed_task_request:t02",
+        "adversarial:replayed_task_request:t03",
+        "adversarial:replayed_task_request:t04",
+        "adversarial:replayed_task_request:t05",
+        "adversarial:replayed_task_request:t06",
+        "adversarial:replayed_task_request:t07",
+        "adversarial:replayed_task_request:t08",
+        "adversarial:replayed_task_request:t09",
+        "adversarial:replayed_task_request:t10"
+      ],
+      "observed_codes": {
+        "ERR_TASK_REPLAY": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 4013211.0,
+        "maximum": 425743274.0,
+        "mean": 411569965.4,
+        "median": 410419308.5,
+        "minimum": 401393808.0,
+        "p05": 403044872.85,
+        "p25": 408069104.0,
+        "p75": 415007064.75,
+        "p95": 422201401.84999996,
+        "p99": 425034899.57,
+        "sample_standard_deviation": 6938617.443973631
+      },
+      "runtime_states": {
+        "TLS_ACTIVATED": 10
+      },
+      "target_phase": "task_execution",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    },
+    "requested_tls_group_mismatch": {
+      "TLS_invocation_count": 0,
+      "aggregate_phase": "TLS",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:requested_tls_group_mismatch:t01",
+        "adversarial:requested_tls_group_mismatch:t02",
+        "adversarial:requested_tls_group_mismatch:t03",
+        "adversarial:requested_tls_group_mismatch:t04",
+        "adversarial:requested_tls_group_mismatch:t05",
+        "adversarial:requested_tls_group_mismatch:t06",
+        "adversarial:requested_tls_group_mismatch:t07",
+        "adversarial:requested_tls_group_mismatch:t08",
+        "adversarial:requested_tls_group_mismatch:t09",
+        "adversarial:requested_tls_group_mismatch:t10"
+      ],
+      "observed_codes": {
+        "ERR_REQUESTED_GROUP_MISMATCH": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 3900570.5,
+        "maximum": 417366165.0,
+        "mean": 406884683.0,
+        "median": 406203533.0,
+        "minimum": 398914953.0,
+        "p05": 399760291.05,
+        "p25": 403521870.5,
+        "p75": 410395745.5,
+        "p95": 414450640.65,
+        "p99": 416783060.13,
+        "sample_standard_deviation": 5449400.15649896
+      },
+      "runtime_states": {
+        "CONTRACT_VERIFIED": 10
+      },
+      "target_phase": "tls_activation",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    },
+    "responder_process_termination": {
+      "TLS_invocation_count": 0,
+      "aggregate_phase": "local transport",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:responder_process_termination:t01",
+        "adversarial:responder_process_termination:t02",
+        "adversarial:responder_process_termination:t03",
+        "adversarial:responder_process_termination:t04",
+        "adversarial:responder_process_termination:t05",
+        "adversarial:responder_process_termination:t06",
+        "adversarial:responder_process_termination:t07",
+        "adversarial:responder_process_termination:t08",
+        "adversarial:responder_process_termination:t09",
+        "adversarial:responder_process_termination:t10"
+      ],
+      "observed_codes": {
+        "ERR_RESPONDER_PROCESS_TERMINATED": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 6287717.5,
+        "maximum": 454915560.0,
+        "mean": 411970608.3,
+        "median": 405139814.5,
+        "minimum": 398598855.0,
+        "p05": 398826772.8,
+        "p25": 400875581.0,
+        "p75": 416283206.25,
+        "p95": 439839472.34999996,
+        "p99": 451900342.47,
+        "sample_standard_deviation": 17088805.684283838
+      },
+      "runtime_states": {
+        "CONTRACT_VERIFIED": 10
+      },
+      "target_phase": "local_transport",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    },
+    "skipped_sequence_number": {
+      "TLS_invocation_count": 0,
+      "aggregate_phase": "framing",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:skipped_sequence_number:t01",
+        "adversarial:skipped_sequence_number:t02",
+        "adversarial:skipped_sequence_number:t03",
+        "adversarial:skipped_sequence_number:t04",
+        "adversarial:skipped_sequence_number:t05",
+        "adversarial:skipped_sequence_number:t06",
+        "adversarial:skipped_sequence_number:t07",
+        "adversarial:skipped_sequence_number:t08",
+        "adversarial:skipped_sequence_number:t09",
+        "adversarial:skipped_sequence_number:t10"
+      ],
+      "observed_codes": {
+        "ERR_SKIPPED_SEQUENCE": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 2651744.0,
+        "maximum": 434139852.0,
+        "mean": 410753173.2,
+        "median": 407337456.5,
+        "minimum": 404008050.0,
+        "p05": 404309039.25,
+        "p25": 406140969.25,
+        "p75": 412280670.25,
+        "p95": 425072271.9,
+        "p99": 432326335.98,
+        "sample_standard_deviation": 8857850.306840353
+      },
+      "runtime_states": {
+        "DISCOVERY_COMPLETE": 10
+      },
+      "target_phase": "framing",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    },
+    "task_request_before_contract_verification": {
+      "TLS_invocation_count": 0,
+      "aggregate_phase": "task",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:task_request_before_contract_verification:t01",
+        "adversarial:task_request_before_contract_verification:t02",
+        "adversarial:task_request_before_contract_verification:t03",
+        "adversarial:task_request_before_contract_verification:t04",
+        "adversarial:task_request_before_contract_verification:t05",
+        "adversarial:task_request_before_contract_verification:t06",
+        "adversarial:task_request_before_contract_verification:t07",
+        "adversarial:task_request_before_contract_verification:t08",
+        "adversarial:task_request_before_contract_verification:t09",
+        "adversarial:task_request_before_contract_verification:t10"
+      ],
+      "observed_codes": {
+        "ERR_TASK_BEFORE_AUTHORIZATION": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 3314858.5,
+        "maximum": 437722157.0,
+        "mean": 408184699.2,
+        "median": 405425054.0,
+        "minimum": 398749952.0,
+        "p05": 399266384.6,
+        "p25": 402547763.0,
+        "p75": 408796643.5,
+        "p95": 426374695.09999996,
+        "p99": 435452664.62,
+        "sample_standard_deviation": 11196034.940918144
+      },
+      "runtime_states": {
+        "CONTRACT_CREATED": 10
+      },
+      "target_phase": "task_execution",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    },
+    "tls_activation_before_signed_contract": {
+      "TLS_invocation_count": 0,
+      "aggregate_phase": "TLS",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:tls_activation_before_signed_contract:t01",
+        "adversarial:tls_activation_before_signed_contract:t02",
+        "adversarial:tls_activation_before_signed_contract:t03",
+        "adversarial:tls_activation_before_signed_contract:t04",
+        "adversarial:tls_activation_before_signed_contract:t05",
+        "adversarial:tls_activation_before_signed_contract:t06",
+        "adversarial:tls_activation_before_signed_contract:t07",
+        "adversarial:tls_activation_before_signed_contract:t08",
+        "adversarial:tls_activation_before_signed_contract:t09",
+        "adversarial:tls_activation_before_signed_contract:t10"
+      ],
+      "observed_codes": {
+        "ERR_TLS_BEFORE_CONTRACT_VERIFIED": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 3161377.5,
+        "maximum": 415955731.0,
+        "mean": 407542240.3,
+        "median": 406039516.0,
+        "minimum": 398601354.0,
+        "p05": 401039145.75,
+        "p25": 404665792.0,
+        "p75": 410582148.5,
+        "p95": 415160249.8,
+        "p99": 415796634.76,
+        "sample_standard_deviation": 5219851.847802261
+      },
+      "runtime_states": {
+        "CONTRACT_CREATED": 10
+      },
+      "target_phase": "tls_activation",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    },
+    "tls_handshake_failure": {
+      "TLS_invocation_count": 10,
+      "aggregate_phase": "tls handshake",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:tls_handshake_failure:t01",
+        "adversarial:tls_handshake_failure:t02",
+        "adversarial:tls_handshake_failure:t03",
+        "adversarial:tls_handshake_failure:t04",
+        "adversarial:tls_handshake_failure:t05",
+        "adversarial:tls_handshake_failure:t06",
+        "adversarial:tls_handshake_failure:t07",
+        "adversarial:tls_handshake_failure:t08",
+        "adversarial:tls_handshake_failure:t09",
+        "adversarial:tls_handshake_failure:t10"
+      ],
+      "observed_codes": {
+        "ERR_TLS_HANDSHAKE_FAILED": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 3704337.0,
+        "maximum": 418561891.0,
+        "mean": 406693269.0,
+        "median": 405768616.0,
+        "minimum": 396501422.0,
+        "p05": 398804309.6,
+        "p25": 401937840.75,
+        "p75": 408803891.25,
+        "p95": 418014615.4,
+        "p99": 418452435.88,
+        "sample_standard_deviation": 7012760.384793692
+      },
+      "runtime_states": {
+        "CONTRACT_VERIFIED": 10
+      },
+      "target_phase": "tls_handshake",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    },
+    "truncated_frame": {
+      "TLS_invocation_count": 0,
+      "aggregate_phase": "framing",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:truncated_frame:t01",
+        "adversarial:truncated_frame:t02",
+        "adversarial:truncated_frame:t03",
+        "adversarial:truncated_frame:t04",
+        "adversarial:truncated_frame:t05",
+        "adversarial:truncated_frame:t06",
+        "adversarial:truncated_frame:t07",
+        "adversarial:truncated_frame:t08",
+        "adversarial:truncated_frame:t09",
+        "adversarial:truncated_frame:t10"
+      ],
+      "observed_codes": {
+        "ERR_TRUNCATED_FRAME": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 1483169.5,
+        "maximum": 411658046.0,
+        "mean": 404536533.3,
+        "median": 405185552.0,
+        "minimum": 398794109.0,
+        "p05": 398948486.0,
+        "p25": 403053261.75,
+        "p75": 406332402.25,
+        "p95": 409423971.95,
+        "p99": 411211231.19,
+        "sample_standard_deviation": 3757233.5450682933
+      },
+      "runtime_states": {
+        "DISCOVERY_COMPLETE": 10
+      },
+      "target_phase": "framing",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    },
+    "unsupported_message_type": {
+      "TLS_invocation_count": 0,
+      "aggregate_phase": "framing",
+      "expected_observed_code_agreement": true,
+      "n": 10,
+      "observation_ids": [
+        "adversarial:unsupported_message_type:t01",
+        "adversarial:unsupported_message_type:t02",
+        "adversarial:unsupported_message_type:t03",
+        "adversarial:unsupported_message_type:t04",
+        "adversarial:unsupported_message_type:t05",
+        "adversarial:unsupported_message_type:t06",
+        "adversarial:unsupported_message_type:t07",
+        "adversarial:unsupported_message_type:t08",
+        "adversarial:unsupported_message_type:t09",
+        "adversarial:unsupported_message_type:t10"
+      ],
+      "observed_codes": {
+        "ERR_UNSUPPORTED_MESSAGE_TYPE": 10
+      },
+      "rejected_count": 10,
+      "rejection_latency_distribution": {
+        "count": 10,
+        "mad": 6493391.0,
+        "maximum": 426612711.0,
+        "mean": 408693634.0,
+        "median": 406896347.0,
+        "minimum": 396028014.0,
+        "p05": 397656304.35,
+        "p25": 402476899.5,
+        "p75": 413502701.0,
+        "p95": 422494210.65,
+        "p99": 425789010.93,
+        "sample_standard_deviation": 9157937.162436211
+      },
+      "runtime_states": {
+        "DISCOVERY_COMPLETE": 10
+      },
+      "target_phase": "framing",
+      "task_invocation_count": 0,
+      "weaker_retry_count": 0
+    }
+  },
+  "by_phase": {
+    "TLS": {
+      "rejected_count": 30,
+      "trial_count": 30
+    },
+    "execution gate": {
+      "rejected_count": 30,
+      "trial_count": 30
+    },
+    "framing": {
+      "rejected_count": 60,
+      "trial_count": 60
+    },
+    "local transport": {
+      "rejected_count": 10,
+      "trial_count": 10
+    },
+    "replay/state machine": {
+      "rejected_count": 10,
+      "trial_count": 10
+    },
+    "task": {
+      "rejected_count": 30,
+      "trial_count": 30
+    },
+    "tls handshake": {
+      "rejected_count": 30,
+      "trial_count": 30
+    }
+  },
+  "limitation": "200/200 rejection validates this registered attack set only.",
+  "success_lower_95_confidence_bound": 0.9997435664127765
+}

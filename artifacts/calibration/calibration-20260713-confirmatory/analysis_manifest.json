@@ -1,0 +1,24 @@
+{
+  "analysis_configuration": {
+    "config_hash": "a35f33611306a2fa9f32474da32822724c4e1fe4308523c9758b4c6ab9f23525"
+  },
+  "analysis_implementation_version": 1,
+  "bootstrap_iterations": 10000,
+  "bootstrap_seed": 20260801,
+  "generated_at_utc": "2026-07-13T17:05:24Z",
+  "generated_files": [
+    "drift_diagnostics.json",
+    "mldsa_by_replicate.json",
+    "mldsa_campaign_summary.json",
+    "profile_crypto_calibration.json",
+    "tls_by_replicate.json",
+    "tls_campaign_summary.json",
+    "validation_report.json"
+  ],
+  "git_commit": "512c4c697ddf77abdb7015a665f0e2dd8f91af71",
+  "git_dirty": true,
+  "quantile_definition": "linear interpolation between closest ranks using h=(n-1)*p+1",
+  "raw_run_checksum": "e727e85f9b4cc322e8c45f4698d2470f79ce0ee500280f80882d8d7913c4a1f9",
+  "schema_version": 1,
+  "validation_status": true
+}

@@ -1,0 +1,10 @@
+{
+  "errors": [],
+  "expected_mldsa_records_per_replicate": 1200,
+  "expected_replicates": 3,
+  "expected_tls_records_per_replicate": 1000,
+  "raw_run": "calibration-20260713-confirmatory",
+  "raw_run_checksum": "e727e85f9b4cc322e8c45f4698d2470f79ce0ee500280f80882d8d7913c4a1f9",
+  "schema_version": 1,
+  "validation_passed": true
+}

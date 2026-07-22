@@ -1,0 +1,46 @@
+campaign_id: stage3b_crypto_calibration_v1
+certificate_paths:
+  ca_certificate: .local/pqtrust-crypto/lab_ca_p256.cert.pem
+  server_certificate: .local/pqtrust-crypto/server_p256.cert.pem
+  server_private_key: .local/pqtrust-crypto/server_p256.key.pem
+cpu_core: null
+expected_tls_version: TLSv1.3
+inter_replicate_idle_seconds: 30
+max_system_load_warning: 2
+measured_blocks: 200
+mldsa_algorithms:
+- ML-DSA-65
+- ML-DSA-87
+mldsa_key_paths:
+  mldsa65_private: .local/pqtrust-crypto/mldsa65.private.pem
+  mldsa65_public: .local/pqtrust-crypto/mldsa65.public.pem
+  mldsa87_private: .local/pqtrust-crypto/mldsa87.private.pem
+  mldsa87_public: .local/pqtrust-crypto/mldsa87.public.pem
+mldsa_message_sizes_bytes:
+- 512
+- 2048
+- 8192
+native_executable_paths:
+  mldsa_bench: .build/native/mldsa_bench
+  openssl: .local/openssl-3.5.7/bin/openssl
+  tls_handshake_bench: .build/native/tls_handshake_bench
+per_process_timeout_seconds: 900
+replicates:
+- mldsa_seed: 20260731
+  replicate_id: 1
+  tls_seed: 20260721
+- mldsa_seed: 20260732
+  replicate_id: 2
+  tls_seed: 20260722
+- mldsa_seed: 20260733
+  replicate_id: 3
+  tls_seed: 20260723
+schema_version: '1.0'
+tls_cipher_suite: TLS_AES_256_GCM_SHA384
+tls_groups:
+- X25519
+- X25519MLKEM768
+- SecP256r1MLKEM768
+- MLKEM768
+- SecP384r1MLKEM1024
+warmups_per_case: 30

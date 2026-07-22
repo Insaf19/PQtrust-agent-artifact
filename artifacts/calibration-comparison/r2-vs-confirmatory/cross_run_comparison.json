@@ -1,0 +1,1157 @@
+{
+  "baseline": {
+    "exact_configuration_hash": "4dcffcc3f3eb79971cf7568768a7343b2f38920793077f441f1809bade046c0f",
+    "run_id": "calibration-20260713-r2",
+    "scientific_design_hash": "3df8771603d20a446c6c9a3b2633bdc7298c4e6ebd20814a94c2716f6ce92dd8"
+  },
+  "combined_summary": {
+    "automatic": false,
+    "created": false,
+    "explicit_option_required": true
+  },
+  "compatibility": {
+    "OpenSSL_versions_match": true,
+    "baseline_exact_configuration_hash": "4dcffcc3f3eb79971cf7568768a7343b2f38920793077f441f1809bade046c0f",
+    "baseline_scientific_design_hash": "3df8771603d20a446c6c9a3b2633bdc7298c4e6ebd20814a94c2716f6ce92dd8",
+    "case_definitions_match": true,
+    "catalog_hashes_match": true,
+    "comparison_compatible": true,
+    "compatibility_interpretation": "Exact execution configurations differ because permitted non-design fields differ, while scientific case design is identical.",
+    "confirmatory_exact_configuration_hash": "d2afb6f9aed627347ea6ce529b880b038ea9cb090296a0e0604dd195bc89a499",
+    "confirmatory_scientific_design_hash": "3df8771603d20a446c6c9a3b2633bdc7298c4e6ebd20814a94c2716f6ce92dd8",
+    "details": {
+      "benchmark_executable_hashes": {
+        "baseline": {
+          "mldsa_bench": "638ff8e9adb392d553f956ad9b81bf9a2a3739348e1bee39cf0c2dce314f7058",
+          "tls_handshake_bench": "eb07733ac041e113061fd9bb3ec333df9792de4c18785d982a2d35ef6182677b"
+        },
+        "confirmatory": {
+          "mldsa_bench": "638ff8e9adb392d553f956ad9b81bf9a2a3739348e1bee39cf0c2dce314f7058",
+          "tls_handshake_bench": "eb07733ac041e113061fd9bb3ec333df9792de4c18785d982a2d35ef6182677b"
+        }
+      },
+      "case_definitions": {
+        "baseline": {
+          "mldsa_algorithms": [
+            "ML-DSA-65",
+            "ML-DSA-87"
+          ],
+          "mldsa_message_sizes_bytes": [
+            512,
+            2048,
+            8192
+          ],
+          "tls_groups": [
+            "X25519",
+            "X25519MLKEM768",
+            "SecP256r1MLKEM768",
+            "MLKEM768",
+            "SecP384r1MLKEM1024"
+          ]
+        },
+        "confirmatory": {
+          "mldsa_algorithms": [
+            "ML-DSA-65",
+            "ML-DSA-87"
+          ],
+          "mldsa_message_sizes_bytes": [
+            512,
+            2048,
+            8192
+          ],
+          "tls_groups": [
+            "X25519",
+            "X25519MLKEM768",
+            "SecP256r1MLKEM768",
+            "MLKEM768",
+            "SecP384r1MLKEM1024"
+          ]
+        }
+      },
+      "catalog_hash": {
+        "baseline": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+        "confirmatory": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e"
+      },
+      "openssl_version": {
+        "baseline": "OpenSSL 3.5.7 9 Jun 2026 (Library: OpenSSL 3.5.7 9 Jun 2026)",
+        "confirmatory": "OpenSSL 3.5.7 9 Jun 2026 (Library: OpenSSL 3.5.7 9 Jun 2026)"
+      },
+      "record_designs": {
+        "baseline": {
+          "expected_mldsa_records_per_replicate": 1200,
+          "expected_mldsa_records_total": 3600,
+          "expected_tls_records_per_replicate": 1000,
+          "expected_tls_records_total": 3000,
+          "measured_blocks": 200,
+          "replicate_count": 3,
+          "warmups_per_case": 30
+        },
+        "confirmatory": {
+          "expected_mldsa_records_per_replicate": 1200,
+          "expected_mldsa_records_total": 3600,
+          "expected_tls_records_per_replicate": 1000,
+          "expected_tls_records_total": 3000,
+          "measured_blocks": 200,
+          "replicate_count": 3,
+          "warmups_per_case": 30
+        }
+      }
+    },
+    "exact_configuration_hashes_match": false,
+    "native_executable_hashes_match": true,
+    "record_designs_match": true,
+    "scientific_design_hashes_match": true
+  },
+  "confirmatory": {
+    "exact_configuration_hash": "d2afb6f9aed627347ea6ce529b880b038ea9cb090296a0e0604dd195bc89a499",
+    "run_id": "calibration-20260713-confirmatory",
+    "scientific_design_hash": "3df8771603d20a446c6c9a3b2633bdc7298c4e6ebd20814a94c2716f6ce92dd8"
+  },
+  "errors": [],
+  "integrity": {
+    "baseline": {
+      "block_balance_valid": true,
+      "configuration_snapshot_matches_manifest": true,
+      "every_cryptographic_operation_successful": true,
+      "integrity_passed": true,
+      "no_missing_replicates": true,
+      "raw_checksums_valid": true,
+      "record_counts_exact": true,
+      "run_id": "calibration-20260713-r2"
+    },
+    "confirmatory": {
+      "block_balance_valid": true,
+      "configuration_snapshot_matches_manifest": true,
+      "every_cryptographic_operation_successful": true,
+      "integrity_passed": true,
+      "no_missing_replicates": true,
+      "raw_checksums_valid": true,
+      "record_counts_exact": true,
+      "run_id": "calibration-20260713-confirmatory"
+    }
+  },
+  "mldsa": {
+    "ML-DSA-65:2048": {
+      "sign_time_ns": {
+        "absolute_difference": -26470.5,
+        "baseline_campaign_median": 1418750.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1145973.0,
+          "seed": 20260801,
+          "upper": 1546693.0
+        },
+        "baseline_stability_within_10_percent": false,
+        "confirmatory_campaign_median": 1392279.5,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1237675.4375,
+          "seed": 20260801,
+          "upper": 1413998.7249999999
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": -0.018657621145374448
+      },
+      "signature_size_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 3309.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3309.0,
+          "seed": 20260801,
+          "upper": 3309.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 3309.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3309.0,
+          "seed": 20260801,
+          "upper": 3309.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "verify_time_ns": {
+        "absolute_difference": -736.0,
+        "baseline_campaign_median": 328577.5,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 327534.5,
+          "seed": 20260801,
+          "upper": 360779.5
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 327841.5,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 326207.0,
+          "seed": 20260801,
+          "upper": 330581.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": -0.0022399586094604775
+      }
+    },
+    "ML-DSA-65:512": {
+      "sign_time_ns": {
+        "absolute_difference": -3377.0,
+        "baseline_campaign_median": 1382039.5,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1160914.0,
+          "seed": 20260801,
+          "upper": 1550054.0
+        },
+        "baseline_stability_within_10_percent": false,
+        "confirmatory_campaign_median": 1378662.5,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1140997.0,
+          "seed": 20260801,
+          "upper": 1406382.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": -0.00244349021862255
+      },
+      "signature_size_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 3309.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3309.0,
+          "seed": 20260801,
+          "upper": 3309.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 3309.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3309.0,
+          "seed": 20260801,
+          "upper": 3309.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "verify_time_ns": {
+        "absolute_difference": -522.5,
+        "baseline_campaign_median": 322058.5,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 321001.3875,
+          "seed": 20260801,
+          "upper": 355393.0
+        },
+        "baseline_stability_within_10_percent": false,
+        "confirmatory_campaign_median": 321536.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 320644.0,
+          "seed": 20260801,
+          "upper": 322252.5
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": -0.0016223760590079132
+      }
+    },
+    "ML-DSA-65:8192": {
+      "sign_time_ns": {
+        "absolute_difference": 1146.0,
+        "baseline_campaign_median": 1410297.5,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1201924.0,
+          "seed": 20260801,
+          "upper": 1551711.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 1411443.5,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1155723.0,
+          "seed": 20260801,
+          "upper": 1456540.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0008125945057691728
+      },
+      "signature_size_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 3309.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3309.0,
+          "seed": 20260801,
+          "upper": 3309.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 3309.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3309.0,
+          "seed": 20260801,
+          "upper": 3309.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "verify_time_ns": {
+        "absolute_difference": 2069.0,
+        "baseline_campaign_median": 350795.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 350079.0,
+          "seed": 20260801,
+          "upper": 388391.0
+        },
+        "baseline_stability_within_10_percent": false,
+        "confirmatory_campaign_median": 352864.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 350514.5,
+          "seed": 20260801,
+          "upper": 354396.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.005898031613905557
+      }
+    },
+    "ML-DSA-87:2048": {
+      "sign_time_ns": {
+        "absolute_difference": -1579.5,
+        "baseline_campaign_median": 1619430.5,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1326293.0,
+          "seed": 20260801,
+          "upper": 1793877.0
+        },
+        "baseline_stability_within_10_percent": false,
+        "confirmatory_campaign_median": 1617851.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1284137.0,
+          "seed": 20260801,
+          "upper": 1629677.5
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": -0.0009753428751650658
+      },
+      "signature_size_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 4627.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 4627.0,
+          "seed": 20260801,
+          "upper": 4627.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 4627.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 4627.0,
+          "seed": 20260801,
+          "upper": 4627.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "verify_time_ns": {
+        "absolute_difference": -1687.0,
+        "baseline_campaign_median": 505375.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 503132.0,
+          "seed": 20260801,
+          "upper": 553876.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 503688.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 502906.3625,
+          "seed": 20260801,
+          "upper": 504930.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": -0.003338115260944843
+      }
+    },
+    "ML-DSA-87:512": {
+      "sign_time_ns": {
+        "absolute_difference": -2742.0,
+        "baseline_campaign_median": 1618937.5,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1288906.0,
+          "seed": 20260801,
+          "upper": 1788667.0
+        },
+        "baseline_stability_within_10_percent": false,
+        "confirmatory_campaign_median": 1616195.5,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1304300.0,
+          "seed": 20260801,
+          "upper": 1637073.5
+        },
+        "confirmatory_stability_within_10_percent": false,
+        "interval_overlap": true,
+        "relative_difference": -0.0016937034320348994
+      },
+      "signature_size_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 4627.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 4627.0,
+          "seed": 20260801,
+          "upper": 4627.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 4627.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 4627.0,
+          "seed": 20260801,
+          "upper": 4627.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "verify_time_ns": {
+        "absolute_difference": -2004.0,
+        "baseline_campaign_median": 498336.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 496831.4375,
+          "seed": 20260801,
+          "upper": 548193.5
+        },
+        "baseline_stability_within_10_percent": false,
+        "confirmatory_campaign_median": 496332.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 495840.0,
+          "seed": 20260801,
+          "upper": 498571.5
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": -0.00402138316316702
+      }
+    },
+    "ML-DSA-87:8192": {
+      "sign_time_ns": {
+        "absolute_difference": 5652.0,
+        "baseline_campaign_median": 1642006.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1330378.0,
+          "seed": 20260801,
+          "upper": 1809470.0
+        },
+        "baseline_stability_within_10_percent": false,
+        "confirmatory_campaign_median": 1647658.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1279299.5,
+          "seed": 20260801,
+          "upper": 1803320.0
+        },
+        "confirmatory_stability_within_10_percent": false,
+        "interval_overlap": true,
+        "relative_difference": 0.003442131149338066
+      },
+      "signature_size_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 4627.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 4627.0,
+          "seed": 20260801,
+          "upper": 4627.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 4627.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 4627.0,
+          "seed": 20260801,
+          "upper": 4627.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "verify_time_ns": {
+        "absolute_difference": 2296.0,
+        "baseline_campaign_median": 525590.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 525347.0,
+          "seed": 20260801,
+          "upper": 579463.0
+        },
+        "baseline_stability_within_10_percent": false,
+        "confirmatory_campaign_median": 527886.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 525105.5,
+          "seed": 20260801,
+          "upper": 528296.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.004368424056774292
+      }
+    }
+  },
+  "schema_version": 1,
+  "timing_stability": {
+    "baseline_stability_within_10_percent": false,
+    "confirmatory_stability_within_10_percent": false,
+    "interpretation": "Timing instability is reported as measured and does not alter raw integrity.",
+    "measured_timing_stability_passed": false,
+    "threshold": 0.1
+  },
+  "tls": {
+    "MLKEM768": {
+      "client_to_server_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 1433.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1433.0,
+          "seed": 20260801,
+          "upper": 1433.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 1433.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1433.0,
+          "seed": 20260801,
+          "upper": 1433.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "process_cpu_time_ns": {
+        "absolute_difference": -2825.5,
+        "baseline_campaign_median": 1087407.5,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1083064.0,
+          "seed": 20260801,
+          "upper": 1243167.5
+        },
+        "baseline_stability_within_10_percent": false,
+        "confirmatory_campaign_median": 1084582.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1082990.0,
+          "seed": 20260801,
+          "upper": 1141091.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": -0.002598381931336688
+      },
+      "server_to_client_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 1958.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1958.0,
+          "seed": 20260801,
+          "upper": 1958.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 1958.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1958.0,
+          "seed": 20260801,
+          "upper": 1958.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "total_handshake_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 3391.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3391.0,
+          "seed": 20260801,
+          "upper": 3391.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 3391.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3391.0,
+          "seed": 20260801,
+          "upper": 3391.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "wall_time_ns": {
+        "absolute_difference": -3006.5,
+        "baseline_campaign_median": 1091390.5,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1087305.1125,
+          "seed": 20260801,
+          "upper": 1247483.5
+        },
+        "baseline_stability_within_10_percent": false,
+        "confirmatory_campaign_median": 1088384.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1086577.0,
+          "seed": 20260801,
+          "upper": 1144903.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": -0.0027547426883411576
+      }
+    },
+    "SecP256r1MLKEM768": {
+      "client_to_server_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 1498.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1498.0,
+          "seed": 20260801,
+          "upper": 1498.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 1498.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1498.0,
+          "seed": 20260801,
+          "upper": 1498.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "process_cpu_time_ns": {
+        "absolute_difference": -7339.5,
+        "baseline_campaign_median": 1455115.5,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1448596.5,
+          "seed": 20260801,
+          "upper": 1655689.5
+        },
+        "baseline_stability_within_10_percent": false,
+        "confirmatory_campaign_median": 1447776.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1444943.5,
+          "seed": 20260801,
+          "upper": 1569795.0625
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": -0.0050439295025034095
+      },
+      "server_to_client_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 2023.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 2023.0,
+          "seed": 20260801,
+          "upper": 2023.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 2023.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 2023.0,
+          "seed": 20260801,
+          "upper": 2023.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "total_handshake_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 3521.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3521.0,
+          "seed": 20260801,
+          "upper": 3521.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 3521.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3521.0,
+          "seed": 20260801,
+          "upper": 3521.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "wall_time_ns": {
+        "absolute_difference": -7352.0,
+        "baseline_campaign_median": 1458695.5,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1452247.0875,
+          "seed": 20260801,
+          "upper": 1659340.5
+        },
+        "baseline_stability_within_10_percent": false,
+        "confirmatory_campaign_median": 1451343.5,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1448295.5,
+          "seed": 20260801,
+          "upper": 1574947.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": -0.005040119750832165
+      }
+    },
+    "SecP384r1MLKEM1024": {
+      "client_to_server_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 1914.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1914.0,
+          "seed": 20260801,
+          "upper": 1914.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 1914.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1914.0,
+          "seed": 20260801,
+          "upper": 1914.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "process_cpu_time_ns": {
+        "absolute_difference": -29129.0,
+        "baseline_campaign_median": 6027702.5,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 6010536.0,
+          "seed": 20260801,
+          "upper": 6799624.5
+        },
+        "baseline_stability_within_10_percent": false,
+        "confirmatory_campaign_median": 5998573.5,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 5994468.5,
+          "seed": 20260801,
+          "upper": 6338274.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": -0.0048325211803336345
+      },
+      "server_to_client_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 2535.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 2535.0,
+          "seed": 20260801,
+          "upper": 2535.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 2535.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 2535.0,
+          "seed": 20260801,
+          "upper": 2535.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "total_handshake_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 4449.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 4449.0,
+          "seed": 20260801,
+          "upper": 4449.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 4449.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 4449.0,
+          "seed": 20260801,
+          "upper": 4449.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "wall_time_ns": {
+        "absolute_difference": -31243.5,
+        "baseline_campaign_median": 6033287.5,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 6014008.0,
+          "seed": 20260801,
+          "upper": 6804484.0
+        },
+        "baseline_stability_within_10_percent": false,
+        "confirmatory_campaign_median": 6002044.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 5998042.5,
+          "seed": 20260801,
+          "upper": 6342388.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": -0.00517852000256908
+      }
+    },
+    "X25519": {
+      "client_to_server_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 289.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 289.0,
+          "seed": 20260801,
+          "upper": 289.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 289.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 289.0,
+          "seed": 20260801,
+          "upper": 289.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "process_cpu_time_ns": {
+        "absolute_difference": -4396.5,
+        "baseline_campaign_median": 1098866.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1095464.5,
+          "seed": 20260801,
+          "upper": 1254157.0
+        },
+        "baseline_stability_within_10_percent": false,
+        "confirmatory_campaign_median": 1094469.5,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1092662.5,
+          "seed": 20260801,
+          "upper": 1161233.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": -0.004000942790112716
+      },
+      "server_to_client_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 902.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 902.0,
+          "seed": 20260801,
+          "upper": 902.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 902.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 902.0,
+          "seed": 20260801,
+          "upper": 902.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "total_handshake_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 1191.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1191.0,
+          "seed": 20260801,
+          "upper": 1191.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 1191.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1191.0,
+          "seed": 20260801,
+          "upper": 1191.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "wall_time_ns": {
+        "absolute_difference": -4507.0,
+        "baseline_campaign_median": 1102516.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1099054.5,
+          "seed": 20260801,
+          "upper": 1258824.5
+        },
+        "baseline_stability_within_10_percent": false,
+        "confirmatory_campaign_median": 1098009.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1096354.0,
+          "seed": 20260801,
+          "upper": 1164907.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": -0.0040879225335505335
+      }
+    },
+    "X25519MLKEM768": {
+      "client_to_server_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 1465.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1465.0,
+          "seed": 20260801,
+          "upper": 1465.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 1465.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1465.0,
+          "seed": 20260801,
+          "upper": 1465.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "process_cpu_time_ns": {
+        "absolute_difference": -13256.5,
+        "baseline_campaign_median": 1353819.5,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1339089.5,
+          "seed": 20260801,
+          "upper": 1535129.5
+        },
+        "baseline_stability_within_10_percent": false,
+        "confirmatory_campaign_median": 1340563.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1336888.0,
+          "seed": 20260801,
+          "upper": 1424858.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": -0.009791925733083325
+      },
+      "server_to_client_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 1990.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1990.0,
+          "seed": 20260801,
+          "upper": 1990.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 1990.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1990.0,
+          "seed": 20260801,
+          "upper": 1990.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "total_handshake_bytes": {
+        "absolute_difference": 0.0,
+        "baseline_campaign_median": 3455.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3455.0,
+          "seed": 20260801,
+          "upper": 3455.0
+        },
+        "baseline_stability_within_10_percent": true,
+        "confirmatory_campaign_median": 3455.0,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 3455.0,
+          "seed": 20260801,
+          "upper": 3455.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": 0.0
+      },
+      "wall_time_ns": {
+        "absolute_difference": -13242.5,
+        "baseline_campaign_median": 1357363.0,
+        "baseline_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1342761.0,
+          "seed": 20260801,
+          "upper": 1541801.0
+        },
+        "baseline_stability_within_10_percent": false,
+        "confirmatory_campaign_median": 1344120.5,
+        "confirmatory_confidence_interval": {
+          "confidence_level": 0.95,
+          "iterations": 10000,
+          "lower": 1340216.0,
+          "seed": 20260801,
+          "upper": 1431927.0
+        },
+        "confirmatory_stability_within_10_percent": true,
+        "interval_overlap": true,
+        "relative_difference": -0.009756049045097
+      }
+    }
+  },
+  "warnings": []
+}

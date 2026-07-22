@@ -1,0 +1,470 @@
+{
+  "mldsa": {
+    "ML-DSA-65:2048": {
+      "sign_time_ns": {
+        "replicate-01": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.03213695497118798,
+          "normalized_slope_relative_to_replicate_median": 0.0001606847748559399,
+          "slope_per_block": 223.74479166666669
+        },
+        "replicate-02": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.10301074453740047,
+          "normalized_slope_relative_to_replicate_median": -0.0005150537226870024,
+          "slope_per_block": -717.0987394957983
+        },
+        "replicate-03": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.03308249168924398,
+          "normalized_slope_relative_to_replicate_median": 0.0001654124584462199,
+          "slope_per_block": 229.7609649122807
+        }
+      },
+      "verify_time_ns": {
+        "replicate-01": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.005033120940867836,
+          "normalized_slope_relative_to_replicate_median": -2.516560470433918e-05,
+          "slope_per_block": -8.298232323232323
+        },
+        "replicate-02": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.0007632337793259675,
+          "normalized_slope_relative_to_replicate_median": 3.816168896629837e-06,
+          "slope_per_block": 1.2453208556149733
+        },
+        "replicate-03": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.006222543912473865,
+          "normalized_slope_relative_to_replicate_median": -3.111271956236933e-05,
+          "slope_per_block": -10.200040650406503
+        }
+      }
+    },
+    "ML-DSA-65:512": {
+      "sign_time_ns": {
+        "replicate-01": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.12937882317156396,
+          "normalized_slope_relative_to_replicate_median": 0.0006468941158578198,
+          "slope_per_block": 891.8486590038315
+        },
+        "replicate-02": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.001985946178045467,
+          "normalized_slope_relative_to_replicate_median": -9.929730890227334e-06,
+          "slope_per_block": -13.735255570117955
+        },
+        "replicate-03": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.007659986279225916,
+          "normalized_slope_relative_to_replicate_median": -3.829993139612958e-05,
+          "slope_per_block": -52.79040404040404
+        }
+      },
+      "verify_time_ns": {
+        "replicate-01": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.0009163882618897881,
+          "normalized_slope_relative_to_replicate_median": 4.581941309448941e-06,
+          "slope_per_block": 1.4732590808749748
+        },
+        "replicate-02": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.005447203874567192,
+          "normalized_slope_relative_to_replicate_median": -2.723601937283596e-05,
+          "slope_per_block": -8.740746753246754
+        },
+        "replicate-03": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.002989856921072653,
+          "normalized_slope_relative_to_replicate_median": 1.4949284605363265e-05,
+          "slope_per_block": 4.8118906780589334
+        }
+      }
+    },
+    "ML-DSA-65:8192": {
+      "sign_time_ns": {
+        "replicate-01": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.012055252602350467,
+          "normalized_slope_relative_to_replicate_median": -6.0276263011752334e-05,
+          "slope_per_block": -85.08491803278689
+        },
+        "replicate-02": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.14766915336438663,
+          "normalized_slope_relative_to_replicate_median": 0.0007383457668219332,
+          "slope_per_block": 1042.1333333333332
+        },
+        "replicate-03": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.01393616134467241,
+          "normalized_slope_relative_to_replicate_median": -6.968080672336205e-05,
+          "slope_per_block": -90.92812219227314
+        }
+      },
+      "verify_time_ns": {
+        "replicate-01": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.004866787156177785,
+          "normalized_slope_relative_to_replicate_median": -2.4333935780888924e-05,
+          "slope_per_block": -8.619907407407407
+        },
+        "replicate-02": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.003800373560544305,
+          "normalized_slope_relative_to_replicate_median": 1.9001867802721525e-05,
+          "slope_per_block": 6.66263440860215
+        },
+        "replicate-03": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.0007411877140724515,
+          "normalized_slope_relative_to_replicate_median": 3.7059385703622577e-06,
+          "slope_per_block": 1.3076923076923077
+        }
+      }
+    },
+    "ML-DSA-87:2048": {
+      "sign_time_ns": {
+        "replicate-01": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.010534582945145142,
+          "normalized_slope_relative_to_replicate_median": 5.2672914725725707e-05,
+          "slope_per_block": 79.60278514588859
+        },
+        "replicate-02": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.007855767518132566,
+          "normalized_slope_relative_to_replicate_median": -3.927883759066283e-05,
+          "slope_per_block": -63.71200284090909
+        },
+        "replicate-03": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.0008569343881870117,
+          "normalized_slope_relative_to_replicate_median": 4.284671940935058e-06,
+          "slope_per_block": 6.931960784313725
+        }
+      },
+      "verify_time_ns": {
+        "replicate-01": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.006251178131805231,
+          "normalized_slope_relative_to_replicate_median": 3.125589065902616e-05,
+          "slope_per_block": 15.743217054263566
+        },
+        "replicate-02": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.0025090061341541225,
+          "normalized_slope_relative_to_replicate_median": 1.2545030670770612e-05,
+          "slope_per_block": 6.320707070707071
+        },
+        "replicate-03": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.0012317070827317321,
+          "normalized_slope_relative_to_replicate_median": -6.1585354136586605e-06,
+          "slope_per_block": -3.099803343166175
+        }
+      }
+    },
+    "ML-DSA-87:512": {
+      "sign_time_ns": {
+        "replicate-01": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.02190255744967539,
+          "normalized_slope_relative_to_replicate_median": 0.00010951278724837695,
+          "slope_per_block": 152.0967250571211
+        },
+        "replicate-02": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.002638060522383303,
+          "normalized_slope_relative_to_replicate_median": 1.3190302611916515e-05,
+          "slope_per_block": 21.318107725017718
+        },
+        "replicate-03": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.02283813179341358,
+          "normalized_slope_relative_to_replicate_median": 0.0001141906589670679,
+          "slope_per_block": 185.1195587358378
+        }
+      },
+      "verify_time_ns": {
+        "replicate-01": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.0032079765904410966,
+          "normalized_slope_relative_to_replicate_median": 1.6039882952205484e-05,
+          "slope_per_block": 7.992
+        },
+        "replicate-02": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.006911353127199022,
+          "normalized_slope_relative_to_replicate_median": 3.455676563599511e-05,
+          "slope_per_block": 17.14983164983165
+        },
+        "replicate-03": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.0027991218245347524,
+          "normalized_slope_relative_to_replicate_median": -1.3995609122673762e-05,
+          "slope_per_block": -6.946468667074914
+        }
+      }
+    },
+    "ML-DSA-87:8192": {
+      "sign_time_ns": {
+        "replicate-01": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.000124258516276314,
+          "normalized_slope_relative_to_replicate_median": 6.2129258138157e-07,
+          "slope_per_block": 1.0489130434782608
+        },
+        "replicate-02": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.007934763296616304,
+          "normalized_slope_relative_to_replicate_median": -3.9673816483081514e-05,
+          "slope_per_block": -65.36888111888112
+        },
+        "replicate-03": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.0008558581851606344,
+          "normalized_slope_relative_to_replicate_median": 4.279290925803172e-06,
+          "slope_per_block": 5.495865520617996
+        }
+      },
+      "verify_time_ns": {
+        "replicate-01": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.0014425975211626125,
+          "normalized_slope_relative_to_replicate_median": -7.212987605813063e-06,
+          "slope_per_block": -3.8076351752822344
+        },
+        "replicate-02": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.0008108244112831509,
+          "normalized_slope_relative_to_replicate_median": -4.0541220564157545e-06,
+          "slope_per_block": -2.1293343653250774
+        },
+        "replicate-03": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.004429154870479069,
+          "normalized_slope_relative_to_replicate_median": 2.2145774352395345e-05,
+          "slope_per_block": 11.692049808429118
+        }
+      }
+    }
+  },
+  "note": "Theil-Sen trend is diagnostic only; raw observations are not detrended.",
+  "schema_version": 1,
+  "tls": {
+    "MLKEM768": {
+      "process_cpu_time_ns": {
+        "replicate-01": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.028832065458019966,
+          "normalized_slope_relative_to_replicate_median": -0.00014416032729009984,
+          "slope_per_block": -163.57757009345795
+        },
+        "replicate-02": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.0035741271456426384,
+          "normalized_slope_relative_to_replicate_median": -1.7870635728213192e-05,
+          "slope_per_block": -19.37411911798136
+        },
+        "replicate-03": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.0015521400692552448,
+          "normalized_slope_relative_to_replicate_median": -7.760700346276224e-06,
+          "slope_per_block": -8.417115902964959
+        }
+      },
+      "wall_time_ns": {
+        "replicate-01": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.029333164288233626,
+          "normalized_slope_relative_to_replicate_median": -0.00014666582144116813,
+          "slope_per_block": -167.04980396961528
+        },
+        "replicate-02": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.003268767221203714,
+          "normalized_slope_relative_to_replicate_median": -1.634383610601857e-05,
+          "slope_per_block": -17.78045112781955
+        },
+        "replicate-03": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.0017793456744069332,
+          "normalized_slope_relative_to_replicate_median": -8.896728372034666e-06,
+          "slope_per_block": -9.683056812468577
+        }
+      }
+    },
+    "SecP256r1MLKEM768": {
+      "process_cpu_time_ns": {
+        "replicate-01": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.03448563721213327,
+          "normalized_slope_relative_to_replicate_median": -0.00017242818606066635,
+          "slope_per_block": -266.10833333333335
+        },
+        "replicate-02": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.0016665436133013938,
+          "normalized_slope_relative_to_replicate_median": 8.332718066506969e-06,
+          "slope_per_block": 12.043510737628385
+        },
+        "replicate-03": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.0022680504038203706,
+          "normalized_slope_relative_to_replicate_median": -1.1340252019101853e-05,
+          "slope_per_block": -16.418144707207205
+        }
+      },
+      "wall_time_ns": {
+        "replicate-01": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.033320534579356645,
+          "normalized_slope_relative_to_replicate_median": -0.00016660267289678323,
+          "slope_per_block": -258.3434343434343
+        },
+        "replicate-02": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.0016368483317747817,
+          "normalized_slope_relative_to_replicate_median": 8.184241658873908e-06,
+          "slope_per_block": 11.856883274206108
+        },
+        "replicate-03": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.0025919861458696437,
+          "normalized_slope_relative_to_replicate_median": -1.2959930729348219e-05,
+          "slope_per_block": -18.809311224489797
+        }
+      }
+    },
+    "SecP384r1MLKEM1024": {
+      "process_cpu_time_ns": {
+        "replicate-01": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.0547274610744417,
+          "normalized_slope_relative_to_replicate_median": -0.0002736373053722085,
+          "slope_per_block": -1697.96818727491
+        },
+        "replicate-02": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.005376873589791211,
+          "normalized_slope_relative_to_replicate_median": -2.6884367948956055e-05,
+          "slope_per_block": -161.26785714285714
+        },
+        "replicate-03": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.0036408963884913457,
+          "normalized_slope_relative_to_replicate_median": 1.8204481942456728e-05,
+          "slope_per_block": 109.1880341880342
+        }
+      },
+      "wall_time_ns": {
+        "replicate-01": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.05438063367760618,
+          "normalized_slope_relative_to_replicate_median": -0.0002719031683880309,
+          "slope_per_block": -1691.1676923076923
+        },
+        "replicate-02": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.005431474145381441,
+          "normalized_slope_relative_to_replicate_median": -2.7157370726907202e-05,
+          "slope_per_block": -162.99685534591197
+        },
+        "replicate-03": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.003694530330284975,
+          "normalized_slope_relative_to_replicate_median": 1.8472651651424874e-05,
+          "slope_per_block": 110.87366800852475
+        }
+      }
+    },
+    "X25519": {
+      "process_cpu_time_ns": {
+        "replicate-01": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.03635210371870101,
+          "normalized_slope_relative_to_replicate_median": -0.00018176051859350505,
+          "slope_per_block": -208.72968994111284
+        },
+        "replicate-02": {
+          "direction": "positive",
+          "expected_relative_change_over_200_blocks": 0.00013290012782458686,
+          "normalized_slope_relative_to_replicate_median": 6.645006391229343e-07,
+          "slope_per_block": 0.7266178266178266
+        },
+        "replicate-03": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.0035400688990591352,
+          "normalized_slope_relative_to_replicate_median": -1.7700344495295676e-05,
+          "slope_per_block": -19.37248718959401
+        }
+      },
+      "wall_time_ns": {
+        "replicate-01": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.036502642617807446,
+          "normalized_slope_relative_to_replicate_median": -0.00018251321308903723,
+          "slope_per_block": -210.2456395348837
+        },
+        "replicate-02": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.00026766580676299624,
+          "normalized_slope_relative_to_replicate_median": -1.3383290338149811e-06,
+          "slope_per_block": -1.4682486631016043
+        },
+        "replicate-03": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.0033285132599141917,
+          "normalized_slope_relative_to_replicate_median": -1.6642566299570958e-05,
+          "slope_per_block": -18.27368758002561
+        }
+      }
+    },
+    "X25519MLKEM768": {
+      "process_cpu_time_ns": {
+        "replicate-01": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.03925493281230802,
+          "normalized_slope_relative_to_replicate_median": -0.0001962746640615401,
+          "slope_per_block": -276.2667959491489
+        },
+        "replicate-02": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.0034238287407712567,
+          "normalized_slope_relative_to_replicate_median": -1.7119143703856282e-05,
+          "slope_per_block": -22.903488372093022
+        },
+        "replicate-03": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.0014108919398201432,
+          "normalized_slope_relative_to_replicate_median": -7.054459699100716e-06,
+          "slope_per_block": -9.456947657605554
+        }
+      },
+      "wall_time_ns": {
+        "replicate-01": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.03871712707670807,
+          "normalized_slope_relative_to_replicate_median": -0.00019358563538354032,
+          "slope_per_block": -273.17943409247755
+        },
+        "replicate-02": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.0034045827850991777,
+          "normalized_slope_relative_to_replicate_median": -1.7022913925495888e-05,
+          "slope_per_block": -22.833566433566432
+        },
+        "replicate-03": {
+          "direction": "negative",
+          "expected_relative_change_over_200_blocks": -0.0014351149535829777,
+          "normalized_slope_relative_to_replicate_median": -7.175574767914889e-06,
+          "slope_per_block": -9.644837144837144
+        }
+      }
+    }
+  }
+}

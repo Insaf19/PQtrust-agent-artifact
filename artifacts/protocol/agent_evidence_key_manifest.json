@@ -1,0 +1,86 @@
+{
+  "keys": [
+    {
+      "agent_id": "cloud-orchestrator",
+            "algorithm": "ML-DSA-65",
+            "key_id": "cloud-orchestrator:ML-DSA-65:lab-v1",
+      "local_relative_path": ".local/pqtrust-crypto/agents/cloud-orchestrator/mlzdsaz65.public.pem",
+      "public_key_sha256": "681bcdf4ea1ec5dd32654939f6815525e8c53205e6a3fdb03a4163acc1036b49",
+      "validation_status": "validated"
+    },
+    {
+      "agent_id": "cloud-orchestrator",
+            "algorithm": "ML-DSA-87",
+            "key_id": "cloud-orchestrator:ML-DSA-87:lab-v1",
+      "local_relative_path": ".local/pqtrust-crypto/agents/cloud-orchestrator/mlzdsaz87.public.pem",
+      "public_key_sha256": "40bfa33dacb127612f23970dca13515e8707da73b13c53b144906d125f08a410",
+      "validation_status": "validated"
+    },
+    {
+      "agent_id": "edge-control-agent",
+            "algorithm": "ML-DSA-65",
+            "key_id": "edge-control-agent:ML-DSA-65:lab-v1",
+      "local_relative_path": ".local/pqtrust-crypto/agents/edge-control-agent/mlzdsaz65.public.pem",
+      "public_key_sha256": "17ba1dfd1dcb2f9f8406ac96ab0dbaa9a94f4a0a2fa1d9831de47ff278e759dc",
+      "validation_status": "validated"
+    },
+    {
+      "agent_id": "edge-control-agent",
+            "algorithm": "ML-DSA-87",
+            "key_id": "edge-control-agent:ML-DSA-87:lab-v1",
+      "local_relative_path": ".local/pqtrust-crypto/agents/edge-control-agent/mlzdsaz87.public.pem",
+      "public_key_sha256": "b4c94f6d7981e3198895a561a05ffd25a26c198e660bda6aa02c3295f1415e59",
+      "validation_status": "validated"
+    },
+    {
+      "agent_id": "enterprise-api-agent",
+            "algorithm": "ML-DSA-65",
+            "key_id": "enterprise-api-agent:ML-DSA-65:lab-v1",
+      "local_relative_path": ".local/pqtrust-crypto/agents/enterprise-api-agent/mlzdsaz65.public.pem",
+      "public_key_sha256": "5f8549f32dc33efd9253650293c535e8e01d19123e0d0e61a4652dea964bb30e",
+      "validation_status": "validated"
+    },
+    {
+      "agent_id": "enterprise-api-agent",
+            "algorithm": "ML-DSA-87",
+            "key_id": "enterprise-api-agent:ML-DSA-87:lab-v1",
+      "local_relative_path": ".local/pqtrust-crypto/agents/enterprise-api-agent/mlzdsaz87.public.pem",
+      "public_key_sha256": "696a2687e360f801df832ae20845c728a47d561b77d0c23ef9f017f58acffa19",
+      "validation_status": "validated"
+    },
+    {
+      "agent_id": "public-tool-agent",
+            "algorithm": "ML-DSA-65",
+            "key_id": "public-tool-agent:ML-DSA-65:lab-v1",
+      "local_relative_path": ".local/pqtrust-crypto/agents/public-tool-agent/mlzdsaz65.public.pem",
+      "public_key_sha256": "07f482614b098311d439c08d55fcdc9cdda32ba245c702d8eb38e30bac5b7fbe",
+      "validation_status": "validated"
+    },
+    {
+      "agent_id": "public-tool-agent",
+            "algorithm": "ML-DSA-87",
+            "key_id": "public-tool-agent:ML-DSA-87:lab-v1",
+      "local_relative_path": ".local/pqtrust-crypto/agents/public-tool-agent/mlzdsaz87.public.pem",
+      "public_key_sha256": "d8ffd8a3915089ab3776c6b793b6d0e25f3475b791eaa3c4aa2bf83d453ff2ba",
+      "validation_status": "validated"
+    },
+    {
+      "agent_id": "quantum-ready-tool-agent",
+            "algorithm": "ML-DSA-65",
+            "key_id": "quantum-ready-tool-agent:ML-DSA-65:lab-v1",
+      "local_relative_path": ".local/pqtrust-crypto/agents/quantum-ready-tool-agent/mlzdsaz65.public.pem",
+      "public_key_sha256": "f919cfdc285ccda7d3dd05592845fab7cc52c103d34e297809f668781deb973a",
+      "validation_status": "validated"
+    },
+    {
+      "agent_id": "quantum-ready-tool-agent",
+            "algorithm": "ML-DSA-87",
+            "key_id": "quantum-ready-tool-agent:ML-DSA-87:lab-v1",
+      "local_relative_path": ".local/pqtrust-crypto/agents/quantum-ready-tool-agent/mlzdsaz87.public.pem",
+      "public_key_sha256": "0a4550f1fc28d39224c8c86b4126a318beadedae829d6db6013a47dcef8af6f8",
+      "validation_status": "validated"
+    }
+  ],
+  "laboratory_only": true,
+  "manifest_version": "1.0"
+}

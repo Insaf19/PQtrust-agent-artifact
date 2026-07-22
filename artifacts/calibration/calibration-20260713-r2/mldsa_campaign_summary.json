@@ -1,0 +1,374 @@
+{
+  "ML-DSA-65:2048": {
+    "sign_time_ns": {
+      "between_replicate_range": 378639.0,
+      "campaign_median_of_replicate_medians": 1418750.0,
+      "hierarchical_bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1145973.0,
+        "seed": 20260801,
+        "upper": 1546693.0
+      },
+      "maximum_replicate_median": 1533612.5,
+      "minimum_replicate_median": 1154973.5,
+      "replicate_medians": [
+        1533612.5,
+        1154973.5,
+        1418750.0
+      ]
+    },
+    "signature_size_bytes": {
+      "between_replicate_range": 0.0,
+      "campaign_median_of_replicate_medians": 3309.0,
+      "constant_distribution": {
+        "all_observations_identical": true,
+        "maximum": 3309.0,
+        "minimum": 3309.0,
+        "value": 3309.0
+      },
+      "hierarchical_bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 3309.0,
+        "seed": 20260801,
+        "upper": 3309.0
+      },
+      "maximum_replicate_median": 3309.0,
+      "minimum_replicate_median": 3309.0,
+      "replicate_medians": [
+        3309.0,
+        3309.0,
+        3309.0
+      ]
+    },
+    "verify_time_ns": {
+      "between_replicate_range": 32154.0,
+      "campaign_median_of_replicate_medians": 328577.5,
+      "hierarchical_bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 327534.5,
+        "seed": 20260801,
+        "upper": 360779.5
+      },
+      "maximum_replicate_median": 360160.5,
+      "minimum_replicate_median": 328006.5,
+      "replicate_medians": [
+        360160.5,
+        328577.5,
+        328006.5
+      ]
+    }
+  },
+  "ML-DSA-65:512": {
+    "sign_time_ns": {
+      "between_replicate_range": 331460.0,
+      "campaign_median_of_replicate_medians": 1382039.5,
+      "hierarchical_bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1160914.0,
+        "seed": 20260801,
+        "upper": 1550054.0
+      },
+      "maximum_replicate_median": 1525785.5,
+      "minimum_replicate_median": 1194325.5,
+      "replicate_medians": [
+        1525785.5,
+        1382039.5,
+        1194325.5
+      ]
+    },
+    "signature_size_bytes": {
+      "between_replicate_range": 0.0,
+      "campaign_median_of_replicate_medians": 3309.0,
+      "constant_distribution": {
+        "all_observations_identical": true,
+        "maximum": 3309.0,
+        "minimum": 3309.0,
+        "value": 3309.0
+      },
+      "hierarchical_bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 3309.0,
+        "seed": 20260801,
+        "upper": 3309.0
+      },
+      "maximum_replicate_median": 3309.0,
+      "minimum_replicate_median": 3309.0,
+      "replicate_medians": [
+        3309.0,
+        3309.0,
+        3309.0
+      ]
+    },
+    "verify_time_ns": {
+      "between_replicate_range": 33234.5,
+      "campaign_median_of_replicate_medians": 322058.5,
+      "hierarchical_bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 321001.3875,
+        "seed": 20260801,
+        "upper": 355393.0
+      },
+      "maximum_replicate_median": 354621.5,
+      "minimum_replicate_median": 321387.0,
+      "replicate_medians": [
+        354621.5,
+        321387.0,
+        322058.5
+      ]
+    }
+  },
+  "ML-DSA-65:8192": {
+    "sign_time_ns": {
+      "between_replicate_range": 40773.5,
+      "campaign_median_of_replicate_medians": 1410297.5,
+      "hierarchical_bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1201924.0,
+        "seed": 20260801,
+        "upper": 1551711.0
+      },
+      "maximum_replicate_median": 1421639.5,
+      "minimum_replicate_median": 1380866.0,
+      "replicate_medians": [
+        1380866.0,
+        1421639.5,
+        1410297.5
+      ]
+    },
+    "signature_size_bytes": {
+      "between_replicate_range": 0.0,
+      "campaign_median_of_replicate_medians": 3309.0,
+      "constant_distribution": {
+        "all_observations_identical": true,
+        "maximum": 3309.0,
+        "minimum": 3309.0,
+        "value": 3309.0
+      },
+      "hierarchical_bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 3309.0,
+        "seed": 20260801,
+        "upper": 3309.0
+      },
+      "maximum_replicate_median": 3309.0,
+      "minimum_replicate_median": 3309.0,
+      "replicate_medians": [
+        3309.0,
+        3309.0,
+        3309.0
+      ]
+    },
+    "verify_time_ns": {
+      "between_replicate_range": 36902.0,
+      "campaign_median_of_replicate_medians": 350795.0,
+      "hierarchical_bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 350079.0,
+        "seed": 20260801,
+        "upper": 388391.0
+      },
+      "maximum_replicate_median": 387384.5,
+      "minimum_replicate_median": 350482.5,
+      "replicate_medians": [
+        387384.5,
+        350482.5,
+        350795.0
+      ]
+    }
+  },
+  "ML-DSA-87:2048": {
+    "sign_time_ns": {
+      "between_replicate_range": 167525.5,
+      "campaign_median_of_replicate_medians": 1619430.5,
+      "hierarchical_bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1326293.0,
+        "seed": 20260801,
+        "upper": 1793877.0
+      },
+      "maximum_replicate_median": 1784299.5,
+      "minimum_replicate_median": 1616774.0,
+      "replicate_medians": [
+        1784299.5,
+        1619430.5,
+        1616774.0
+      ]
+    },
+    "signature_size_bytes": {
+      "between_replicate_range": 0.0,
+      "campaign_median_of_replicate_medians": 4627.0,
+      "constant_distribution": {
+        "all_observations_identical": true,
+        "maximum": 4627.0,
+        "minimum": 4627.0,
+        "value": 4627.0
+      },
+      "hierarchical_bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 4627.0,
+        "seed": 20260801,
+        "upper": 4627.0
+      },
+      "maximum_replicate_median": 4627.0,
+      "minimum_replicate_median": 4627.0,
+      "replicate_medians": [
+        4627.0,
+        4627.0,
+        4627.0
+      ]
+    },
+    "verify_time_ns": {
+      "between_replicate_range": 49846.5,
+      "campaign_median_of_replicate_medians": 505375.0,
+      "hierarchical_bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 503132.0,
+        "seed": 20260801,
+        "upper": 553876.0
+      },
+      "maximum_replicate_median": 553487.0,
+      "minimum_replicate_median": 503640.5,
+      "replicate_medians": [
+        553487.0,
+        503640.5,
+        505375.0
+      ]
+    }
+  },
+  "ML-DSA-87:512": {
+    "sign_time_ns": {
+      "between_replicate_range": 407052.0,
+      "campaign_median_of_replicate_medians": 1618937.5,
+      "hierarchical_bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1288906.0,
+        "seed": 20260801,
+        "upper": 1788667.0
+      },
+      "maximum_replicate_median": 1785923.0,
+      "minimum_replicate_median": 1378871.0,
+      "replicate_medians": [
+        1785923.0,
+        1618937.5,
+        1378871.0
+      ]
+    },
+    "signature_size_bytes": {
+      "between_replicate_range": 0.0,
+      "campaign_median_of_replicate_medians": 4627.0,
+      "constant_distribution": {
+        "all_observations_identical": true,
+        "maximum": 4627.0,
+        "minimum": 4627.0,
+        "value": 4627.0
+      },
+      "hierarchical_bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 4627.0,
+        "seed": 20260801,
+        "upper": 4627.0
+      },
+      "maximum_replicate_median": 4627.0,
+      "minimum_replicate_median": 4627.0,
+      "replicate_medians": [
+        4627.0,
+        4627.0,
+        4627.0
+      ]
+    },
+    "verify_time_ns": {
+      "between_replicate_range": 50885.5,
+      "campaign_median_of_replicate_medians": 498336.0,
+      "hierarchical_bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 496831.4375,
+        "seed": 20260801,
+        "upper": 548193.5
+      },
+      "maximum_replicate_median": 547762.0,
+      "minimum_replicate_median": 496876.5,
+      "replicate_medians": [
+        547762.0,
+        496876.5,
+        498336.0
+      ]
+    }
+  },
+  "ML-DSA-87:8192": {
+    "sign_time_ns": {
+      "between_replicate_range": 166869.0,
+      "campaign_median_of_replicate_medians": 1642006.0,
+      "hierarchical_bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1330378.0,
+        "seed": 20260801,
+        "upper": 1809470.0
+      },
+      "maximum_replicate_median": 1806052.0,
+      "minimum_replicate_median": 1639183.0,
+      "replicate_medians": [
+        1806052.0,
+        1639183.0,
+        1642006.0
+      ]
+    },
+    "signature_size_bytes": {
+      "between_replicate_range": 0.0,
+      "campaign_median_of_replicate_medians": 4627.0,
+      "constant_distribution": {
+        "all_observations_identical": true,
+        "maximum": 4627.0,
+        "minimum": 4627.0,
+        "value": 4627.0
+      },
+      "hierarchical_bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 4627.0,
+        "seed": 20260801,
+        "upper": 4627.0
+      },
+      "maximum_replicate_median": 4627.0,
+      "minimum_replicate_median": 4627.0,
+      "replicate_medians": [
+        4627.0,
+        4627.0,
+        4627.0
+      ]
+    },
+    "verify_time_ns": {
+      "between_replicate_range": 53811.5,
+      "campaign_median_of_replicate_medians": 525590.0,
+      "hierarchical_bootstrap_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 525347.0,
+        "seed": 20260801,
+        "upper": 579463.0
+      },
+      "maximum_replicate_median": 579242.0,
+      "minimum_replicate_median": 525430.5,
+      "replicate_medians": [
+        579242.0,
+        525590.0,
+        525430.5
+      ]
+    }
+  }
+}

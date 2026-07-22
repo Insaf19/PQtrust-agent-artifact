@@ -1,0 +1,67 @@
+{
+  "comparison": "ML-DSA-65 versus ML-DSA-87",
+  "contract_payload_note": "Canonical contract and manifest payload sizes have not yet been measured.",
+  "message_sizes": {
+    "2048": {
+      "sign_time_ns": {
+        "integer_evidence_preserved_before_ratio": false,
+        "median_difference_mldsa65_minus_mldsa87": -217115.0,
+        "median_ratio_mldsa65_over_mldsa87": 0.8682645004288112,
+        "paired_blocks": 1200
+      },
+      "signature_size_bytes": {
+        "integer_evidence_preserved_before_ratio": true,
+        "median_difference_mldsa65_minus_mldsa87": -1318.0,
+        "median_ratio_mldsa65_over_mldsa87": 0.7151502053166199,
+        "paired_blocks": 1200
+      },
+      "verify_time_ns": {
+        "integer_evidence_preserved_before_ratio": false,
+        "median_difference_mldsa65_minus_mldsa87": -179297.0,
+        "median_ratio_mldsa65_over_mldsa87": 0.6496274082169164,
+        "paired_blocks": 1200
+      }
+    },
+    "512": {
+      "sign_time_ns": {
+        "integer_evidence_preserved_before_ratio": false,
+        "median_difference_mldsa65_minus_mldsa87": -267116.0,
+        "median_ratio_mldsa65_over_mldsa87": 0.81905567885913,
+        "paired_blocks": 1200
+      },
+      "signature_size_bytes": {
+        "integer_evidence_preserved_before_ratio": true,
+        "median_difference_mldsa65_minus_mldsa87": -1318.0,
+        "median_ratio_mldsa65_over_mldsa87": 0.7151502053166199,
+        "paired_blocks": 1200
+      },
+      "verify_time_ns": {
+        "integer_evidence_preserved_before_ratio": false,
+        "median_difference_mldsa65_minus_mldsa87": -179123.0,
+        "median_ratio_mldsa65_over_mldsa87": 0.6456699654096322,
+        "paired_blocks": 1200
+      }
+    },
+    "8192": {
+      "sign_time_ns": {
+        "integer_evidence_preserved_before_ratio": false,
+        "median_difference_mldsa65_minus_mldsa87": -269400.5,
+        "median_ratio_mldsa65_over_mldsa87": 0.8227357164824399,
+        "paired_blocks": 1200
+      },
+      "signature_size_bytes": {
+        "integer_evidence_preserved_before_ratio": true,
+        "median_difference_mldsa65_minus_mldsa87": -1318.0,
+        "median_ratio_mldsa65_over_mldsa87": 0.7151502053166199,
+        "paired_blocks": 1200
+      },
+      "verify_time_ns": {
+        "integer_evidence_preserved_before_ratio": false,
+        "median_difference_mldsa65_minus_mldsa87": -176855.5,
+        "median_ratio_mldsa65_over_mldsa87": 0.6680407590793107,
+        "paired_blocks": 1200
+      }
+    }
+  },
+  "schema_version": 1
+}

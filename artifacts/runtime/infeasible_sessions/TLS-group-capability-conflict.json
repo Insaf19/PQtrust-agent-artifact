@@ -1,0 +1,24 @@
+{
+  "TLS_socket_created": false,
+  "artifact": "stage7_infeasible_session",
+  "execution_audit": {
+    "reason": "conflict certified before execution gate authorization",
+    "tls_child_process_started": false
+  },
+  "execution_gate_authorized": false,
+  "fallback_attempted": false,
+  "final_state": "ABORTED",
+  "native_tls_invoked": false,
+  "report_version": "1.0",
+  "resumption_used": false,
+  "scenario_id": "TLS-group-capability-conflict",
+  "session_id": "68529b65b501aa7bcb90683a0df14023b7934f51a006a7f6f2a7aebef78ecc32",
+  "state_trace_hash": "b230e255e92d6258f7c470d48282e18a94a293308aee062c0f246e82e2934632",
+  "state_trace_path": "state_traces/TLS-group-capability-conflict.json",
+  "task_execution_invoked": false,
+  "validation_errors": [],
+  "validation_passed": true,
+  "verified_abort_record_hash": "4461bc071557c96bd3b849a66eae1902b568d57791e6a789f5835aab555007fa",
+  "verified_conflict_certificate_hash": "418bc7ccf473ff9da401bc8b78bdc4f0f3c8e2945f77ad95cea201280ec3ed0b",
+  "verified_failure_transcript_hash": "1df21a47f31c2832f11b9f5d030210b1b4afcf86c7a2c3531c6f07d5dc92e3d9"
+}

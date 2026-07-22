@@ -1,0 +1,185 @@
+{
+  "profiles": [
+    {
+      "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+      "contract_evidence": {
+        "mldsa_summary_files": [
+          "mldsa_by_replicate.json",
+          "mldsa_campaign_summary.json"
+        ],
+        "note": "No ML-DSA message size is selected as contract cost in Stage 3B."
+      },
+      "process_cpu_time_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1095464.5,
+        "seed": 20260801,
+        "upper": 1254157.0
+      },
+      "process_cpu_time_campaign_median": 1098866.0,
+      "profile_id": "P0",
+      "raw_run_checksum": "7e4f6370b7f46680731843eccde1aa5d7f3e421ab1df1edad6e8a5e94c3718fa",
+      "source_raw_run_id": "calibration-20260713-r2",
+      "tls_group": "X25519",
+      "tls_wall_time_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1099054.5,
+        "seed": 20260801,
+        "upper": 1258824.5
+      },
+      "tls_wall_time_campaign_median": 1102516.0,
+      "total_handshake_bytes": {
+        "all_observations_identical": false,
+        "maximum": 1192.0,
+        "minimum": 1190.0,
+        "value": null
+      }
+    },
+    {
+      "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+      "contract_evidence": {
+        "mldsa_summary_files": [
+          "mldsa_by_replicate.json",
+          "mldsa_campaign_summary.json"
+        ],
+        "note": "No ML-DSA message size is selected as contract cost in Stage 3B."
+      },
+      "process_cpu_time_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1339089.5,
+        "seed": 20260801,
+        "upper": 1535129.5
+      },
+      "process_cpu_time_campaign_median": 1353819.5,
+      "profile_id": "P1",
+      "raw_run_checksum": "7e4f6370b7f46680731843eccde1aa5d7f3e421ab1df1edad6e8a5e94c3718fa",
+      "source_raw_run_id": "calibration-20260713-r2",
+      "tls_group": "X25519MLKEM768",
+      "tls_wall_time_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1342761.0,
+        "seed": 20260801,
+        "upper": 1541801.0
+      },
+      "tls_wall_time_campaign_median": 1357363.0,
+      "total_handshake_bytes": {
+        "all_observations_identical": false,
+        "maximum": 3456.0,
+        "minimum": 3453.0,
+        "value": null
+      }
+    },
+    {
+      "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+      "contract_evidence": {
+        "mldsa_summary_files": [
+          "mldsa_by_replicate.json",
+          "mldsa_campaign_summary.json"
+        ],
+        "note": "No ML-DSA message size is selected as contract cost in Stage 3B."
+      },
+      "process_cpu_time_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1448596.5,
+        "seed": 20260801,
+        "upper": 1655689.5
+      },
+      "process_cpu_time_campaign_median": 1455115.5,
+      "profile_id": "P2",
+      "raw_run_checksum": "7e4f6370b7f46680731843eccde1aa5d7f3e421ab1df1edad6e8a5e94c3718fa",
+      "source_raw_run_id": "calibration-20260713-r2",
+      "tls_group": "SecP256r1MLKEM768",
+      "tls_wall_time_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1452247.0875,
+        "seed": 20260801,
+        "upper": 1659340.5
+      },
+      "tls_wall_time_campaign_median": 1458695.5,
+      "total_handshake_bytes": {
+        "all_observations_identical": false,
+        "maximum": 3522.0,
+        "minimum": 3520.0,
+        "value": null
+      }
+    },
+    {
+      "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+      "contract_evidence": {
+        "mldsa_summary_files": [
+          "mldsa_by_replicate.json",
+          "mldsa_campaign_summary.json"
+        ],
+        "note": "No ML-DSA message size is selected as contract cost in Stage 3B."
+      },
+      "process_cpu_time_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1083064.0,
+        "seed": 20260801,
+        "upper": 1243167.5
+      },
+      "process_cpu_time_campaign_median": 1087407.5,
+      "profile_id": "P3",
+      "raw_run_checksum": "7e4f6370b7f46680731843eccde1aa5d7f3e421ab1df1edad6e8a5e94c3718fa",
+      "source_raw_run_id": "calibration-20260713-r2",
+      "tls_group": "MLKEM768",
+      "tls_wall_time_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 1087305.1125,
+        "seed": 20260801,
+        "upper": 1247483.5
+      },
+      "tls_wall_time_campaign_median": 1091390.5,
+      "total_handshake_bytes": {
+        "all_observations_identical": false,
+        "maximum": 3392.0,
+        "minimum": 3389.0,
+        "value": null
+      }
+    },
+    {
+      "catalog_hash": "0e6e5fd7513a7975556b050a9f8f2ae44b8493579403f03e804d4f01b480e90e",
+      "contract_evidence": {
+        "mldsa_summary_files": [
+          "mldsa_by_replicate.json",
+          "mldsa_campaign_summary.json"
+        ],
+        "note": "No ML-DSA message size is selected as contract cost in Stage 3B."
+      },
+      "process_cpu_time_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 6010536.0,
+        "seed": 20260801,
+        "upper": 6799624.5
+      },
+      "process_cpu_time_campaign_median": 6027702.5,
+      "profile_id": "P4",
+      "raw_run_checksum": "7e4f6370b7f46680731843eccde1aa5d7f3e421ab1df1edad6e8a5e94c3718fa",
+      "source_raw_run_id": "calibration-20260713-r2",
+      "tls_group": "SecP384r1MLKEM1024",
+      "tls_wall_time_95ci": {
+        "confidence_level": 0.95,
+        "iterations": 10000,
+        "lower": 6014008.0,
+        "seed": 20260801,
+        "upper": 6804484.0
+      },
+      "tls_wall_time_campaign_median": 6033287.5,
+      "total_handshake_bytes": {
+        "all_observations_identical": false,
+        "maximum": 4450.0,
+        "minimum": 4447.0,
+        "value": null
+      }
+    }
+  ],
+  "schema_version": 1
+}

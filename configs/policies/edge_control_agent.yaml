@@ -1,0 +1,16 @@
+policy_schema_version: "1.0"
+policy_id: edge-control-agent-policy
+policy_version: 1
+agent_id: edge-control-agent
+catalog_version: "1.0"
+base_requirement:
+  key_establishment_threats: [classical, quantum]
+  endpoint_authentication_threats: [classical]
+  contract_evidence_threats: [classical, quantum]
+  fallback_rule: forbidden
+  resumption_rule: forbidden
+  lease_strictness: short
+allowed_profile_ids: [P1, P3, P4]
+denied_profile_ids: []
+rules: []
+solver_timeout_ms: 5000
